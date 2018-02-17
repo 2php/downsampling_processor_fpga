@@ -20,7 +20,7 @@ refer to the applicable agreement for further details.
 */
 (header "graphic" (version "1.4"))
 (symbol
-	(rect 160 136 376 264)
+	(rect 240 184 456 312)
 	(text "RAM_1_port" (rect 72 0 156 16)(font "Arial" (font_size 10)))
 	(text "inst" (rect 8 112 25 124)(font "Arial" ))
 	(port

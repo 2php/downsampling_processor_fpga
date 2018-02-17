@@ -1,0 +1,95 @@
+# Reading E:/quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do test1mem_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# ** Warning: (vlib-34# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying E:/quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/Semm_5/cwwork/csd/processor\ design\ main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1 {E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/test1mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:53 on Feb 17,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1" E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/test1mem.v 
+# -- Compiling module test1mem
+# 
+# Top level modules:
+# 	test1mem
+# End time: 13:41:53 on Feb 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Semm_5/cwwork/csd/processor\ design\ main/downsampling_processor_fpga/Ve# -- Compiling module test1mem
+# 
+# Top level modules:
+# 	test1mem
+# End time: 13:41:54 on Feb 17,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work work +incdir+E:/Semm_5/cwwork/csd/processor\ design\ main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1 {E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/RAM_1_port.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:54 on Feb 17,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1" E:/Semm_5vsim work.test1mem
+# vsim work.test1mem 
+# Start time: 13:42:13 on Feb 17,2018
+# Loading work.test1mem
+# Loading work.RAM_1_port
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'test1mem' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /test1mem/ram1 File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/RAM_1_port.v
+# ** Error: (vsim-3033) E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/RAM_1_port.v(62): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /test1mem/ram1 File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/RAM_1_port.v
+#         Searched libraries:
+#             E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/simulation/modelsim/rtl_work
+# Error loading design
+vsim work.test1mem
+# vsim work.test1mem 
+# Start time: 13:42:15 on Feb 17,2018
+# Loading work.test1mem
+# Loading work.RAM_1_port
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'test1mem' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /test1mem/ram1 File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/RAM_1_port.v
+# ** Error: (vsim-3033) E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/RAM_1_port.v(62): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /test1mem/ram1 File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/RAM_1_port.v
+#         Searched libraries:
+#             E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/simulation/modelsim/rtl_work
+# Error loading design
+vsim work.RAM_1_port
+# vsim work.RAM_1_port 
+# Start time: 13:42:23 on Feb 17,2018
+# Loading work.RAM_1_port
+# ** Error: (vsim-3033) E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/RAM_1_port.v(62): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /RAM_1_port File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/RAM_1_port.v
+#         Searched libraries:
+#             E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/simulation/modelsim/rtl_work
+# Error loading design
+vlog -reportprogress 300 -work work {E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/test1mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:51 on Feb 17,2018
+# vlog -reportprogress 300 -work work E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/test1mem.v 
+# -- Compiling module test1mem
+# 
+# Top level modules:
+# 	test1mem
+# End time: 13:42:51 on Feb 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/test1mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:55 on Feb 17,2018
+# vlog -reportprogress 300 -work work E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/test1mem.v 
+# -- Compiling module test1mem
+# 
+# Top level modules:
+# 	test1mem
+# End time: 13:42:55 on Feb 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test1mem
+# vsim work.test1mem 
+# Start time: 13:43:05 on Feb 17,2018
+# Loading work.test1mem
+# Loading work.RAM_1_port
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'test1mem' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /test1mem/ram1 File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/RAM_1_port.v
+# ** Error: (vsim-3033) E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/RAM_1_port.v(62): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /test1mem/ram1 File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/RAM_1_port.v
+#         Searched libraries:
+#             E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test-Mem/test1/simulation/modelsim/rtl_work
+# Error loading design
