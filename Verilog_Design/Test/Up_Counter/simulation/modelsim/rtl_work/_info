@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/FPGA/Verilog_Design/Test/Up_Counter/simulation/modelsim
+vTest_Up_Counter
+!s110 1516891614
+!i10b 1
+!s100 >`z5D@Un?YQDgQ7:Q;H480
+IT?HhAS_>Bl;_Naag9Z<9o1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1516887705
+8E:/FPGA/Verilog_Design/Test/Up_Counter/Test_Up_Counter.v
+FE:/FPGA/Verilog_Design/Test/Up_Counter/Test_Up_Counter.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1516891614.000000
+!s107 E:/FPGA/Verilog_Design/Test/Up_Counter/Test_Up_Counter.v|
+!s90 -reportprogress|300|E:/FPGA/Verilog_Design/Test/Up_Counter/Test_Up_Counter.v|
+!i113 1
+Z3 tCvgOpt 0
+n@test_@up_@counter
+vUp_Counter
+!s110 1516891567
+!i10b 1
+!s100 Y2LPc=@1ebfd6dn7Pi?9i0
+IflST[JB>3oC:XIj6RK7XM3
+R1
+R0
+w1516857276
+8E:/FPGA/Verilog_Design/Test/Up_Counter/Up_Counter.v
+FE:/FPGA/Verilog_Design/Test/Up_Counter/Up_Counter.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1516891567.000000
+!s107 E:/FPGA/Verilog_Design/Test/Up_Counter/Up_Counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/Verilog_Design/Test/Up_Counter|E:/FPGA/Verilog_Design/Test/Up_Counter/Up_Counter.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+E:/FPGA/Verilog_Design/Test/Up_Counter
+R3
+n@up_@counter

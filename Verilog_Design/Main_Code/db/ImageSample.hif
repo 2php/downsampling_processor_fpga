@@ -1,0 +1,23 @@
+Quartus II
+Version 10.1 Build 153 11/29/2010 SJ Web Edition
+15
+1296
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# complete
+

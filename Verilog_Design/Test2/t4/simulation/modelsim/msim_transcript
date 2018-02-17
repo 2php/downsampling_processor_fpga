@@ -1,0 +1,78 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do t4_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/FPGA/Verilog_Design/Test2/t4 {E:/FPGA/Verilog_Design/Test2/t4/t4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:53:39 on Jan 27,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/FPGA/Verilog_Design/Test2/t4" E:/FPGA/Verilog_Design/Test2/t4/t4.v 
+# -- Compiling module t4
+# ** Error: E:/FPGA/Verilog_Design/Test2/t4/t4.v(27): (vlog-2123) Missing argument for format specification '%b'.
+# ** Error: E:/FPGA/Verilog_Design/Test2/t4/t4.v(27): (vlog-2123) Missing argument for format specification '%b'.
+# -- Compiling module simpleand
+# End time: 14:53:39 on Jan 27,2018, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./t4_run_msim_rtl_verilog.do line 8
+# C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+E:/FPGA/Verilog_Design/Test2/t4 {E:/FPGA/Verilog_Design/Test2/t4/t4.v}"
+vsim work.simpleand
+# vsim work.simpleand 
+# Start time: 14:53:43 on Jan 27,2018
+# Loading work.simpleand
+vsim work.t4
+# End time: 14:53:49 on Jan 27,2018, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0
+# vsim work.t4 
+# Start time: 14:53:49 on Jan 27,2018
+# Loading work.t4
+# Loading work.simpleand
+# ** Error: (vsim-3043) E:/FPGA/Verilog_Design/Test2/t4/t4.v(27): Unresolved reference to 'in1'.
+#    Time: 0 ps  Iteration: 0  Instance: /t4 File: E:/FPGA/Verilog_Design/Test2/t4/t4.v
+# ** Error: (vsim-3043) E:/FPGA/Verilog_Design/Test2/t4/t4.v(27): Unresolved reference to 'in2'.
+#    Time: 0 ps  Iteration: 0  Instance: /t4 File: E:/FPGA/Verilog_Design/Test2/t4/t4.v
+# Error loading design
+# End time: 14:53:49 on Jan 27,2018, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vsim work.t4
+# vsim work.t4 
+# Start time: 14:53:56 on Jan 27,2018
+# Loading work.t4
+# Loading work.simpleand
+# ** Error: (vsim-3043) E:/FPGA/Verilog_Design/Test2/t4/t4.v(27): Unresolved reference to 'in1'.
+#    Time: 0 ps  Iteration: 0  Instance: /t4 File: E:/FPGA/Verilog_Design/Test2/t4/t4.v
+# ** Error: (vsim-3043) E:/FPGA/Verilog_Design/Test2/t4/t4.v(27): Unresolved reference to 'in2'.
+#    Time: 0 ps  Iteration: 0  Instance: /t4 File: E:/FPGA/Verilog_Design/Test2/t4/t4.v
+# Error loading design
+# End time: 14:53:56 on Jan 27,2018, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vsim work.simpleand
+# vsim work.simpleand 
+# Start time: 14:54:13 on Jan 27,2018
+# Loading work.simpleand
+run -all
+run -all
+# Break key hit
+run -all
+# Break key hit
+add wave -position end  sim:/simpleand/a
+add wave -position end  sim:/simpleand/b
+add wave -position end  sim:/simpleand/c
+run -all
+# Break key hit
+force -freeze sim:/simpleand/a 0 0, 1 {50 ps} -r 100
+force -freeze sim:/simpleand/b 1 0, 0 {100 ps} -r 200
+run -continue
+# Break key hit
+# Simulation stop requested.
+# End time: 14:55:43 on Jan 27,2018, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 0

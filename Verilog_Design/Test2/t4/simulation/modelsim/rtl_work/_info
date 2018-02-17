@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/FPGA/Verilog_Design/Test2/t4/simulation/modelsim
+vsimpleand
+Z1 !s110 1517045019
+!i10b 1
+!s100 9Z15>@oDdXHJ3Nl94^VQ=0
+IZjUGf@b2;IKJOH8?`cXh=1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1517044944
+Z4 8E:/FPGA/Verilog_Design/Test2/t4/t4.v
+Z5 FE:/FPGA/Verilog_Design/Test2/t4/t4.v
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1517045019.000000
+Z8 !s107 E:/FPGA/Verilog_Design/Test2/t4/t4.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA/Verilog_Design/Test2/t4|E:/FPGA/Verilog_Design/Test2/t4/t4.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+E:/FPGA/Verilog_Design/Test2/t4
+Z12 tCvgOpt 0
+vt4
+R1
+!i10b 1
+!s100 I8Uc0zD51=:2^1GNP^ZgO0
+Iie<=YW9C=ECcP0d]e_gZi1
+R2
+R0
+R3
+R4
+R5
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

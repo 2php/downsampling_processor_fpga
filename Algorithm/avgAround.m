@@ -1,11 +1,11 @@
 function im_out = avgAround(im, im_out, h_in, h_out, factor )
-    for i = 1:h_out                 %Iterate over rows
+    for i = 1:h_out                 %Iterate over rows of output
         i_out = i*factor-1;
         if(i_out+factor-1 > h_in)
             continue;
         end
 
-        for j = 1:h_out             %Iterate over cols
+        for j = 1:h_out             %Iterate over cols of output
             j_out = j*factor-1;
             if(j_out+factor-1 > h_in)
                 continue;
