@@ -1,3 +1,5 @@
+%Rukshan is typing this... :-)
+
 function im_out = avgAround(im, im_out, h_in, h_out, factor )
     for i = 1:h_out                 %Iterate over rows of output
         i_out = i*factor-1;
