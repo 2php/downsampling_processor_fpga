@@ -1,5 +1,5 @@
-Analysis & Synthesis report for t1
-Fri Jan 19 17:16:23 2018
+Analysis & Elaboration report for t1
+Sat Feb 17 12:38:11 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -7,10 +7,10 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Synthesis Summary
-  3. Analysis & Synthesis Settings
-  4. Parallel Compilation
-  5. Analysis & Synthesis Messages
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration Settings
+  5. Analysis & Elaboration Messages
 
 
 
@@ -34,9 +34,9 @@ refer to the applicable agreement for further details.
 
 
 +----------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                     ;
+; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Fri Jan 19 17:16:23 2018           ;
+; Analysis & Elaboration Status      ; Failed - Sat Feb 17 12:38:11 2018           ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; t1                                          ;
 ; Top-level Entity Name              ; t1                                          ;
@@ -53,8 +53,24 @@ refer to the applicable agreement for further details.
 +------------------------------------+---------------------------------------------+
 
 
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
 +----------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                                        ;
+; Analysis & Elaboration Settings                                                                                      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
@@ -139,46 +155,42 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 2           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
-
-
-+-------------------------------+
-; Analysis & Synthesis Messages ;
-+-------------------------------+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Synthesis
+Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Jan 19 17:16:05 2018
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off t1 -c t1
+    Info: Processing started: Sat Feb 17 12:37:39 2018
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off t1 -c t1 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/verilog_design/main_code/t1.bdf
-    Info (12023): Found entity 1: t1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/verilog_design/main_code/simple_counter.v
-    Info (12023): Found entity 1: simple_counter File: E:/FPGA/Verilog_Design/Main_Code/simple_counter.v Line: 5
-Info (12021): Found 1 design units, including 1 entities, in source file pll.v
-    Info (12023): Found entity 1: pll File: E:/FPGA/Verilog_Design/Test/t1/pll.v Line: 39
-Info (12127): Elaborating entity "t1" for the top level hierarchy
-Error (275028): Bus name allowed only on bus line -- pin "counter[31..0]"
-Error (275029): Incorrect connector style at port "counter_out[31..0]" for symbol "inst" of type simple_counter
-Error (12153): Can't elaborate top-level user hierarchy
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 3 errors, 1 warning
-    Error: Peak virtual memory: 602 megabytes
-    Error: Processing ended: Fri Jan 19 17:16:23 2018
-    Error: Elapsed time: 00:00:18
-    Error: Total CPU time (on all processors): 00:00:42
+Info (12248): Elaborating Platform Designer system entity "unnamed.qsys"
+Info (12250): 2018.02.17.12:38:05 Progress: Loading Test/unnamed.qsys
+Info (12250): 2018.02.17.12:38:06 Progress: Reading input file
+Info (12250): 2018.02.17.12:38:06 Progress: Adding altclkctrl_0 [altclkctrl 17.1]
+Info (12250): 2018.02.17.12:38:07 Progress: Parameterizing module altclkctrl_0
+Info (12250): 2018.02.17.12:38:07 Progress: Building connections
+Info (12250): 2018.02.17.12:38:07 Progress: Parameterizing connections
+Info (12250): 2018.02.17.12:38:07 Progress: Validating
+Info (12250): 2018.02.17.12:38:08 Progress: Done reading input file
+Info (12250): 2018.02.17.12:38:08 : unnamed.altclkctrl_0: Targeting device family: Cyclone IV E.
+Info (12250): 2018.02.17.12:38:08 : unnamed.altclkctrl_0: Global clock network allows a clock signal to reach all parts of the chip with the same amount of skew. Input port 'clkselect' can be used to switch between four clock inputs.
+Info (12250): Unnamed: Generating unnamed "unnamed" for QUARTUS_SYNTH
+Info (12250): Altclkctrl_0: Generating top-level entity unnamed_altclkctrl_0.
+Info (12250): Altclkctrl_0: "unnamed" instantiated altclkctrl "altclkctrl_0"
+Info (12250): Unnamed: Done "unnamed" with 2 modules, 2 files
+Info (12249): Finished elaborating Platform Designer system entity "unnamed.qsys"
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/unnamed/submodules/unnamed_altclkctrl_0.v
+    Info (12023): Found entity 1: unnamed_altclkctrl_0_sub File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test/t1/db/ip/unnamed/submodules/unnamed_altclkctrl_0.v Line: 28
+    Info (12023): Found entity 2: unnamed_altclkctrl_0 File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test/t1/db/ip/unnamed/submodules/unnamed_altclkctrl_0.v Line: 89
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/unnamed/unnamed.v
+    Info (12023): Found entity 1: unnamed File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test/t1/db/ip/unnamed/unnamed.v Line: 6
+Error (12007): Top-level design entity "t1" is undefined
+Error: Quartus Prime Analysis & Elaboration was unsuccessful. 1 error, 1 warning
+    Error: Peak virtual memory: 630 megabytes
+    Error: Processing ended: Sat Feb 17 12:38:12 2018
+    Error: Elapsed time: 00:00:33
+    Error: Total CPU time (on all processors): 00:01:12
 
 

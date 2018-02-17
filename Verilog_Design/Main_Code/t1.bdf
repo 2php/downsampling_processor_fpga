@@ -4,24 +4,24 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2010 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
 */
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 16 152 184 168)
+	(rect 8 160 176 176)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "pin_name" (rect 9 0 56 12)(font "Arial" ))
 	(pt 168 8)
@@ -74,7 +74,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 232 96 472 248)
+	(rect 224 104 464 256)
 	(text "pll" (rect 114 0 129 16)(font "Arial" (font_size 10)))
 	(text "inst1" (rect 8 136 31 148)(font "Arial" ))
 	(port
@@ -122,27 +122,14 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(pt 360 160)
-	(pt 360 168)
+	(pt 792 168)
+	(pt 816 168)
 )
 (connector
-	(pt 576 160)
+	(pt 464 168)
 	(pt 576 168)
 )
 (connector
-	(pt 360 160)
-	(pt 472 160)
+	(pt 176 168)
+	(pt 224 168)
 )
-(connector
-	(pt 472 160)
-	(pt 576 160)
-)
-(connector
-	(pt 232 160)
-	(pt 184 160)
-)
-(connector
-	(pt 816 168)
-	(pt 792 168)
-)
-(junction (pt 472 160))

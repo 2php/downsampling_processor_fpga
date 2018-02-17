@@ -1,0 +1,28 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\Test\t1\unnamed.qsys" --block-symbol-file --output-directory="E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\Test\t1\unnamed" --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading t1/unnamed.qsys
+Progress: Reading input file
+Progress: Adding spislave_0 [spislave 17.1]
+Progress: Parameterizing module spislave_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\Test\t1\unnamed.qsys" --synthesis=VERILOG --output-directory="E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\Test\t1\unnamed\synthesis" --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading t1/unnamed.qsys
+Progress: Reading input file
+Progress: Adding spislave_0 [spislave 17.1]
+Progress: Parameterizing module spislave_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: unnamed: Generating unnamed "unnamed" for QUARTUS_SYNTH
+Info: spislave_0: "unnamed" instantiated spislave "spislave_0"
+Info: unnamed: Done "unnamed" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
