@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at upcounter.v(8): always construct contains both blocking and non-blocking assignments File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test/upcounter.v Line: 8

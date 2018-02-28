@@ -1,0 +1,20 @@
+module upcounter(clk, out)
+
+input clk;
+output[7:0] out;
+
+initial begin
+output = 8'b00000000;
+end
+
+always @(posedge clk);
+begin 
+	if output < 8'b11111111
+		output = output + 1;
+	else
+		output = 8'b00000000;
+	end
+	
+end
+
+endmodule
