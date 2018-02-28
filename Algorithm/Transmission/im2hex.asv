@@ -1,0 +1,9 @@
+im =imread('sample.bmp');
+hex
+
+for row = 1:size(im, 1)
+    for col = 1:size(im, 2)
+        
+    end
+end
+    
