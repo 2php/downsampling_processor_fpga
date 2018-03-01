@@ -1,57 +1,29 @@
-CLR								#RCNG = i, RCST = j, WCNG = r, WCST = c; all zeros at beginning
+CLR									#ARG = i, ART = j, AWG = r, T = c; all zeros at beginning
 SET0
-	[ISBUS]						#MDAR updated by internal regs, not by bus
-SET1
-	[ISROW]						#MDAR = CST, CNG
-$loop	LOAD					#Reads from RCST, RCNG format (reading by row)
-		INR 	
-			[RCNG]				#i = i+1 now
-		LOAD
-		ADD		
-			[MDDR]				#AC = AC + MDDR -- sum = im[i,j] + im[i+1,j]
-		INAC					#Add one to sum, to prevent floor error when div by 2
-		DIV2
-		MVAC
-			[MDDR]				#Move the result, ready to be written
-		STOR					#Writes to WCST, WCNG format (writing by row)
-		INR
-			[WCNG]				#r = r+1
-		JPNZG @loop				#next pixel if i != 0; 
-		INR
-			[RCST]				#j = j+1
-		CLAC
-		MVAC
-			[WCNG]				#r = 0
-		INR
-			[WCST]				#c = c+1
-JPNZT @loop						#if !(j == 0): next row; else: horz finished
-CLR								#RCST = i, RCNG = j, WCST = r, WCNG = c; all zeros at beginning
-SET0
-	[ISBUS]						#MDAR updated by internal regs, not by bus
-SET0
-	[ISROW]						#MDAR = CNG, CST
-$loop	LOAD					#Reads from RCNG, RCST format (reading by col)
-		INR 	
-			[RCNG]				#j = j+1 now
-		LOAD
-		ADD		
-			[MDDR]				#AC = AC + MDDR -- sum = im[i,j] + im[i,j+1]
-		INAC					#Add one to sum, to prevent floor error when div by 2
-		DIV2
-		MVAC
-			[MDDR]				#Move the result, ready to be written
-		STOR					#Writes to WCNG, WCST format (writing by col)
-		INR
-			[WCNG]				#c = c+1
-		JPNZG @loop				#next pixel if c != 0; if not, new col
-		INR
-			[RCST]				#i = i+1
-		CLAC
-		MOVR
-			[WCNG]				#c = 0
-		INR
-			[WCST]				#r = r+1
-JPNZT @loop						#if !(i == 0): next col; else: downsampling finished
-
-
-
+	[ZT]							#ZT = 0
+$part2		TOG						#First run: (ZT 0 --> 1: MDAR = ART,ARG) 	#Second run: (ZT --> 0: MDAR = ARG,ART)
+	$loop		LOAD				#Reads im[i,j]
+				INR 	
+					[ARG]			#First run: i = i+1							#Second run: j = j+1
+				LOAD
+				ADD		
+					[MDDR]			#AC = AC + MDDR (F:sum = im[i,j] + im[i+1,j])
+				INR
+					[AC]			#Add one to sum, to prevent floor error when div by 2
+				DIV2
+				MVAC
+					[MDDR]			#Move the result, ready to be written
+				STOR				#First run: (ZT 0 --> 1: MDAR = AWT,AWG) 	#Second run: (ZT --> 0: MDAR = AWG,AWT)
+				INR
+					[WRG]			#r = r+1
+			JNRG @loop				#next pixel if i != 0; 
+			INR
+				[ART]				#j = j+1
+			CLAC
+			MVAC
+				[AWG]				#r = 0
+			INR
+				[AWT]				#c = c+1
+	JNRT @loop						#if !(j == 0): next row; else: all rows finished
+	CLR								#all zeros at beginning
+JNZT @part2							#First run: (ZT = 1; loop) Second run: (ZT = 0; continue to end)
