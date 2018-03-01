@@ -1,65 +1,98 @@
-Analysis & Synthesis report for ImageSample
-Fri Jan 19 10:09:54 2018
-Quartus II Version 10.1 Build 153 11/29/2010 SJ Web Edition
+Analysis & Elaboration report for ImageSample
+Wed Feb 28 21:31:57 2018
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
 ---------------------
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Synthesis Summary
-  3. Analysis & Synthesis Settings
-  4. Parallel Compilation
-  5. Analysis & Synthesis Messages
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Parameter Settings for User Entity Instance: Top-level Entity: |alu
+  5. Analysis & Elaboration Settings
+  6. Analysis & Elaboration Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2010 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
 
 
 
-+-------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                  ;
-+------------------------------------+------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Fri Jan 19 10:09:54 2018        ;
-; Quartus II Version                 ; 10.1 Build 153 11/29/2010 SJ Web Edition ;
-; Revision Name                      ; ImageSample                              ;
-; Top-level Entity Name              ; ImageSample                              ;
-; Family                             ; Cyclone IV E                             ;
-; Total logic elements               ; N/A until Partition Merge                ;
-;     Total combinational functions  ; N/A until Partition Merge                ;
-;     Dedicated logic registers      ; N/A until Partition Merge                ;
-; Total registers                    ; N/A until Partition Merge                ;
-; Total pins                         ; N/A until Partition Merge                ;
-; Total virtual pins                 ; N/A until Partition Merge                ;
-; Total memory bits                  ; N/A until Partition Merge                ;
-; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                ;
-; Total PLLs                         ; N/A until Partition Merge                ;
-+------------------------------------+------------------------------------------+
++----------------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                                   ;
++------------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status      ; Successful - Wed Feb 28 21:31:57 2018       ;
+; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
+; Revision Name                      ; ImageSample                                 ;
+; Top-level Entity Name              ; alu                                         ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |alu ;
++----------------+-------+--------------------------------------------+
+; Parameter Name ; Value ; Type                                       ;
++----------------+-------+--------------------------------------------+
+; ZERO           ; 000   ; Unsigned Binary                            ;
+; ADD            ; 001   ; Unsigned Binary                            ;
+; SUB            ; 010   ; Unsigned Binary                            ;
+; PAS            ; 011   ; Unsigned Binary                            ;
+; MUL2           ; 100   ; Unsigned Binary                            ;
+; DIV2           ; 101   ; Unsigned Binary                            ;
+; DECAC          ; 110   ; Unsigned Binary                            ;
++----------------+-------+--------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +----------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                                        ;
+; Analysis & Elaboration Settings                                                                                      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                     ; EP4CE115F29C7      ;                    ;
-; Top-level entity name                                                      ; ImageSample        ; ImageSample        ;
+; Top-level entity name                                                      ; alu                ; ImageSample        ;
 ; Family name                                                                ; Cyclone IV E       ; Cyclone IV GX      ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
@@ -67,7 +100,7 @@ applicable agreement for further details.
 ; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
 ; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
 ; Preserve fewer node names                                                  ; On                 ; On                 ;
-; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Intel FPGA IP Evaluation Mode                                              ; Enable             ; Enable             ;
 ; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
 ; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
 ; State Machine Processing                                                   ; Auto               ; Auto               ;
@@ -78,6 +111,7 @@ applicable agreement for further details.
 ; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
 ; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
 ; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
 ; Parallel Synthesis                                                         ; On                 ; On                 ;
 ; DSP Block Balancing                                                        ; Auto               ; Auto               ;
 ; NOT Gate Push-Back                                                         ; On                 ; On                 ;
@@ -100,6 +134,7 @@ applicable agreement for further details.
 ; Auto RAM Replacement                                                       ; On                 ; On                 ;
 ; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
 ; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
 ; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
 ; Strict RAM Replacement                                                     ; Off                ; Off                ;
 ; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
@@ -118,10 +153,11 @@ applicable agreement for further details.
 ; Report Connectivity Checks                                                 ; On                 ; On                 ;
 ; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
 ; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
-; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; Power Optimization During Synthesis                                        ; Normal compilation ; Normal compilation ;
 ; HDL message level                                                          ; Level2             ; Level2             ;
 ; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
 ; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
 ; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
 ; Clock MUX Protection                                                       ; On                 ; On                 ;
 ; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
@@ -129,39 +165,64 @@ applicable agreement for further details.
 ; SDC constraint protection                                                  ; Off                ; Off                ;
 ; Synthesis Effort                                                           ; Auto               ; Auto               ;
 ; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
 ; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
 ; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
 ; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
-; Synthesis Seed                                                             ; 1                  ; 1                  ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
 
 
-Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
-+-------------------------------------+
-; Parallel Compilation                ;
-+----------------------------+--------+
-; Processors                 ; Number ;
-+----------------------------+--------+
-; Number detected on machine ; 2      ;
-; Maximum allowed            ; 1      ;
-+----------------------------+--------+
-
-
-+-------------------------------+
-; Analysis & Synthesis Messages ;
-+-------------------------------+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
 Info: *******************************************************************
-Info: Running Quartus II Analysis & Synthesis
-    Info: Version 10.1 Build 153 11/29/2010 SJ Web Edition
-    Info: Processing started: Fri Jan 19 10:09:53 2018
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ImageSample -c ImageSample
-Info: Found 1 design units, including 1 entities, in source file a.v
-    Info: Found entity 1: and1
-Error: Top-level design entity "ImageSample" is undefined
-Error: Quartus II Analysis & Synthesis was unsuccessful. 1 error, 0 warnings
-    Error: Peak virtual memory: 273 megabytes
-    Error: Processing ended: Fri Jan 19 10:09:54 2018
-    Error: Elapsed time: 00:00:01
-    Error: Total CPU time (on all processors): 00:00:00
+Info: Running Quartus Prime Analysis & Elaboration
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Processing started: Wed Feb 28 21:31:44 2018
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ImageSample -c ImageSample --analysis_and_elaboration
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file communication/transmitter.v
+    Info (12023): Found entity 1: transmitter File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/communication/transmitter.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file communication/receiver.v
+    Info (12023): Found entity 1: receiver File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/communication/receiver.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file communication/buadrate.v
+    Info (12023): Found entity 1: baudrate File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/communication/buadrate.v Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file a.v
+    Info (12023): Found entity 1: and1 File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/a.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file memory/dram.v
+    Info (12023): Found entity 1: dram File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/memory/dram.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file communication/uart_control.v
+    Info (12023): Found entity 1: uart_control File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/communication/uart_control.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cpu/alu.v
+    Info (12023): Found entity 1: alu File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 1
+Info (12127): Elaborating entity "alu" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at alu.v(52): truncated value with size 32 to match size of target (17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 52
+Warning (10270): Verilog HDL Case Statement warning at alu.v(19): incomplete case statement has no default case item File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 19
+Warning (10240): Verilog HDL Always Construct warning at alu.v(17): inferring latch(es) for variable "Cbus", which holds its previous value in one or more paths through the always construct File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Warning (10240): Verilog HDL Always Construct warning at alu.v(17): inferring latch(es) for variable "z", which holds its previous value in one or more paths through the always construct File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "z" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[0]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[1]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[2]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[3]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[4]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[5]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[6]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[7]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[8]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[9]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[10]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[11]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[12]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[13]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[14]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[15]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info (10041): Inferred latch for "Cbus[16]" at alu.v(17) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Main_Code/cpu/alu.v Line: 17
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 626 megabytes
+    Info: Processing ended: Wed Feb 28 21:31:57 2018
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:24
 
 
