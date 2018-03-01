@@ -1,0 +1,4 @@
+hex_fName = "output1.hex"
+hex_file = open(hex_fName, "wb")
+
+hex_file.write(0b00110001001110010011000100111001)

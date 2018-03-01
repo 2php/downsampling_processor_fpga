@@ -1,0 +1,8 @@
+Nomenclature
+* i => Reading row
+* j => Reading col
+* im[i,j] => Reading pixel
+
+* r => Writing row
+* c => Writing COl
+* im[r,c] => Writing pixel

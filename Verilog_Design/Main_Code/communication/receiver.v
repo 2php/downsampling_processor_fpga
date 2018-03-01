@@ -3,7 +3,8 @@ module receiver  (input wire Rx,
 						input wire ready_clr,
 						input wire clk_50m,
 						input wire clken,
-						output reg [7:0] data
+						output reg rx_byte_done,
+						output reg[7:0] data
 						);
 initial begin
 	ready = 1'b0; // initialize ready = 0
@@ -23,6 +24,7 @@ always @(posedge clk_50m) begin
 	if (ready_clr)
 		ready <= 1'b0; // This resets ready to 0
 
+
 	if (clken) begin
 		case (state) // Let us consider the 3 states of the receiver 
 		RX_STATE_START: begin // We define condtions for starting the receiver 
@@ -32,7 +34,8 @@ always @(posedge clk_50m) begin
 				state <= RX_STATE_DATA; //	start collecting data bits
 				bit_pos <= 0;
 				sample <= 0; 
-				scratch <= 0;
+				scratch <= 0;		
+				rx_byte_done <= 1'b0;
 			end
 		end
 		RX_STATE_DATA: begin // We define conditions for starting the data colleting
@@ -51,6 +54,7 @@ always @(posedge clk_50m) begin
 			 * we're at least half way into the stop bit, allow
 			 * transition into handling the next start bit.
 			 */
+			 rx_byte_done <= 1'b1;
 			if (sample == 15 || (sample >= 8 && !Rx)) begin
 				state <= RX_STATE_START;
 				data <= scratch;

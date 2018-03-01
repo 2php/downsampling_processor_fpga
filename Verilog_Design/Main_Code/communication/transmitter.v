@@ -3,7 +3,8 @@ module transmitter(	input wire [7:0] data_in, //input data as an 8-bit regsiter/
 							input wire clk_50m,
 							input wire clken, //clock signal for the transmitter
 							output reg Tx, //a single 1-bit register variable to hold transmitting bit
-							output wire Tx_busy //transmitter is busy signal 
+							output wire Tx_busy, //transmitter is busy signal 
+							output reg byte_end
 							);
 
 initial begin
@@ -19,9 +20,11 @@ reg [7:0] data = 8'h00; //set an 8-bit register/vector as data,initially equal t
 reg [2:0] bit_pos = 3'h0; //bit position is a 3-bit register/vector, initially equal to 000
 reg [1:0] state = TX_STATE_IDLE; //state is a 2 bit register/vector,initially equal to 00
 
+
 always @(posedge clk_50m) begin
 	case (state) //Let us consider the 4 states of the transmitter
 	TX_STATE_IDLE: begin //We define the conditions for idle  or NOT-BUSY state
+		byte_end <= 1'b0;
 		if (~wr_en) begin
 			state <= TX_STATE_START; //assign the start signal to state
 			data <= data_in; //we assign input data vector to the current data 
@@ -46,6 +49,7 @@ always @(posedge clk_50m) begin
 	TX_STATE_STOP: begin
 		if (clken) begin
 			Tx <= 1'b1; //set Tx = 1 after transmission has ended
+			byte_end <= 1'b1;
 			state <= TX_STATE_IDLE; //Move to IDLE state once a transmission has been completed
 		end
 	end

@@ -1,0 +1,107 @@
+CLR
+SET0
+	[ISBUS]						#MDAR updated by internal regs, not by bus
+SET1
+	[ISROW]						#MDAR = CST, CNG
+LODK							#Load "2" to K2
+	[2]
+MOVR
+	[MDDR]
+MVAC
+	[K0]						#--
+LODK							#Load "1" to K2
+	[1]
+MOVR
+	[MDDR]
+MVAC
+	[K1]						#-----------------	Config DONE-----------------
+@rloop	LOAD					#Load im[0,j] to G2
+		MOVR
+			[MDDR]
+		MVAC
+			[G2]				#--
+		SHFT					#G1 <- G2
+		MVAC
+			[G2]				#Repeated edge convolution; first pixel is repeated here
+		SHFT					#G0 <- G1 and G1 <- G2, 
+		INR						#i=1 now
+			[RCNG]
+		LOAD					#Load im[1,j] to G2
+		MOVR
+			[MDDR]
+		MVAC
+			[G2]				#----- G0 = im[0,j]; G1 = im[0,j]; G2 = im[1,j] for first pixel
+		MOVR
+			[G1]
+		MUL2					#AC = 2 * G1
+		ADD
+			[G0]				#G0 + 2*G1
+		ADD
+			[G2]				#G0 + 2*G1 + G2
+		ADD
+			[K0]				#K0 = "2"; we add 2 to avoid error in division
+		DIV2
+		DIV2					#result = (G0 + 2*G1 + G2 + 2)/4
+		MVAC
+			[MDDR]
+		STOR					#result stored to im[0,c] -- first pixel done
+		INR
+			[RCNG]				#i = 2 now
+		INR
+			[WCNG]				#r = 1 now
+		$ploop
+			SHFT
+			LOAD				#Load im[i,j] to G2, i is from [2,254]
+			MOVR
+				[MDDR]
+			MVAC
+				[G2]			#----- G0 = im[i-2,j]; G1 = im[i-1,j]; G2 = im[i,j]
+			MOVR
+				[G1]
+			MUL2				#AC = 2 * G1
+			ADD
+				[G0]			#G0 + 2*G1
+			ADD
+				[G2]			#G0 + 2*G1 + G2
+			ADD
+				[K0]			#K0 = "2"; we add 2 to avoid error in division
+			DIV2
+			DIV2				#result = (G0 + 2*G1 + G2 + 2)/4
+			MVAC
+				[MDDR]
+			STOR				#result stored to im[r,c]; r is from [1,254] -- one pixel done
+
+			INR
+				[RCNG]			#i = i+1
+			INR
+				[WCNG]			#r = r+1
+			MOVR
+				[WCNG]
+			INAC
+		JPNZ @ploop				#We check if r+2 =0, r= 254
+		SHFT					#----- G0 = im[254,j]; G1 = im[255,j]; G2 = im[255,j] for last pixel -- Repeated edge
+		MOVR
+			[G1]
+		MUL2					#AC = 2 * G1
+		ADD
+			[G0]				#G0 + 2*G1
+		ADD
+			[G2]				#G0 + 2*G1 + G2
+		ADD
+			[K0]				#K0 = "2"; we add 2 to avoid error in division
+		DIV2
+		DIV2					#result = (G0 + 2*G1 + G2 + 2)/4
+		MVAC
+			[MDDR]
+		STOR					#result stored to im[255,c] -- last pixel done
+		INR
+			[RCST]				#j = j+1 now
+		INR
+			[WCST]				#c = c+1 now
+		CLAC					#Set i, r = 0
+		MVAC
+			[RCNG]
+		MVAC
+			[WCNG]				#---
+JPNZT @rloop					#-----------ALL ROWS DONE---------
+
