@@ -1,0 +1,16 @@
+module Data_store(din,dout,addr,ready,wen);
+
+input ready;
+input [7:0] din;
+output [7:0] dout;
+output reg [15:0] addr=16'b0;
+reg done=;
+
+parameter Receiving=1'b0;
+parameter writing=1'b1;
+
+always @(posedge ready)
+begin
+ case
+end
+
