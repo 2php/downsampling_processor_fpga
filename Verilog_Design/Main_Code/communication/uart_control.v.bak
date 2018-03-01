@@ -1,0 +1,7 @@
+module uart_control(din, dout, serial_rx, serial_tx, recieve_enable, busy);
+
+input serial_rx, recieve_enable;
+output seria_tx, busy;
+input[7:0] din;
+output[7:0] dout;
+

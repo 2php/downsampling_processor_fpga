@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Downsampling/Verilog_Design/Test/Rukshan/Uart_data_Writer
+vData_Writer
+!s110 1519846637
+!i10b 1
+!s100 HfB1AD5C[fLE>igU07`ZW1
+I^IOkl8jBh1`EjMBJImj?o2
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1519845578
+8D:/Downsampling/Verilog_Design/Test/Rukshan/Uart_data_Writer/Data_Writer.v
+FD:/Downsampling/Verilog_Design/Test/Rukshan/Uart_data_Writer/Data_Writer.v
+L0 1
+Z2 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1519846637.428000
+!s107 D:/Downsampling/Verilog_Design/Test/Rukshan/Uart_data_Writer/Data_Writer.v|
+!s90 -reportprogress|300|-work|work|D:/Downsampling/Verilog_Design/Test/Rukshan/Uart_data_Writer/Data_Writer.v|
+!i113 1
+Z3 o-work work
+n@data_@writer
+vTb_Data_writer
+!s110 1519847044
+!i10b 1
+!s100 m9>98SdnD:SJ8ooQCe3eY3
+IMJGa:F7Y<aQCDEb1z_^_c3
+R1
+R0
+w1519846988
+8D:/Downsampling/Verilog_Design/Test/Rukshan/Uart_data_Writer/Tb_Data_Writer.v
+FD:/Downsampling/Verilog_Design/Test/Rukshan/Uart_data_Writer/Tb_Data_Writer.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1519847044.484000
+!s107 D:/Downsampling/Verilog_Design/Test/Rukshan/Uart_data_Writer/Tb_Data_Writer.v|
+!s90 -reportprogress|300|-work|work|D:/Downsampling/Verilog_Design/Test/Rukshan/Uart_data_Writer/Tb_Data_Writer.v|
+!i113 1
+R3
+n@tb_@data_writer

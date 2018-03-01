@@ -1,7 +1,7 @@
-Analysis & Synthesis Status : Failed - Fri Jan 19 10:09:54 2018
-Quartus II Version : 10.1 Build 153 11/29/2010 SJ Web Edition
+Analysis & Elaboration Status : Successful - Wed Feb 28 21:31:57 2018
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Revision Name : ImageSample
-Top-level Entity Name : ImageSample
+Top-level Entity Name : alu
 Family : Cyclone IV E
 Total logic elements : N/A until Partition Merge
     Total combinational functions : N/A until Partition Merge
