@@ -20,7 +20,7 @@ $part2		TOG						#First run: (ZT 0 --> 1: MDAR = ART,ARG) 	#Second run: (ZT --> 
 				[G2]				#----- G0 = im[0,j]; G1 = im[0,j]; G2 = im[1,j] for first pixel
 			MOVR
 				[G1]
-			MUL2					#AC = 2 * G1
+			MUL2					#AC = 2*G1
 			ADD
 				[G0]				#G0 + 2*G1
 			ADD
@@ -100,4 +100,3 @@ $part2		TOG						#First run: (ZT 0 --> 1: MDAR = ART,ARG) 	#Second run: (ZT --> 
 	JNRT @rloop					
 	CLR								#-----------ALL ROWS DONE---------
 JNZT @part2
-
