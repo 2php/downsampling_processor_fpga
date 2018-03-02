@@ -33,7 +33,7 @@ $part2		TOG						#First run: (ZT 0 --> 1: MDAR = ART,ARG) 	#Second run: (ZT --> 
 			DIV2					#result = (G0 + 2*G1 + G2 + 2)/4
 			MVAC
 				[MDDR]
-			STOR					#result stored to im[0,c] -- first pixel done
+			STAC					#result stored to im[0,c] -- first pixel done
 			INR
 				[ARG]				#i = 2 now
 			INR
@@ -60,8 +60,7 @@ $part2		TOG						#First run: (ZT 0 --> 1: MDAR = ART,ARG) 	#Second run: (ZT --> 
 				DIV2				#result = (G0 + 2*G1 + G2 + 2)/4
 				MVAC
 					[MDDR]
-				STOR				#result stored to im[r,c]; r is from [1,254] -- one pixel done
-
+				STAC				#result stored to im[r,c]; r is from [1,254] -- one pixel done
 				INR
 					[ARG]			#i = i+1
 				INR
@@ -87,7 +86,7 @@ $part2		TOG						#First run: (ZT 0 --> 1: MDAR = ART,ARG) 	#Second run: (ZT --> 
 			DIV2					#result = (G0 + 2*G1 + G2 + 2)/4
 			MVAC
 				[MDDR]
-			STOR					#result stored to im[255,c] -- last pixel done
+			STAC					#result stored to im[255,c] -- last pixel done
 			INR
 				[ART]				#j = j+1 now
 			INR

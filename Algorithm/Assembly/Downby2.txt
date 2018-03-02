@@ -13,7 +13,7 @@ $part2			TOG					#First run: (ZT 0 --> 1: MDAR = ART,ARG) 	#Second run: (ZT --> 
 				DIV2
 				MVAC
 					[MDDR]			#Move the result, ready to be written
-				STOR				#First run: (ZT 0 --> 1: MDAR = AWT,AWG) 	#Second run: (ZT --> 0: MDAR = AWG,AWT)
+				STAC				#First run: (ZT 0 --> 1: MDAR = AWT,AWG) 	#Second run: (ZT --> 0: MDAR = AWG,AWT)
 				INR
 					[WRG]			#r = r+1
 			JNRG @loop				#next pixel if i != 0; 
