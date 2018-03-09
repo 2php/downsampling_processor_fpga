@@ -16,7 +16,8 @@ $part2			TOG					#First run: (ZT 0 --> 1: MDAR = ART,ARG) 	#Second run: (ZT --> 
 				STAC				#First run: (ZT 0 --> 1: MDAR = AWT,AWG) 	#Second run: (ZT --> 0: MDAR = AWG,AWT)
 				INR
 					[WRG]			#r = r+1
-			JNRG @loop				#next pixel if i != 0; 
+			JNRG 
+				@loop				#next pixel if i != 0; 
 			INR
 				[ART]				#j = j+1
 			CLAC
@@ -24,6 +25,8 @@ $part2			TOG					#First run: (ZT 0 --> 1: MDAR = ART,ARG) 	#Second run: (ZT --> 
 				[AWG]				#r = 0
 			INR
 				[AWT]				#c = c+1
-	JNRT @loop						#if !(j == 0): next row; else: all rows finished
+	JNRT 
+		@loop						#if !(j == 0): next row; else: all rows finished
 	CLR								#all zeros at beginning
-JNZT @part2							#First run: (ZT = 1; loop) Second run: (ZT = 0; continue to end)
+JNZT 
+	@part2							#First run: (ZT = 1; loop) Second run: (ZT = 0; continue to end)
