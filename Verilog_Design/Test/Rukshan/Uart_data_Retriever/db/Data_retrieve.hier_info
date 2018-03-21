@@ -1,0 +1,23 @@
+|Data_retrieve
+Start => ~NO_FANOUT~
+Tx_tick => ~NO_FANOUT~
+Wen <= <GND>
+Addr[0] <= Addr[0].DB_MAX_OUTPUT_PORT_TYPE
+Addr[1] <= Addr[1].DB_MAX_OUTPUT_PORT_TYPE
+Addr[2] <= Addr[2].DB_MAX_OUTPUT_PORT_TYPE
+Addr[3] <= Addr[3].DB_MAX_OUTPUT_PORT_TYPE
+Addr[4] <= Addr[4].DB_MAX_OUTPUT_PORT_TYPE
+Addr[5] <= Addr[5].DB_MAX_OUTPUT_PORT_TYPE
+Addr[6] <= Addr[6].DB_MAX_OUTPUT_PORT_TYPE
+Addr[7] <= Addr[7].DB_MAX_OUTPUT_PORT_TYPE
+Addr[8] <= Addr[8].DB_MAX_OUTPUT_PORT_TYPE
+Addr[9] <= Addr[9].DB_MAX_OUTPUT_PORT_TYPE
+Addr[10] <= Addr[10].DB_MAX_OUTPUT_PORT_TYPE
+Addr[11] <= Addr[11].DB_MAX_OUTPUT_PORT_TYPE
+Addr[12] <= Addr[12].DB_MAX_OUTPUT_PORT_TYPE
+Addr[13] <= Addr[13].DB_MAX_OUTPUT_PORT_TYPE
+Addr[14] <= Addr[14].DB_MAX_OUTPUT_PORT_TYPE
+Addr[15] <= Addr[15].DB_MAX_OUTPUT_PORT_TYPE
+fin <= <VCC>
+
+
