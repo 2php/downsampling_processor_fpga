@@ -7,24 +7,6 @@ output reg Wen=1'b0;
 output reg fin=0;
 reg STATE=0;
 
-//always @(posedge Start)
-//begin
-//Wen<=~Wen;
-//end
-  
-//always @(posedge Tx_tick)
-//begin
-//	if (Addr==16'd65535)
-//		begin
-//		fin<=1;
-//		end
-//	Addr<=Addr+1;
-//	
-//end
-//
-//endmodule
-
-
 parameter IDLE =0;
 parameter TRANSMITTING=1;
 
