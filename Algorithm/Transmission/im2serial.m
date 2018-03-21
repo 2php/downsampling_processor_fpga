@@ -4,12 +4,13 @@ if(size(im,3) == 3)
     im = rgb2gray(im);
 end
 
-im_array = char(im(:));
+im_array = im';
+im_array = im_array(:);
 
-tst_array = char([49 50 51 52 53]);
+tst_array = [49 50 51 52 53];
 
 
-fpga = serial('COM3');
+fpga = serial('COM4');
 fpga.InputBufferSize = 10000000;
 fpga.OutputBufferSize = 10000000;
 fpga.BaudRate = 115200;
