@@ -1,30 +1,30 @@
 from read_isa import *
 import binascii
 
-isa = read_isa()
+isa = read_isa()                                # Dataframe
+
+opcode_types = {'N': 0, 'I':1, 'A':2, 'K': 3, 'RR': 4, 'RW' : 5}
 
 program_fName = "program.txt"
 program_file  = open(program_fName)
 
 hex_fName = "output.hex"
-hex_file = open(hex_fName, "ab
-                ")
+hex_file = open(hex_fName, "ab")
 
 lineNo = 0;
 loop = {}
 
+next_opcode = 0;
 
 for line in program_file:
-    lineNo += 1                                 #Line numbers: 1,2,3...
     error = "";
     
     line = line.strip()
     line = line.replace(" ", "")
     line = line.replace("\t", "")
     line = line.lower()
-    line = line.replace("#", ":#")              #For splitting
 
-    words = line.split(":");                    #: should be used between opcode, operand and loop
+    words = line.split("#");                    #: seperates code from comment
     
     if (len(words) == 0):
             continue
@@ -73,6 +73,8 @@ for line in program_file:
         byte_array = bytearray(bin_array)
         
         hex_file.write(byte_array)
+    
+        lineNo += 1                                 #Line numbers: 1,2,3...
     except ValueError:
         print "Syntax error at line: %s at word: '%s'" %(lineNo, error)
         

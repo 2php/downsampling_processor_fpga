@@ -16,3 +16,6 @@ def read_isa():
     isa_df[['BINARY']] = isa_df[['BINARY']].astype(np.str)
     
     return isa_df
+
+isa_df = read_isa()
+print isa_df
