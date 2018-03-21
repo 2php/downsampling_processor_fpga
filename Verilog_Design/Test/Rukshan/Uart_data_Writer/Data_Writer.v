@@ -1,21 +1,41 @@
-module Data_Writer(clk,Rx_tick,Din,Wen,Addr,Dout,fin);
-
+module Data_Writer(clk,Rx_tick,Din,Wen,Addr,Dout,fin,reset);
+    
+input reset
 input Rx_tick,clk;
 input [7:0] Din;
 output reg [15:0] Addr=16'b0;
 output reg [7:0] Dout;
 output reg Wen=1'b0;
-output reg fin=0;
-reg [1:0] STATE=0;
+output reg fin=0; 
+
+reg [3:0] counter=0;
+reg [1:0] STATE=2'b11;
 
 parameter IDLE=2'b0;
 parameter STORING=2'b01;
 parameter DONE=2'b10;
+parameter PASS=2'b11;
 
-
+always @(posedge reset)
+begin
+   STATE<=PASS;
+   fin<=0;
+   Wen<=1'b0; 
+   Addr<=16'b0; 
+   counter<=0 ;
+   
 always @(posedge clk)
 begin
 	case(STATE)
+		PASS:
+			if (Rx_tick==1) 
+				begin
+				counter<=counter+1;
+		   		if (counter>=15)
+					begin   
+					STATE<=IDLE;
+					end
+				end
 		IDLE:
 			if(Rx_tick==1)
 				begin
