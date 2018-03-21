@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Mar 18 18:22:10 2018
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : myAudio
+Top-level Entity Name : myAudio
+Family : Cyclone IV E
+Total logic elements : 301
+    Total combinational functions : 295
+    Dedicated logic registers : 191
+Total registers : 191
+Total pins : 10
+Total virtual pins : 0
+Total memory bits : 8,448
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
