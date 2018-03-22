@@ -1,5 +1,5 @@
 Analysis & Synthesis report for uart
-Thu Mar 22 03:27:31 2018
+Thu Mar 22 13:25:19 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -35,10 +35,9 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
  27. altsyncram Parameter Settings by Entity Instance
  28. altpll Parameter Settings by Entity Instance
  29. Port Connectivity Checks: "pll:mypll"
- 30. Port Connectivity Checks: "uart_tx:transmitter"
- 31. Post-Synthesis Netlist Statistics for Top Partition
- 32. Elapsed Time Per Partition
- 33. Analysis & Synthesis Messages
+ 30. Post-Synthesis Netlist Statistics for Top Partition
+ 31. Elapsed Time Per Partition
+ 32. Analysis & Synthesis Messages
 
 
 
@@ -64,16 +63,16 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Mar 22 03:27:31 2018       ;
+; Analysis & Synthesis Status        ; Successful - Thu Mar 22 13:25:19 2018       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; uart                                        ;
 ; Top-level Entity Name              ; uart_control                                ;
 ; Family                             ; Cyclone IV E                                ;
 ; Total logic elements               ; 284                                         ;
 ;     Total combinational functions  ; 269                                         ;
-;     Dedicated logic registers      ; 106                                         ;
-; Total registers                    ; 106                                         ;
-; Total pins                         ; 31                                          ;
+;     Dedicated logic registers      ; 107                                         ;
+; Total registers                    ; 107                                         ;
+; Total pins                         ; 32                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 524,288                                     ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -184,37 +183,37 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                           ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                       ; Library ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------+---------+
-; Data_retrieve.v                  ; yes             ; User Verilog HDL File        ; E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v        ;         ;
-; Data_Writer.v                    ; yes             ; User Verilog HDL File        ; E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_Writer.v          ;         ;
-; dram.v                           ; yes             ; User Wizard-Generated File   ; E:/Semm_5/cwwork/csd/verilog test/uart_test/dram.v                 ;         ;
-; uart_control.v                   ; yes             ; User Verilog HDL File        ; E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v         ;         ;
-; uart_rx.v                        ; yes             ; User Verilog HDL File        ; E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_rx.v              ;         ;
-; pll.v                            ; yes             ; User Wizard-Generated File   ; E:/Semm_5/cwwork/csd/verilog test/uart_test/pll.v                  ;         ;
-; uart_tx.v                        ; yes             ; User Verilog HDL File        ; E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_tx.v              ;         ;
-; altsyncram.tdf                   ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/altsyncram.tdf          ;         ;
-; stratix_ram_block.inc            ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/stratix_ram_block.inc   ;         ;
-; lpm_mux.inc                      ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/lpm_mux.inc             ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/lpm_decode.inc          ;         ;
-; aglobal171.inc                   ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/aglobal171.inc          ;         ;
-; a_rdenreg.inc                    ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/a_rdenreg.inc           ;         ;
-; altrom.inc                       ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/altrom.inc              ;         ;
-; altram.inc                       ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/altram.inc              ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/altdpram.inc            ;         ;
-; db/altsyncram_djf1.tdf           ; yes             ; Auto-Generated Megafunction  ; E:/Semm_5/cwwork/csd/verilog test/uart_test/db/altsyncram_djf1.tdf ;         ;
-; db/decode_rsa.tdf                ; yes             ; Auto-Generated Megafunction  ; E:/Semm_5/cwwork/csd/verilog test/uart_test/db/decode_rsa.tdf      ;         ;
-; db/decode_k8a.tdf                ; yes             ; Auto-Generated Megafunction  ; E:/Semm_5/cwwork/csd/verilog test/uart_test/db/decode_k8a.tdf      ;         ;
-; db/mux_bnb.tdf                   ; yes             ; Auto-Generated Megafunction  ; E:/Semm_5/cwwork/csd/verilog test/uart_test/db/mux_bnb.tdf         ;         ;
-; altpll.tdf                       ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/altpll.tdf              ;         ;
-; stratix_pll.inc                  ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/stratix_pll.inc         ;         ;
-; stratixii_pll.inc                ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/stratixii_pll.inc       ;         ;
-; cycloneii_pll.inc                ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/cycloneii_pll.inc       ;         ;
-; db/pll_altpll.v                  ; yes             ; Auto-Generated Megafunction  ; E:/Semm_5/cwwork/csd/verilog test/uart_test/db/pll_altpll.v        ;         ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                             ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                         ; Library ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------------------------------------------+---------+
+; Data_retrieve.v                  ; yes             ; User Verilog HDL File        ; E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v        ;         ;
+; Data_Writer.v                    ; yes             ; User Verilog HDL File        ; E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_Writer.v          ;         ;
+; dram.v                           ; yes             ; User Wizard-Generated File   ; E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/dram.v                 ;         ;
+; uart_control.v                   ; yes             ; User Verilog HDL File        ; E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_control.v         ;         ;
+; uart_rx.v                        ; yes             ; User Verilog HDL File        ; E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_rx.v              ;         ;
+; pll.v                            ; yes             ; User Wizard-Generated File   ; E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/pll.v                  ;         ;
+; uart_tx.v                        ; yes             ; User Verilog HDL File        ; E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_tx.v              ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/altsyncram.tdf                                                            ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/stratix_ram_block.inc                                                     ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/lpm_mux.inc                                                               ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/lpm_decode.inc                                                            ;         ;
+; aglobal171.inc                   ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/aglobal171.inc                                                            ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/a_rdenreg.inc                                                             ;         ;
+; altrom.inc                       ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/altrom.inc                                                                ;         ;
+; altram.inc                       ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/altram.inc                                                                ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/altdpram.inc                                                              ;         ;
+; db/altsyncram_djf1.tdf           ; yes             ; Auto-Generated Megafunction  ; E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/altsyncram_djf1.tdf ;         ;
+; db/decode_rsa.tdf                ; yes             ; Auto-Generated Megafunction  ; E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/decode_rsa.tdf      ;         ;
+; db/decode_k8a.tdf                ; yes             ; Auto-Generated Megafunction  ; E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/decode_k8a.tdf      ;         ;
+; db/mux_bnb.tdf                   ; yes             ; Auto-Generated Megafunction  ; E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/mux_bnb.tdf         ;         ;
+; altpll.tdf                       ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/altpll.tdf                                                                ;         ;
+; stratix_pll.inc                  ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/stratix_pll.inc                                                           ;         ;
+; stratixii_pll.inc                ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/stratixii_pll.inc                                                         ;         ;
+; cycloneii_pll.inc                ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/cycloneii_pll.inc                                                         ;         ;
+; db/pll_altpll.v                  ; yes             ; Auto-Generated Megafunction  ; E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/pll_altpll.v        ;         ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------+
@@ -234,11 +233,11 @@ refer to the applicable agreement for further details.
 ;     -- normal mode                          ; 226                                                                          ;
 ;     -- arithmetic mode                      ; 43                                                                           ;
 ;                                             ;                                                                              ;
-; Total registers                             ; 106                                                                          ;
-;     -- Dedicated logic registers            ; 106                                                                          ;
+; Total registers                             ; 107                                                                          ;
+;     -- Dedicated logic registers            ; 107                                                                          ;
 ;     -- I/O registers                        ; 0                                                                            ;
 ;                                             ;                                                                              ;
-; I/O pins                                    ; 31                                                                           ;
+; I/O pins                                    ; 32                                                                           ;
 ; Total memory bits                           ; 524288                                                                       ;
 ;                                             ;                                                                              ;
 ; Embedded Multiplier 9-bit elements          ; 0                                                                            ;
@@ -247,9 +246,9 @@ refer to the applicable agreement for further details.
 ;     -- PLLs                                 ; 1                                                                            ;
 ;                                             ;                                                                              ;
 ; Maximum fan-out node                        ; pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] ;
-; Maximum fan-out                             ; 171                                                                          ;
-; Total fan-out                               ; 2280                                                                         ;
-; Average fan-out                             ; 4.47                                                                         ;
+; Maximum fan-out                             ; 172                                                                          ;
+; Total fan-out                               ; 2276                                                                         ;
+; Average fan-out                             ; 4.51                                                                         ;
 +---------------------------------------------+------------------------------------------------------------------------------+
 
 
@@ -258,7 +257,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
 ; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                               ; Entity Name     ; Library Name ;
 +-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
-; |uart_control                             ; 269 (19)            ; 106 (19)                  ; 524288      ; 0            ; 0       ; 0         ; 31   ; 0            ; |uart_control                                                                                                     ; uart_control    ; work         ;
+; |uart_control                             ; 269 (19)            ; 107 (19)                  ; 524288      ; 0            ; 0       ; 0         ; 32   ; 0            ; |uart_control                                                                                                     ; uart_control    ; work         ;
 ;    |Data_Writer:writer|                   ; 70 (70)             ; 29 (29)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |uart_control|Data_Writer:writer                                                                                  ; Data_Writer     ; work         ;
 ;    |Data_retrieve:retriever|              ; 38 (38)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |uart_control|Data_retrieve:retriever                                                                             ; Data_retrieve   ; work         ;
 ;    |dram:data_ram|                        ; 56 (0)              ; 6 (0)                     ; 524288      ; 0            ; 0       ; 0         ; 0    ; 0            ; |uart_control|dram:data_ram                                                                                       ; dram            ; work         ;
@@ -270,8 +269,8 @@ refer to the applicable agreement for further details.
 ;    |pll:mypll|                            ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |uart_control|pll:mypll                                                                                           ; pll             ; work         ;
 ;       |altpll:altpll_component|           ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |uart_control|pll:mypll|altpll:altpll_component                                                                   ; altpll          ; work         ;
 ;          |pll_altpll:auto_generated|      ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |uart_control|pll:mypll|altpll:altpll_component|pll_altpll:auto_generated                                         ; pll_altpll      ; work         ;
-;    |uart_rx:reciever|                     ; 52 (52)             ; 27 (27)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |uart_control|uart_rx:reciever                                                                                    ; uart_rx         ; work         ;
-;    |uart_tx:transmitter|                  ; 34 (34)             ; 25 (25)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |uart_control|uart_tx:transmitter                                                                                 ; uart_tx         ; work         ;
+;    |uart_rx:reciever|                     ; 51 (51)             ; 27 (27)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |uart_control|uart_rx:reciever                                                                                    ; uart_rx         ; work         ;
+;    |uart_tx:transmitter|                  ; 35 (35)             ; 26 (26)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |uart_control|uart_tx:transmitter                                                                                 ; uart_tx         ; work         ;
 +-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -352,6 +351,10 @@ Encoding Type:  One-Hot
 ; Latch Name                                          ; Latch Enable Signal           ; Free of Timing Hazards ;
 +-----------------------------------------------------+-------------------------------+------------------------+
 ; Data_retrieve:retriever|Wen                         ; GND                           ; yes                    ;
+; Data_retrieve:retriever|Addr[13]                    ; Data_retrieve:retriever|STATE ; yes                    ;
+; Data_retrieve:retriever|Addr[14]                    ; Data_retrieve:retriever|STATE ; yes                    ;
+; Data_retrieve:retriever|Addr[15]                    ; Data_retrieve:retriever|STATE ; yes                    ;
+; Data_retrieve:retriever|Addr[0]                     ; Data_retrieve:retriever|STATE ; yes                    ;
 ; Data_retrieve:retriever|Addr[1]                     ; Data_retrieve:retriever|STATE ; yes                    ;
 ; Data_retrieve:retriever|Addr[2]                     ; Data_retrieve:retriever|STATE ; yes                    ;
 ; Data_retrieve:retriever|Addr[3]                     ; Data_retrieve:retriever|STATE ; yes                    ;
@@ -364,11 +367,7 @@ Encoding Type:  One-Hot
 ; Data_retrieve:retriever|Addr[10]                    ; Data_retrieve:retriever|STATE ; yes                    ;
 ; Data_retrieve:retriever|Addr[11]                    ; Data_retrieve:retriever|STATE ; yes                    ;
 ; Data_retrieve:retriever|Addr[12]                    ; Data_retrieve:retriever|STATE ; yes                    ;
-; Data_retrieve:retriever|Addr[13]                    ; Data_retrieve:retriever|STATE ; yes                    ;
 ; Data_retrieve:retriever|STATE                       ; GND                           ; yes                    ;
-; Data_retrieve:retriever|Addr[14]                    ; Data_retrieve:retriever|STATE ; yes                    ;
-; Data_retrieve:retriever|Addr[15]                    ; Data_retrieve:retriever|STATE ; yes                    ;
-; Data_retrieve:retriever|Addr[0]                     ; Data_retrieve:retriever|STATE ; yes                    ;
 ; Number of user-specified and inferred latches = 18  ;                               ;                        ;
 +-----------------------------------------------------+-------------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
@@ -393,7 +392,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 106   ;
+; Total registers                              ; 107   ;
 ; Number of registers using Synchronous Clear  ; 16    ;
 ; Number of registers using Synchronous Load   ; 16    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -419,15 +418,15 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                         ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------+
-; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |uart_control|mux_out[4]                           ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |uart_control|Data_Writer:writer|Dout[6]           ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |uart_control|uart_tx:transmitter|r_Clock_Count[7] ;
-; 7:1                ; 8 bits    ; 32 LEs        ; 8 LEs                ; 24 LEs                 ; Yes        ; |uart_control|uart_rx:reciever|r_Clock_Count[7]    ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |uart_control|mux_out[9]                           ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |uart_control|Data_Writer:writer|Dout[3]           ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |uart_control|uart_tx:transmitter|r_Clock_Count[2] ;
+; 7:1                ; 8 bits    ; 32 LEs        ; 8 LEs                ; 24 LEs                 ; Yes        ; |uart_control|uart_rx:reciever|r_Clock_Count[1]    ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |uart_control|Data_Writer:writer|Addr              ;
 ; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |uart_control|uart_tx:transmitter|r_Bit_Index      ;
 ; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |uart_control|uart_rx:reciever|r_Bit_Index         ;
 ; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; No         ; |uart_control|Selector18                           ;
-; 6:1                ; 3 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; No         ; |uart_control|Data_Writer:writer|Selector10        ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; No         ; |uart_control|Data_Writer:writer|Selector11        ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------+
 
 
@@ -986,27 +985,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 +--------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "uart_tx:transmitter"                                                                                            ;
-+-------------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port        ; Type   ; Severity ; Details                                                                                                  ;
-+-------------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; o_Tx_Active ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+-------------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 31                          ;
-; cycloneiii_ff         ; 106                         ;
+; boundary_port         ; 32                          ;
+; cycloneiii_ff         ; 107                         ;
 ;     ENA               ; 18                          ;
 ;     ENA SCLR          ; 16                          ;
 ;     SLD               ; 16                          ;
-;     plain             ; 56                          ;
-; cycloneiii_io_obuf    ; 8                           ;
+;     plain             ; 57                          ;
 ; cycloneiii_lcell_comb ; 270                         ;
 ;     arith             ; 43                          ;
 ;         2 data inputs ; 41                          ;
@@ -1021,7 +1010,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; cycloneiii_ram_block  ; 64                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 5.00                        ;
-; Average LUT depth     ; 2.58                        ;
+; Average LUT depth     ; 2.61                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1040,37 +1029,41 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Thu Mar 22 03:27:13 2018
+    Info: Processing started: Thu Mar 22 13:25:01 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off uart -c uart
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file uart_tx_tb.v
+    Info (12023): Found entity 1: uart_tx_tb File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_tx_tb.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file data_retrieve.v
-    Info (12023): Found entity 1: Data_retrieve File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 1
+    Info (12023): Found entity 1: Data_retrieve File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file data_writer.v
-    Info (12023): Found entity 1: Data_Writer File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_Writer.v Line: 1
+    Info (12023): Found entity 1: Data_Writer File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_Writer.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file dram.v
-    Info (12023): Found entity 1: dram File: E:/Semm_5/cwwork/csd/verilog test/uart_test/dram.v Line: 39
+    Info (12023): Found entity 1: dram File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/dram.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file uart_control.v
-    Info (12023): Found entity 1: uart_control File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 1
+    Info (12023): Found entity 1: uart_control File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_control.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file uart_rx.v
-    Info (12023): Found entity 1: uart_rx File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_rx.v Line: 3
+    Info (12023): Found entity 1: uart_rx File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_rx.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file pll.v
-    Info (12023): Found entity 1: pll File: E:/Semm_5/cwwork/csd/verilog test/uart_test/pll.v Line: 39
+    Info (12023): Found entity 1: pll File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/pll.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file uart_tx.v
-    Info (12023): Found entity 1: uart_tx File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_tx.v Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at uart_control.v(26): created implicit net for "clk" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 26
+    Info (12023): Found entity 1: uart_tx File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_tx.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file ret_tb.v
+    Info (12023): Found entity 1: ret_tb File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/ret_tb.v Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at uart_control.v(26): created implicit net for "clk" File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_control.v Line: 26
 Info (12127): Elaborating entity "uart_control" for the top level hierarchy
-Info (12128): Elaborating entity "Data_Writer" for hierarchy "Data_Writer:writer" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 26
-Warning (10230): Verilog HDL assignment warning at Data_Writer.v(42): truncated value with size 32 to match size of target (16) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_Writer.v Line: 42
-Info (12128): Elaborating entity "uart_rx" for hierarchy "uart_rx:reciever" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 29
-Warning (10230): Verilog HDL assignment warning at uart_rx.v(72): truncated value with size 32 to match size of target (8) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_rx.v Line: 72
-Warning (10230): Verilog HDL assignment warning at uart_rx.v(83): truncated value with size 32 to match size of target (8) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_rx.v Line: 83
-Warning (10230): Verilog HDL assignment warning at uart_rx.v(94): truncated value with size 32 to match size of target (3) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_rx.v Line: 94
-Warning (10230): Verilog HDL assignment warning at uart_rx.v(112): truncated value with size 32 to match size of target (8) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_rx.v Line: 112
-Info (12128): Elaborating entity "dram" for hierarchy "dram:data_ram" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 33
-Info (12128): Elaborating entity "altsyncram" for hierarchy "dram:data_ram|altsyncram:altsyncram_component" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/dram.v Line: 85
-Info (12130): Elaborated megafunction instantiation "dram:data_ram|altsyncram:altsyncram_component" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/dram.v Line: 85
-Info (12133): Instantiated megafunction "dram:data_ram|altsyncram:altsyncram_component" with the following parameter: File: E:/Semm_5/cwwork/csd/verilog test/uart_test/dram.v Line: 85
+Info (12128): Elaborating entity "Data_Writer" for hierarchy "Data_Writer:writer" File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_control.v Line: 26
+Warning (10230): Verilog HDL assignment warning at Data_Writer.v(42): truncated value with size 32 to match size of target (16) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_Writer.v Line: 42
+Info (12128): Elaborating entity "uart_rx" for hierarchy "uart_rx:reciever" File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_control.v Line: 29
+Warning (10230): Verilog HDL assignment warning at uart_rx.v(72): truncated value with size 32 to match size of target (8) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_rx.v Line: 72
+Warning (10230): Verilog HDL assignment warning at uart_rx.v(83): truncated value with size 32 to match size of target (8) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_rx.v Line: 83
+Warning (10230): Verilog HDL assignment warning at uart_rx.v(94): truncated value with size 32 to match size of target (3) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_rx.v Line: 94
+Warning (10230): Verilog HDL assignment warning at uart_rx.v(112): truncated value with size 32 to match size of target (8) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_rx.v Line: 112
+Info (12128): Elaborating entity "dram" for hierarchy "dram:data_ram" File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_control.v Line: 33
+Info (12128): Elaborating entity "altsyncram" for hierarchy "dram:data_ram|altsyncram:altsyncram_component" File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/dram.v Line: 85
+Info (12130): Elaborated megafunction instantiation "dram:data_ram|altsyncram:altsyncram_component" File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/dram.v Line: 85
+Info (12133): Instantiated megafunction "dram:data_ram|altsyncram:altsyncram_component" with the following parameter: File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/dram.v Line: 85
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
     Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
     Info (12134): Parameter "intended_device_family" = "Cyclone IV E"
@@ -1086,53 +1079,53 @@ Info (12133): Instantiated megafunction "dram:data_ram|altsyncram:altsyncram_com
     Info (12134): Parameter "width_a" = "8"
     Info (12134): Parameter "width_byteena_a" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_djf1.tdf
-    Info (12023): Found entity 1: altsyncram_djf1 File: E:/Semm_5/cwwork/csd/verilog test/uart_test/db/altsyncram_djf1.tdf Line: 33
+    Info (12023): Found entity 1: altsyncram_djf1 File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/altsyncram_djf1.tdf Line: 33
 Info (12128): Elaborating entity "altsyncram_djf1" for hierarchy "dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated" File: e:/quartus/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_rsa.tdf
-    Info (12023): Found entity 1: decode_rsa File: E:/Semm_5/cwwork/csd/verilog test/uart_test/db/decode_rsa.tdf Line: 22
-Info (12128): Elaborating entity "decode_rsa" for hierarchy "dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/db/altsyncram_djf1.tdf Line: 44
+    Info (12023): Found entity 1: decode_rsa File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/decode_rsa.tdf Line: 22
+Info (12128): Elaborating entity "decode_rsa" for hierarchy "dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3" File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/altsyncram_djf1.tdf Line: 44
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_k8a.tdf
-    Info (12023): Found entity 1: decode_k8a File: E:/Semm_5/cwwork/csd/verilog test/uart_test/db/decode_k8a.tdf Line: 22
-Info (12128): Elaborating entity "decode_k8a" for hierarchy "dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/db/altsyncram_djf1.tdf Line: 45
+    Info (12023): Found entity 1: decode_k8a File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/decode_k8a.tdf Line: 22
+Info (12128): Elaborating entity "decode_k8a" for hierarchy "dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode" File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/altsyncram_djf1.tdf Line: 45
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_bnb.tdf
-    Info (12023): Found entity 1: mux_bnb File: E:/Semm_5/cwwork/csd/verilog test/uart_test/db/mux_bnb.tdf Line: 22
-Info (12128): Elaborating entity "mux_bnb" for hierarchy "dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|mux_bnb:mux2" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/db/altsyncram_djf1.tdf Line: 46
-Info (12128): Elaborating entity "Data_retrieve" for hierarchy "Data_retrieve:retriever" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 36
-Warning (10230): Verilog HDL assignment warning at Data_retrieve.v(37): truncated value with size 32 to match size of target (1) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 37
-Warning (10230): Verilog HDL assignment warning at Data_retrieve.v(41): truncated value with size 32 to match size of target (16) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 41
-Warning (10230): Verilog HDL assignment warning at Data_retrieve.v(46): truncated value with size 32 to match size of target (1) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 46
-Warning (10240): Verilog HDL Always Construct warning at Data_retrieve.v(31): inferring latch(es) for variable "Addr", which holds its previous value in one or more paths through the always construct File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Warning (10240): Verilog HDL Always Construct warning at Data_retrieve.v(31): inferring latch(es) for variable "Wen", which holds its previous value in one or more paths through the always construct File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Warning (10240): Verilog HDL Always Construct warning at Data_retrieve.v(31): inferring latch(es) for variable "fin", which holds its previous value in one or more paths through the always construct File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Warning (10240): Verilog HDL Always Construct warning at Data_retrieve.v(31): inferring latch(es) for variable "STATE", which holds its previous value in one or more paths through the always construct File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "STATE" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "fin" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Wen" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[0]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[1]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[2]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[3]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[4]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[5]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[6]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[7]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[8]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[9]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[10]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[11]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[12]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[13]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[14]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (10041): Inferred latch for "Addr[15]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
-Info (12128): Elaborating entity "uart_tx" for hierarchy "uart_tx:transmitter" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 39
-Warning (10230): Verilog HDL assignment warning at uart_tx.v(55): truncated value with size 32 to match size of target (8) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_tx.v Line: 55
-Warning (10230): Verilog HDL assignment warning at uart_tx.v(73): truncated value with size 32 to match size of target (8) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_tx.v Line: 73
-Warning (10230): Verilog HDL assignment warning at uart_tx.v(83): truncated value with size 32 to match size of target (3) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_tx.v Line: 83
-Warning (10230): Verilog HDL assignment warning at uart_tx.v(103): truncated value with size 32 to match size of target (8) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_tx.v Line: 103
-Info (12128): Elaborating entity "pll" for hierarchy "pll:mypll" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 41
-Info (12128): Elaborating entity "altpll" for hierarchy "pll:mypll|altpll:altpll_component" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/pll.v Line: 99
-Info (12130): Elaborated megafunction instantiation "pll:mypll|altpll:altpll_component" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/pll.v Line: 99
-Info (12133): Instantiated megafunction "pll:mypll|altpll:altpll_component" with the following parameter: File: E:/Semm_5/cwwork/csd/verilog test/uart_test/pll.v Line: 99
+    Info (12023): Found entity 1: mux_bnb File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/mux_bnb.tdf Line: 22
+Info (12128): Elaborating entity "mux_bnb" for hierarchy "dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|mux_bnb:mux2" File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/altsyncram_djf1.tdf Line: 46
+Info (12128): Elaborating entity "Data_retrieve" for hierarchy "Data_retrieve:retriever" File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_control.v Line: 36
+Warning (10230): Verilog HDL assignment warning at Data_retrieve.v(37): truncated value with size 32 to match size of target (1) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 37
+Warning (10230): Verilog HDL assignment warning at Data_retrieve.v(41): truncated value with size 32 to match size of target (16) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 41
+Warning (10230): Verilog HDL assignment warning at Data_retrieve.v(46): truncated value with size 32 to match size of target (1) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 46
+Warning (10240): Verilog HDL Always Construct warning at Data_retrieve.v(31): inferring latch(es) for variable "Addr", which holds its previous value in one or more paths through the always construct File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Warning (10240): Verilog HDL Always Construct warning at Data_retrieve.v(31): inferring latch(es) for variable "Wen", which holds its previous value in one or more paths through the always construct File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Warning (10240): Verilog HDL Always Construct warning at Data_retrieve.v(31): inferring latch(es) for variable "fin", which holds its previous value in one or more paths through the always construct File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Warning (10240): Verilog HDL Always Construct warning at Data_retrieve.v(31): inferring latch(es) for variable "STATE", which holds its previous value in one or more paths through the always construct File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "STATE" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "fin" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Wen" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[0]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[1]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[2]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[3]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[4]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[5]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[6]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[7]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[8]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[9]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[10]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[11]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[12]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[13]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[14]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (10041): Inferred latch for "Addr[15]" at Data_retrieve.v(31) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
+Info (12128): Elaborating entity "uart_tx" for hierarchy "uart_tx:transmitter" File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_control.v Line: 40
+Warning (10230): Verilog HDL assignment warning at uart_tx.v(55): truncated value with size 32 to match size of target (8) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_tx.v Line: 55
+Warning (10230): Verilog HDL assignment warning at uart_tx.v(73): truncated value with size 32 to match size of target (8) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_tx.v Line: 73
+Warning (10230): Verilog HDL assignment warning at uart_tx.v(83): truncated value with size 32 to match size of target (3) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_tx.v Line: 83
+Warning (10230): Verilog HDL assignment warning at uart_tx.v(103): truncated value with size 32 to match size of target (8) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_tx.v Line: 103
+Info (12128): Elaborating entity "pll" for hierarchy "pll:mypll" File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_control.v Line: 42
+Info (12128): Elaborating entity "altpll" for hierarchy "pll:mypll|altpll:altpll_component" File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/pll.v Line: 99
+Info (12130): Elaborated megafunction instantiation "pll:mypll|altpll:altpll_component" File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/pll.v Line: 99
+Info (12133): Instantiated megafunction "pll:mypll|altpll:altpll_component" with the following parameter: File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/pll.v Line: 99
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "5"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -1188,55 +1181,27 @@ Info (12133): Instantiated megafunction "pll:mypll|altpll:altpll_component" with
     Info (12134): Parameter "port_extclk3" = "PORT_UNUSED"
     Info (12134): Parameter "width_clock" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/pll_altpll.v
-    Info (12023): Found entity 1: pll_altpll File: E:/Semm_5/cwwork/csd/verilog test/uart_test/db/pll_altpll.v Line: 29
+    Info (12023): Found entity 1: pll_altpll File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/pll_altpll.v Line: 29
 Info (12128): Elaborating entity "pll_altpll" for hierarchy "pll:mypll|altpll:altpll_component|pll_altpll:auto_generated" File: e:/quartus/quartus/libraries/megafunctions/altpll.tdf Line: 897
-Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Warning (13034): The following nodes have both tri-state and non-tri-state drivers
-    Warning (13035): Inserted always-enabled tri-state buffer between "dram_data[0]" and its non-tri-state driver. File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Warning (13035): Inserted always-enabled tri-state buffer between "dram_data[1]" and its non-tri-state driver. File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Warning (13035): Inserted always-enabled tri-state buffer between "dram_data[2]" and its non-tri-state driver. File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Warning (13035): Inserted always-enabled tri-state buffer between "dram_data[3]" and its non-tri-state driver. File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Warning (13035): Inserted always-enabled tri-state buffer between "dram_data[4]" and its non-tri-state driver. File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Warning (13035): Inserted always-enabled tri-state buffer between "dram_data[5]" and its non-tri-state driver. File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Warning (13035): Inserted always-enabled tri-state buffer between "dram_data[6]" and its non-tri-state driver. File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Warning (13035): Inserted always-enabled tri-state buffer between "dram_data[7]" and its non-tri-state driver. File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-Info (13060): One or more bidirectional pins are fed by always enabled tri-state buffers
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "dram_data[0]" is moved to its source File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "dram_data[1]" is moved to its source File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "dram_data[2]" is moved to its source File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "dram_data[3]" is moved to its source File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "dram_data[4]" is moved to its source File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "dram_data[5]" is moved to its source File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "dram_data[6]" is moved to its source File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "dram_data[7]" is moved to its source File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-Warning (13009): TRI or OPNDRN buffers permanently enabled
-    Warning (13010): Node "dram_data[0]~synth" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Warning (13010): Node "dram_data[1]~synth" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Warning (13010): Node "dram_data[2]~synth" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Warning (13010): Node "dram_data[3]~synth" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Warning (13010): Node "dram_data[4]~synth" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Warning (13010): Node "dram_data[5]~synth" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Warning (13010): Node "dram_data[6]~synth" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
-    Warning (13010): Node "dram_data[7]~synth" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "retrieve_done" is stuck at VCC File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 7
+    Warning (13410): Pin "retrieve_done" is stuck at VCC File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_control.v Line: 7
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 5 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "ram_mode" File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 6
-Info (21057): Implemented 389 device resources after synthesis - the final resource count might be different
+    Warning (15610): No output dependent on input pin "ram_mode" File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_control.v Line: 6
+Info (21057): Implemented 391 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 20 input pins
-    Info (21059): Implemented 3 output pins
-    Info (21060): Implemented 8 bidirectional pins
-    Info (21061): Implemented 293 logic cells
+    Info (21059): Implemented 12 output pins
+    Info (21061): Implemented 294 logic cells
     Info (21064): Implemented 64 RAM segments
     Info (21065): Implemented 1 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 41 warnings
-    Info: Peak virtual memory: 670 megabytes
-    Info: Processing ended: Thu Mar 22 03:27:31 2018
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 23 warnings
+    Info: Peak virtual memory: 677 megabytes
+    Info: Processing ended: Thu Mar 22 13:25:19 2018
     Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:39
+    Info: Total CPU time (on all processors): 00:00:32
 
 

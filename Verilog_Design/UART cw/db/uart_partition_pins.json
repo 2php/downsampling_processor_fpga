@@ -4,14 +4,6 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "write_done",
-					"strict" : false
-				},
-				{
-					"name" : "tx_serial",
-					"strict" : false
-				},
-				{
 					"name" : "dram_data[0]",
 					"strict" : false
 				},
@@ -41,6 +33,18 @@
 				},
 				{
 					"name" : "dram_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "write_done",
+					"strict" : false
+				},
+				{
+					"name" : "tx_serial",
+					"strict" : false
+				},
+				{
+					"name" : "tx_active",
 					"strict" : false
 				},
 				{
@@ -108,11 +112,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "rx_serial",
+					"name" : "retrieve_image",
 					"strict" : false
 				},
 				{
-					"name" : "retrieve_image",
+					"name" : "rx_serial",
 					"strict" : false
 				}
 			]
