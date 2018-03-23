@@ -420,7 +420,6 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : E17       :        :                   :      
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.pin
 RESERVED_INPUT_WITH_WEAK_PULLUP : E18       :        :                   :         : 7         :                
 tx_active                    : E19       : output : 2.5 V             :         : 7         : Y              
@@ -470,6 +469,7 @@ VCCIO7                       : E23       : power  :                   : 2.5V    
 LEDG[3]                      : E24       : output : 2.5 V             :         : 7         : Y              
 LEDG[2]                      : E25       : output : 2.5 V             :         : 7         : Y              
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
+<<<<<<< HEAD
 =======
 LEDR[5]                      : E18       : output : 2.5 V             :         : 7         : Y              
 LEDR[2]                      : E19       : output : 2.5 V             :         : 7         : Y              
@@ -496,6 +496,8 @@ LEDG[2]                      : E25       : output : 2.5 V             :         
 >>>>>>> parent of c75ce2f... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 =======
 >>>>>>> parent of 419713f... Revert "added new uart controller"
+=======
+>>>>>>> parent of c80c4e6... reverted
 RESERVED_INPUT_WITH_WEAK_PULLUP : E26       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E27       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E28       :        :                   :         : 6         :                
@@ -548,15 +550,12 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : G18       :        :                   :      
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.pin
 write_done                   : G19       : output : 2.5 V             :         : 7         : Y              
 dram_data[5]                 : G20       : output : 2.5 V             :         : 7         : Y              
 dram_data[7]                 : G21       : output : 2.5 V             :         : 7         : Y              
 dram_data[6]                 : G22       : output : 2.5 V             :         : 7         : Y              
 =======
-=======
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
 =======
@@ -570,9 +569,6 @@ LEDG[6]                      : G22       : output : 2.5 V             :         
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
-=======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
@@ -609,7 +605,6 @@ GNDA2                        : H20       : gnd    :                   :         
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.pin
 dram_data[4]                 : H21       : output : 2.5 V             :         : 7         : Y              
 =======
@@ -624,6 +619,7 @@ LEDG[4]                      : H21       : output : 2.5 V             :         
 =======
 LEDG[4]                      : H21       : output : 2.5 V             :         : 7         : Y              
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
+<<<<<<< HEAD
 =======
 LEDG[4]                      : H21       : output : 2.5 V             :         : 7         : Y              
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
@@ -636,6 +632,8 @@ LEDG[4]                      : H21       : output : 2.5 V             :         
 >>>>>>> parent of c75ce2f... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 =======
 >>>>>>> parent of 419713f... Revert "added new uart controller"
+=======
+>>>>>>> parent of c80c4e6... reverted
 RESERVED_INPUT_WITH_WEAK_PULLUP : H22       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H23       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H24       :        :                   :         : 6         :                
