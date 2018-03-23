@@ -1,3 +1,7 @@
 Quartus_Version = Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Version_Index = 453135872
+<<<<<<< HEAD:Verilog_Design/UART cw/db/uart_implementation.db_info
 Creation_Time = Wed Jan 17 22:48:37 2018
+=======
+Creation_Time = Thu Mar 22 10:41:01 2018
+>>>>>>> parent of 60e62a1... added support for xilinx boards:Verilog_Design/UART cw/db/uart.db_info
