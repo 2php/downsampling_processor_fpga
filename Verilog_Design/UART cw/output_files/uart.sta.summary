@@ -3,43 +3,23 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'Data_retrieve:retriever|Addr[10]'
-<<<<<<< HEAD
-Slack : -8.681
-TNS   : -113.889
+Slack : -9.603
+TNS   : -132.050
 
 Type  : Slow 1200mV 85C Model Setup 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -7.562
-TNS   : -150.655
+Slack : -8.326
+TNS   : -169.917
 
 Type  : Slow 1200mV 85C Model Hold 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.331
+Slack : 0.298
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'Data_retrieve:retriever|Addr[10]'
-Slack : 0.662
+Slack : 1.066
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Data_retrieve:retriever|Addr[10]'
-Slack : 0.441
-=======
-Slack : -9.568
-TNS   : -131.281
-
-Type  : Slow 1200mV 85C Model Setup 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -8.309
-TNS   : -159.348
-
-Type  : Slow 1200mV 85C Model Hold 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.275
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'Data_retrieve:retriever|Addr[10]'
-Slack : 1.096
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Data_retrieve:retriever|Addr[10]'
-Slack : 0.446
->>>>>>> parent of 60e62a1... added support for xilinx boards
+Slack : 0.461
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'in_Clock'
@@ -47,47 +27,27 @@ Slack : 9.891
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-<<<<<<< HEAD
-Slack : 49.702
+Slack : 49.700
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Setup 'Data_retrieve:retriever|Addr[10]'
-Slack : -7.912
-TNS   : -103.440
+Slack : -8.702
+TNS   : -119.758
 
 Type  : Slow 1200mV 0C Model Setup 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -6.631
-TNS   : -130.236
+Slack : -7.275
+TNS   : -147.196
 
 Type  : Slow 1200mV 0C Model Hold 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.342
+Slack : 0.304
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'Data_retrieve:retriever|Addr[10]'
-Slack : 0.711
-=======
-Slack : 49.697
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Setup 'Data_retrieve:retriever|Addr[10]'
-Slack : -8.692
-TNS   : -118.780
-
-Type  : Slow 1200mV 0C Model Setup 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -7.265
-TNS   : -137.623
-
-Type  : Slow 1200mV 0C Model Hold 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.249
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'Data_retrieve:retriever|Addr[10]'
-Slack : 1.123
->>>>>>> parent of 60e62a1... added support for xilinx boards
+Slack : 1.090
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Data_retrieve:retriever|Addr[10]'
-Slack : 0.352
+Slack : 0.372
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'in_Clock'
@@ -95,51 +55,27 @@ Slack : 9.887
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-<<<<<<< HEAD
-Slack : 49.693
+Slack : 49.691
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'Data_retrieve:retriever|Addr[10]'
-Slack : -3.829
-TNS   : -49.060
+Slack : -4.427
+TNS   : -60.175
 
 Type  : Fast 1200mV 0C Model Setup 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -3.404
-TNS   : -66.691
+Slack : -3.884
+TNS   : -78.307
 
 Type  : Fast 1200mV 0C Model Hold 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.125
+Slack : 0.109
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'Data_retrieve:retriever|Addr[10]'
-Slack : 0.159
+Slack : 0.229
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Data_retrieve:retriever|Addr[10]'
-Slack : 0.406
-=======
-Slack : 49.688
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'Data_retrieve:retriever|Addr[10]'
-Slack : -4.367
-TNS   : -59.236
-
-Type  : Fast 1200mV 0C Model Setup 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -3.835
-TNS   : -73.120
-
-Type  : Fast 1200mV 0C Model Hold 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.097
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'Data_retrieve:retriever|Addr[10]'
-Slack : 0.309
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Data_retrieve:retriever|Addr[10]'
-Slack : 0.349
->>>>>>> parent of 60e62a1... added support for xilinx boards
+Slack : 0.347
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'in_Clock'

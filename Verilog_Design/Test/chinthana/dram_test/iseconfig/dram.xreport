@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-03-23T10:12:41</DateModified>
+  <DateModified>2018-03-22T17:26:32</DateModified>
   <ModuleName>dram</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test/chinthana/dram_test/iseconfig/dram.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test/chinthana/dram_test\</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/Test/chinthana/dram_test</ImplementationReportsDirectory>
   <DateInitialized>2018-03-22T17:26:32</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

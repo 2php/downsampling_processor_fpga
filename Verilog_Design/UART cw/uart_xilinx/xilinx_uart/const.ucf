@@ -1,0 +1,3 @@
+NET "retrieve_image" LOC "F5";
+NET "rx_serial"
+NET "dram_data" 

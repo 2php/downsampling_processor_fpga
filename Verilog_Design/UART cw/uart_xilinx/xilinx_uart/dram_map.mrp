@@ -1,4 +1,4 @@
-Release 14.7 Map P.20131013 (nt64)
+Release 14.7 Map P.20131013 (nt)
 Xilinx Mapping Report File for Design 'dram'
 
 Design Information
@@ -10,7 +10,7 @@ Target Device  : xc6slx45
 Target Package : csg324
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Fri Mar 23 10:13:21 2018
+Mapped Date    : Thu Mar 22 17:06:38 2018
 
 Design Summary
 --------------

@@ -1,0 +1,14 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "dram_data[3]" LOC = L14;
+NET "dram_data[2]" LOC = N14;
+NET "dram_data[1]" LOC = M14;
+NET "dram_data[0]" LOC = U18;
+NET "retrieve_image" LOC = F5;
+NET "rx_serial" LOC = A16;
+NET "tx_serial" LOC = B16;
+NET "in_Clock" LOC = L15;
+NET "retrieve_done" LOC = N12;
+NET "tx_active" LOC = P16;
+NET "write_done" LOC = D4;
