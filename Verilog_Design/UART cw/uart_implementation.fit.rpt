@@ -1,5 +1,4 @@
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 Fitter report for uart
 Thu Mar 22 13:25:43 2018
@@ -11,6 +10,7 @@ Wed Jan 17 22:49:45 2018
 Fitter report for uart_implementation
 Wed Jan 17 22:49:45 2018
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
+<<<<<<< HEAD
 =======
 Fitter report for uart_implementation
 Wed Jan 17 22:49:45 2018
@@ -39,6 +39,8 @@ Wed Jan 17 22:49:45 2018
 >>>>>>> parent of c80c4e6... reverted
 =======
 >>>>>>> parent of 18eb828... Revert "Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga"
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -100,6 +102,7 @@ refer to the applicable agreement for further details.
 +------------------------------------+---------------------------------------------+
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
@@ -107,6 +110,8 @@ refer to the applicable agreement for further details.
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 >>>>>>> parent of 18eb828... Revert "Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga"
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 ; Fitter Status                      ; Successful - Thu Mar 22 13:25:43 2018       ;
 =======
@@ -115,6 +120,7 @@ refer to the applicable agreement for further details.
 =======
 ; Fitter Status                      ; Successful - Wed Jan 17 22:49:45 2018       ;
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
+<<<<<<< HEAD
 =======
 ; Fitter Status                      ; Successful - Wed Jan 17 22:49:45 2018       ;
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -139,6 +145,8 @@ refer to the applicable agreement for further details.
 >>>>>>> parent of c80c4e6... reverted
 =======
 >>>>>>> parent of 18eb828... Revert "Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga"
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; uart_implementation                         ;
 ; Top-level Entity Name              ; uart_implementation                         ;
@@ -147,6 +155,7 @@ refer to the applicable agreement for further details.
 ; Timing Models                      ; Final                                       ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
@@ -154,6 +163,8 @@ refer to the applicable agreement for further details.
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 >>>>>>> parent of 18eb828... Revert "Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga"
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 ; Total logic elements               ; 277 / 114,480 ( < 1 % )                     ;
 ;     Total combinational functions  ; 269 / 114,480 ( < 1 % )                     ;
@@ -163,17 +174,12 @@ refer to the applicable agreement for further details.
 =======
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 ; Total logic elements               ; 0 / 114,480 ( 0 % )                         ;
 ;     Total combinational functions  ; 0 / 114,480 ( 0 % )                         ;
 ;     Dedicated logic registers      ; 0 / 114,480 ( 0 % )                         ;
 ; Total registers                    ; 0                                           ;
 ; Total pins                         ; 26 / 529 ( 5 % )                            ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -259,7 +265,6 @@ refer to the applicable agreement for further details.
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 ;     Processor 2            ;   1.0%      ;
 +----------------------------+-------------+
@@ -298,12 +303,6 @@ refer to the applicable agreement for further details.
 
 
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
-;     Processor 2            ;   0.0%      ;
-+----------------------------+-------------+
-
-
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 +-----------------------------------------------------------------------------------------+
 ; Ignored Assignments                                                                     ;
 +----------+----------------+--------------+-------------+---------------+----------------+
@@ -328,9 +327,6 @@ refer to the applicable agreement for further details.
 ;     -- Achieved     ; 0.00 % ( 0 / 0 )  ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
 +---------------------+-------------------+----------------------------+--------------------------+
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -353,6 +349,7 @@ refer to the applicable agreement for further details.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
@@ -360,13 +357,11 @@ refer to the applicable agreement for further details.
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 >>>>>>> parent of 18eb828... Revert "Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga"
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 ; Top                            ; 0.00 % ( 0 / 506 )    ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 12 )     ; N/A                     ; Source File       ; N/A                 ;       ;
-=======
-; Top                            ; 0.00 % ( 0 / 53 )     ; N/A                     ; Source File       ; N/A                 ;       ;
-; hard_block:auto_generated_inst ; 0.00 % ( 0 / 10 )     ; N/A                     ; Source File       ; N/A                 ;       ;
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 ; Top                            ; 0.00 % ( 0 / 53 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 10 )     ; N/A                     ; Source File       ; N/A                 ;       ;
@@ -381,7 +376,6 @@ refer to the applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 The pin-out file can be found in E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/output_files/uart.pin.
@@ -445,11 +439,6 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 
 
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
-The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart_implementation.pin.
-
-
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 +---------------------------------------------------------------------+
 ; Fitter Resource Usage Summary                                       ;
 +---------------------------------------------+-----------------------+
@@ -500,9 +489,6 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 ; Average fan-out                             ; 0.50                  ;
 +---------------------------------------------+-----------------------+
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -510,7 +496,6 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 
 
 
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 +-------------------------------------------------------------------------------------------------------+
@@ -634,8 +619,6 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 =======
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 +---------------------------------------------------------------------------------------------------+
 ; Fitter Partition Statistics                                                                       ;
 +---------------------------------------------+--------------------+--------------------------------+
@@ -746,6 +729,7 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 ; LEDR[7] ; H19   ; 7        ; 72           ; 73           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 +---------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
+<<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -766,6 +750,8 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
 =======
@@ -804,7 +790,6 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 ; 2        ; 0 / 63 ( 0 % )   ; 2.5V          ; --           ;
 ; 3        ; 0 / 73 ( 0 % )   ; 2.5V          ; --           ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 ; 4        ; 2 / 71 ( 3 % )   ; 2.5V          ; --           ;
 ; 5        ; 17 / 65 ( 26 % ) ; 2.5V          ; --           ;
@@ -813,13 +798,12 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 =======
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 ; 4        ; 0 / 71 ( 0 % )   ; 2.5V          ; --           ;
 ; 5        ; 8 / 65 ( 12 % )  ; 2.5V          ; --           ;
 ; 6        ; 3 / 58 ( 5 % )   ; 2.5V          ; --           ;
 ; 7        ; 16 / 72 ( 22 % ) ; 2.5V          ; --           ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
+<<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -834,6 +818,8 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 =======
 =======
 >>>>>>> parent of c80c4e6... reverted
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 =======
@@ -1205,7 +1191,6 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 ; E16      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; E17      ; 456        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 ; E18      ; 427        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E19      ; 421        ; 7        ; tx_active                                                 ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
@@ -1218,8 +1203,6 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 =======
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 ; E18      ; 427        ; 7        ; LEDR[5]                                                   ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; E19      ; 421        ; 7        ; LEDR[2]                                                   ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; E20      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
@@ -1229,9 +1212,6 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 ; E24      ; 433        ; 7        ; LEDG[3]                                                   ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; E25      ; 434        ; 7        ; LEDG[2]                                                   ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -1311,7 +1291,6 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 ; G17      ; 437        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; G18      ; 452        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 ; G19      ; 451        ; 7        ; write_done                                                ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; G20      ; 444        ; 7        ; dram_data[5]                                              ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
@@ -1320,16 +1299,11 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 =======
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 ; G19      ; 451        ; 7        ; LEDR[0]                                                   ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; G20      ; 444        ; 7        ; LEDG[5]                                                   ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; G21      ; 445        ; 7        ; LEDG[7]                                                   ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; G22      ; 449        ; 7        ; LEDG[6]                                                   ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -1360,7 +1334,6 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 ; H19      ; 446        ; 7        ; LEDR[7]                                                   ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; H20      ;            ;          ; GNDA2                                                     ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 ; H21      ; 448        ; 7        ; dram_data[4]                                              ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 =======
@@ -1369,6 +1342,7 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 =======
 ; H21      ; 448        ; 7        ; LEDG[4]                                                   ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
+<<<<<<< HEAD
 =======
 ; H21      ; 448        ; 7        ; LEDG[4]                                                   ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -1393,6 +1367,8 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 >>>>>>> parent of c80c4e6... reverted
 =======
 >>>>>>> parent of 18eb828... Revert "Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga"
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 ; H22      ; 399        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; H23      ; 391        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; H24      ; 390        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -1740,7 +1716,6 @@ The pin-out file can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart
 Note: Pin directions (input, output or bidir) are based on device operating in user mode.
 
 
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 +--------------------------------------------------------------------------------------------------+
@@ -2297,77 +2272,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 +---------------------------------------------------+
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
-+-------------------------------------------------+
-; I/O Assignment Warnings                         ;
-+----------+--------------------------------------+
-; Pin Name ; Reason                               ;
-+----------+--------------------------------------+
-; LEDR[0]  ; Missing drive strength and slew rate ;
-; LEDR[1]  ; Missing drive strength and slew rate ;
-; LEDR[2]  ; Missing drive strength and slew rate ;
-; LEDR[3]  ; Missing drive strength and slew rate ;
-; LEDR[4]  ; Missing drive strength and slew rate ;
-; LEDR[5]  ; Missing drive strength and slew rate ;
-; LEDR[6]  ; Missing drive strength and slew rate ;
-; LEDR[7]  ; Missing drive strength and slew rate ;
-; LEDG[0]  ; Missing drive strength and slew rate ;
-; LEDG[1]  ; Missing drive strength and slew rate ;
-; LEDG[2]  ; Missing drive strength and slew rate ;
-; LEDG[3]  ; Missing drive strength and slew rate ;
-; LEDG[4]  ; Missing drive strength and slew rate ;
-; LEDG[5]  ; Missing drive strength and slew rate ;
-; LEDG[6]  ; Missing drive strength and slew rate ;
-; LEDG[7]  ; Missing drive strength and slew rate ;
-+----------+--------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                  ;
-+----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+----------------------+---------------------+--------------+
-; Compilation Hierarchy Node ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name  ; Entity Name         ; Library Name ;
-+----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+----------------------+---------------------+--------------+
-; |uart_implementation       ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 26   ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |uart_implementation ; uart_implementation ; work         ;
-+----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+----------------------+---------------------+--------------+
-Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+-----------------------------------------------------------------------------------------+
-; Delay Chain Summary                                                                     ;
-+---------+----------+---------------+---------------+-----------------------+-----+------+
-; Name    ; Pin Type ; Pad to Core 0 ; Pad to Core 1 ; Pad to Input Register ; TCO ; TCOE ;
-+---------+----------+---------------+---------------+-----------------------+-----+------+
-; LEDR[0] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; LEDR[1] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; LEDR[2] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; LEDR[3] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; LEDR[4] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; LEDR[5] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; LEDR[6] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; LEDR[7] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; SW[0]   ; Input    ; --            ; --            ; --                    ; --  ; --   ;
-; SW[1]   ; Input    ; --            ; --            ; --                    ; --  ; --   ;
-; SW[2]   ; Input    ; --            ; --            ; --                    ; --  ; --   ;
-; SW[3]   ; Input    ; --            ; --            ; --                    ; --  ; --   ;
-; SW[4]   ; Input    ; --            ; --            ; --                    ; --  ; --   ;
-; SW[5]   ; Input    ; --            ; --            ; --                    ; --  ; --   ;
-; SW[6]   ; Input    ; --            ; --            ; --                    ; --  ; --   ;
-; SW[7]   ; Input    ; --            ; --            ; --                    ; --  ; --   ;
-; LEDG[0] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; LEDG[1] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; LEDG[2] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; LEDG[3] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; LEDG[4] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; LEDG[5] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; LEDG[6] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; LEDG[7] ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; key1    ; Input    ; --            ; --            ; --                    ; --  ; --   ;
-; key2    ; Input    ; --            ; --            ; --                    ; --  ; --   ;
-+---------+----------+---------------+---------------+-----------------------+-----+------+
-
-
-+---------------------------------------------------+
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 ; Pad To Core Delay Chain Fanout                    ;
 +---------------------+-------------------+---------+
 ; Source Pin / Fanout ; Pad To Core Index ; Setting ;
@@ -2400,9 +2304,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; R4 interconnects      ; 0 / 289,782 ( 0 % ) ;
 +-----------------------+---------------------+
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -2467,6 +2368,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
@@ -2474,6 +2376,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 >>>>>>> parent of 18eb828... Revert "Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga"
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 ; Total Pass         ; 32        ; 0            ; 32        ; 0            ; 0            ; 32        ; 32        ; 0            ; 32        ; 32        ; 0            ; 12           ; 0            ; 0            ; 20           ; 0            ; 12           ; 20           ; 0            ; 0            ; 0            ; 12           ; 0            ; 0            ; 0            ; 0            ; 0            ; 32        ; 0            ; 0            ;
 ; Total Unchecked    ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
@@ -2522,12 +2426,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Total Inapplicable ; 0         ; 26           ; 0         ; 26           ; 26           ; 0         ; 0         ; 26           ; 0         ; 0         ; 26           ; 10           ; 26           ; 26           ; 16           ; 26           ; 10           ; 16           ; 26           ; 26           ; 26           ; 10           ; 26           ; 26           ; 26           ; 26           ; 26           ; 0         ; 26           ; 26           ;
 ; Total Fail         ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
-; Total Pass         ; 26        ; 0            ; 26        ; 0            ; 0            ; 26        ; 26        ; 0            ; 26        ; 26        ; 0            ; 16           ; 0            ; 0            ; 10           ; 0            ; 16           ; 10           ; 0            ; 0            ; 0            ; 16           ; 0            ; 0            ; 0            ; 0            ; 0            ; 26        ; 0            ; 0            ;
-; Total Unchecked    ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
-; Total Inapplicable ; 0         ; 26           ; 0         ; 26           ; 26           ; 0         ; 0         ; 26           ; 0         ; 0         ; 26           ; 10           ; 26           ; 26           ; 16           ; 26           ; 10           ; 16           ; 26           ; 26           ; 26           ; 10           ; 26           ; 26           ; 26           ; 26           ; 26           ; 0         ; 26           ; 26           ;
-; Total Fail         ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 ; LEDR[0]            ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; LEDR[1]            ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; LEDR[2]            ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
@@ -2555,9 +2453,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; key1               ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; key2               ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -2600,7 +2495,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------+--------+
 
 
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 +-----------------------------------------------------------------------------------------+
@@ -2647,6 +2541,7 @@ Note: This table only shows the top 20 path(s) that have the largest delay added
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
@@ -2667,6 +2562,8 @@ Note: This table only shows the top 20 path(s) that have the largest delay added
 >>>>>>> parent of c80c4e6... reverted
 =======
 >>>>>>> parent of 18eb828... Revert "Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga"
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 +-----------------+
 ; Fitter Messages ;
 +-----------------+
@@ -2676,7 +2573,6 @@ Info (119006): Selected device EP4CE115F29C7 for design "uart_implementation"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 Info (15535): Implemented PLL "pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|pll1" as Cyclone IV E PLL type File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/pll_altpll.v Line: 46
     Info (15099): Implementing clock multiplication of 1, clock division of 5, and phase shift of 0 degrees (0 ps) for pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] port File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/pll_altpll.v Line: 46
@@ -2684,6 +2580,7 @@ Info (15535): Implemented PLL "pll:mypll|altpll:altpll_component|pll_altpll:auto
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
@@ -2704,6 +2601,8 @@ Info (15535): Implemented PLL "pll:mypll|altpll:altpll_component|pll_altpll:auto
 >>>>>>> parent of c80c4e6... reverted
 =======
 >>>>>>> parent of 18eb828... Revert "Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga"
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
 Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
@@ -2725,7 +2624,6 @@ Info (169124): Fitter converted 5 user pins into dedicated programming pins
 Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'uart_implementation.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 Warning (332125): Found combinational loop of 2 nodes File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 6
@@ -2772,13 +2670,6 @@ Info (332143): No user constrained clock uncertainty found in the design. Callin
 Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
-Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
-Warning (332068): No clocks defined in design.
-Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
-Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
-Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
@@ -2786,8 +2677,11 @@ Warning (15705): Ignored locations or region assignments to the following nodes
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
+<<<<<<< HEAD
 >>>>>>> parent of c75ce2f... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
     Warning (15706): Node "start_tx" is assigned to location or region, but does not exist in design
 Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
@@ -2801,6 +2695,7 @@ Info (171121): Fitter preparation operations ending: elapsed time is 00:00:04
     Warning (15706): Node "r_Tx_Serial" is assigned to location or region, but does not exist in design
 Info (171121): Fitter preparation operations ending: elapsed time is 00:00:04
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
+<<<<<<< HEAD
 =======
     Warning (15706): Node "r_Rx_Serial" is assigned to location or region, but does not exist in design
     Warning (15706): Node "r_Tx_Serial" is assigned to location or region, but does not exist in design
@@ -2833,6 +2728,8 @@ Info (171121): Fitter preparation operations ending: elapsed time is 00:00:04
 >>>>>>> parent of c80c4e6... reverted
 =======
 >>>>>>> parent of 18eb828... Revert "Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga"
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:01
@@ -2843,6 +2740,7 @@ Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
@@ -2850,6 +2748,8 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 >>>>>>> parent of 18eb828... Revert "Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga"
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
     Info (170196): Router estimated peak interconnect usage is 5% of the available device resources in the region that extends from location X58_Y24 to location X68_Y36
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
@@ -2872,6 +2772,7 @@ Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
 Info (11888): Total time spent on timing analysis during the Fitter is 0.07 seconds.
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
+<<<<<<< HEAD
 =======
     Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X0_Y24 to location X10_Y36
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
@@ -2916,11 +2817,12 @@ Info (11888): Total time spent on timing analysis during the Fitter is 0.07 seco
 >>>>>>> parent of c80c4e6... reverted
 =======
 >>>>>>> parent of 18eb828... Revert "Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga"
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
@@ -2934,8 +2836,6 @@ Info: Quartus Prime Fitter was successful. 0 errors, 25 warnings
 =======
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart_implementation.fit.smsg
@@ -2945,9 +2845,6 @@ Info: Quartus Prime Fitter was successful. 0 errors, 9 warnings
     Info: Elapsed time: 00:00:32
     Info: Total CPU time (on all processors): 00:00:20
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
->>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
-=======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -2957,7 +2854,6 @@ Info: Quartus Prime Fitter was successful. 0 errors, 9 warnings
 ; Fitter Suppressed Messages ;
 +----------------------------+
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
-<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.fit.rpt
 The suppressed messages can be found in E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/output_files/uart.fit.smsg.
 =======
@@ -2966,6 +2862,7 @@ The suppressed messages can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART 
 =======
 The suppressed messages can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart_implementation.fit.smsg.
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
+<<<<<<< HEAD
 =======
 The suppressed messages can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart_implementation.fit.smsg.
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -2990,5 +2887,7 @@ The suppressed messages can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART 
 >>>>>>> parent of c80c4e6... reverted
 =======
 >>>>>>> parent of 18eb828... Revert "Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga"
+=======
+>>>>>>> parent of 136c1ec... Revert "added new uart controller"
 
 
