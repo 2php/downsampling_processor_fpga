@@ -7,6 +7,7 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
+<<<<<<< HEAD
 Z0 dE:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/simulation/modelsim
 vData_retrieve
 Z1 !s110 1521721682
@@ -18,11 +19,25 @@ R0
 w1521703952
 8E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v
 FE:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v
+=======
+Z0 dE:/Semester-4 ENTC/CWwork/elec iii/UART cw/simulation/modelsim
+vuart_implementation
+Z1 !s110 1516209879
+!i10b 1
+!s100 kJIhY:KLXGGiI>BoWIKE93
+ITmhG^;<J40Sj`fZ:ll1Hl3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1508331851
+8E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart_implementation.v
+FE:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart_implementation.v
+>>>>>>> c80c4e667bcc6fadedc08f1a8459bad7a3f5932f
 L0 1
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
+<<<<<<< HEAD
 Z4 !s108 1521721682.000000
 !s107 E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw|E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v|
@@ -42,10 +57,31 @@ w1521654406
 8E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_Writer.v
 FE:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_Writer.v
 L0 1
+=======
+!s108 1516209879.000000
+!s107 E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart_implementation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Semester-4 ENTC/CWwork/elec iii/UART cw|E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart_implementation.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+E:/Semester-4 ENTC/CWwork/elec iii/UART cw}
+Z6 tCvgOpt 0
+vuart_rx
+R1
+!i10b 1
+!s100 ^]aTEiO8YRM;dM10jDM;B3
+Igb^]RZ<cCCOJL8Fo]glXb0
+R2
+R0
+Z7 w1508161166
+Z8 8E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart.v
+Z9 FE:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart.v
+L0 3
+>>>>>>> c80c4e667bcc6fadedc08f1a8459bad7a3f5932f
 R3
 r1
 !s85 0
 31
+<<<<<<< HEAD
 R4
 !s107 E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_Writer.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw|E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_Writer.v|
@@ -109,11 +145,32 @@ w1519999767
 8E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/pll_altpll.v
 FE:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/pll_altpll.v
 L0 29
+=======
+Z10 !s108 1516209878.000000
+Z11 !s107 E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Semester-4 ENTC/CWwork/elec iii/UART cw|E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart.v|
+!i113 1
+R4
+R5
+R6
+vuart_tb
+R1
+!i10b 1
+!s100 9oWZL?Bj<Xn7=;Tg:7DfV1
+I@:Eb:=Jf15_4bXo0N8W]X0
+R2
+R0
+R7
+R8
+R9
+L0 283
+>>>>>>> c80c4e667bcc6fadedc08f1a8459bad7a3f5932f
 R3
 r1
 !s85 0
 31
 R10
+<<<<<<< HEAD
 !s107 E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/pll_altpll.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db|E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/pll_altpll.v|
 !i113 1
@@ -175,14 +232,42 @@ w1521700829
 8E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_tx.v
 FE:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_tx.v
 L0 1
+=======
+R11
+R12
+!i113 1
+R4
+R5
+R6
+vuart_tx
+R1
+!i10b 1
+!s100 9>@:LAo]o6hNVLh]D1O971
+IL2^<l[V9>RcXDz<mLeHnF3
+R2
+R0
+R7
+R8
+R9
+L0 144
+>>>>>>> c80c4e667bcc6fadedc08f1a8459bad7a3f5932f
 R3
 r1
 !s85 0
 31
 R10
+<<<<<<< HEAD
 !s107 E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_tx.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw|E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_tx.v|
 !i113 1
 R5
 R6
 R7
+=======
+R11
+R12
+!i113 1
+R4
+R5
+R6
+>>>>>>> c80c4e667bcc6fadedc08f1a8459bad7a3f5932f

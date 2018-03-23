@@ -1,0 +1,57 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Semester-4 ENTC/CWwork/elec iii/UART cw/simulation/modelsim
+Euart_implementation
+Z1 w1508331922
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 L_6l00[jX@fPi3NK9k]K51
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 dg2jie6KIo=WomW[h>BZb0
+R0
+Z8 8uart_implementation_7_1200mv_85c_slow.vho
+Z9 Fuart_implementation_7_1200mv_85c_slow.vho
+l0
+L35
+V:BV4=@S2U;iS]6bcXEe^71
+!s100 ZReG>E@0IM>;FT94Q:iB20
+Z10 OV;C;10.3d;59
+31
+Z11 !s110 1508331965
+!i10b 1
+Z12 !s108 1508331965.751000
+Z13 !s90 -reportprogress|300|-93|-work|work|uart_implementation_7_1200mv_85c_slow.vho|
+Z14 !s107 uart_implementation_7_1200mv_85c_slow.vho|
+!i113 1
+Z15 o-93 -work work
+Z16 tExplicit 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 19 uart_implementation 0 22 :BV4=@S2U;iS]6bcXEe^71
+l116
+L74
+V@JTzD6Ug_=`>`zd<o8>QY1
+!s100 :zkkiO7DdI9]FoM=V73hB2
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
