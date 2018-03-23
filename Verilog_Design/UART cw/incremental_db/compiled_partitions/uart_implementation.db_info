@@ -1,0 +1,9 @@
+<<<<<<< HEAD:Verilog_Design/UART cw/incremental_db/compiled_partitions/uart.db_info
+Quartus_Version = Version 15.0.0 Build 145 04/22/2015 SJ Full Version
+Version_Index = 369135872
+Creation_Time = Fri Mar 23 14:39:33 2018
+=======
+Quartus_Version = Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Version_Index = 453135872
+Creation_Time = Wed Jan 17 22:39:42 2018
+>>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/incremental_db/compiled_partitions/uart_implementation.db_info
