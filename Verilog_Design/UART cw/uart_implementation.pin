@@ -480,6 +480,19 @@ VCCIO7                       : E23       : power  :                   : 2.5V    
 LEDG[3]                      : E24       : output : 2.5 V             :         : 7         : Y              
 LEDG[2]                      : E25       : output : 2.5 V             :         : 7         : Y              
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
+<<<<<<< HEAD
+=======
+=======
+LEDR[5]                      : E18       : output : 2.5 V             :         : 7         : Y              
+LEDR[2]                      : E19       : output : 2.5 V             :         : 7         : Y              
+VCCIO7                       : E20       : power  :                   : 2.5V    : 7         :                
+LEDG[0]                      : E21       : output : 2.5 V             :         : 7         : Y              
+LEDG[1]                      : E22       : output : 2.5 V             :         : 7         : Y              
+VCCIO7                       : E23       : power  :                   : 2.5V    : 7         :                
+LEDG[3]                      : E24       : output : 2.5 V             :         : 7         : Y              
+LEDG[2]                      : E25       : output : 2.5 V             :         : 7         : Y              
+>>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
+>>>>>>> parent of c75ce2f... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 RESERVED_INPUT_WITH_WEAK_PULLUP : E26       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E27       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E28       :        :                   :         : 6         :                
@@ -611,6 +624,12 @@ LEDG[4]                      : H21       : output : 2.5 V             :         
 =======
 LEDG[4]                      : H21       : output : 2.5 V             :         : 7         : Y              
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
+<<<<<<< HEAD
+=======
+=======
+LEDG[4]                      : H21       : output : 2.5 V             :         : 7         : Y              
+>>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
+>>>>>>> parent of c75ce2f... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 RESERVED_INPUT_WITH_WEAK_PULLUP : H22       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H23       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H24       :        :                   :         : 6         :                
