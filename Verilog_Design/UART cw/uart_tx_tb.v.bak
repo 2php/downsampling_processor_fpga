@@ -1,0 +1,23 @@
+module uart_tx_tb();
+	reg clk = 0;
+	reg dv;
+	reg[7:0] data;
+	wire tx_active, tx_done, tx_serial;
+	
+	parameter c_CLOCK_PERIOD_NS = 100;
+	
+	always    #(c_CLOCK_PERIOD_NS/2) clk <= !clk;
+	
+	#1000
+	data <= 75;
+	
+	#1000
+	dv <= 1;
+		
+	#100
+	dv <= 0;
+	
+	#100
+	data <= 0;
+	
+endmodule

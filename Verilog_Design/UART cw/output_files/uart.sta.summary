@@ -3,23 +3,23 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'Data_retrieve:retriever|Addr[10]'
-Slack : -9.568
-TNS   : -131.281
+Slack : -9.603
+TNS   : -132.050
 
 Type  : Slow 1200mV 85C Model Setup 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -8.309
-TNS   : -159.348
+Slack : -8.326
+TNS   : -169.917
 
 Type  : Slow 1200mV 85C Model Hold 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.275
+Slack : 0.298
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'Data_retrieve:retriever|Addr[10]'
-Slack : 1.096
+Slack : 1.066
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Data_retrieve:retriever|Addr[10]'
-Slack : 0.446
+Slack : 0.461
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'in_Clock'
@@ -27,27 +27,27 @@ Slack : 9.891
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 49.697
+Slack : 49.700
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Setup 'Data_retrieve:retriever|Addr[10]'
-Slack : -8.692
-TNS   : -118.780
+Slack : -8.702
+TNS   : -119.758
 
 Type  : Slow 1200mV 0C Model Setup 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -7.265
-TNS   : -137.623
+Slack : -7.275
+TNS   : -147.196
 
 Type  : Slow 1200mV 0C Model Hold 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.249
+Slack : 0.304
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'Data_retrieve:retriever|Addr[10]'
-Slack : 1.123
+Slack : 1.090
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Data_retrieve:retriever|Addr[10]'
-Slack : 0.352
+Slack : 0.372
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'in_Clock'
@@ -55,27 +55,27 @@ Slack : 9.887
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 49.688
+Slack : 49.691
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'Data_retrieve:retriever|Addr[10]'
-Slack : -4.367
-TNS   : -59.236
+Slack : -4.427
+TNS   : -60.175
 
 Type  : Fast 1200mV 0C Model Setup 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -3.835
-TNS   : -73.120
+Slack : -3.884
+TNS   : -78.307
 
 Type  : Fast 1200mV 0C Model Hold 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.097
+Slack : 0.109
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'Data_retrieve:retriever|Addr[10]'
-Slack : 0.309
+Slack : 0.229
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Data_retrieve:retriever|Addr[10]'
-Slack : 0.349
+Slack : 0.347
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'in_Clock'
