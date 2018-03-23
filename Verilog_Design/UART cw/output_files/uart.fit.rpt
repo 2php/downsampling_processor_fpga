@@ -1,5 +1,6 @@
 Fitter report for uart
 <<<<<<< HEAD
+<<<<<<< HEAD
 Thu Mar 22 13:25:43 2018
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
@@ -49,6 +50,9 @@ Wed Jan 17 22:49:45 2018
 =======
 Thu Mar 22 03:27:55 2018
 >>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+Thu Mar 22 03:27:55 2018
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -121,6 +125,7 @@ refer to the applicable agreement for further details.
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -181,12 +186,16 @@ refer to the applicable agreement for further details.
 =======
 ; Fitter Status                      ; Successful - Thu Mar 22 03:27:55 2018       ;
 >>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+; Fitter Status                      ; Successful - Thu Mar 22 03:27:55 2018       ;
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; uart                                        ;
 ; Top-level Entity Name              ; uart_control                                ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
@@ -211,6 +220,9 @@ refer to the applicable agreement for further details.
 =======
 ; Total logic elements               ; 282 / 114,480 ( < 1 % )                     ;
 >>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+; Total logic elements               ; 282 / 114,480 ( < 1 % )                     ;
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 ;     Total combinational functions  ; 269 / 114,480 ( < 1 % )                     ;
 ;     Dedicated logic registers      ; 106 / 114,480 ( < 1 % )                     ;
 ; Total registers                    ; 106                                         ;
@@ -330,6 +342,7 @@ refer to the applicable agreement for further details.
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -353,6 +366,9 @@ refer to the applicable agreement for further details.
 =======
 ; Top                            ; 0.00 % ( 0 / 511 )    ; N/A                     ; Source File       ; N/A                 ;       ;
 >>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+; Top                            ; 0.00 % ( 0 / 511 )    ; N/A                     ; Source File       ; N/A                 ;       ;
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 12 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -689,6 +705,22 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/verilog test/uart_test/out
 +--------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+------------------------+---------------+-----------+-----------------+------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+----------------------+----------------------+---------------------+
 
 
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Bidir Pins                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ;
++--------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+------------------------+---------------+-----------+-----------------+------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+----------------------+----------------------+---------------------+
+; Name         ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Output Register ; Output Enable Register ; Power Up High ; Slew Rate ; PCI I/O Enabled ; Open Drain ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Output Termination                ; Termination Control Block ; Output Buffer Pre-emphasis ; Location assigned by ; Output Enable Source ; Output Enable Group ;
++--------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+------------------------+---------------+-----------+-----------------+------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+----------------------+----------------------+---------------------+
+; dram_data[0] ; E21   ; 7        ; 107          ; 73           ; 7            ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
+; dram_data[1] ; E22   ; 7        ; 111          ; 73           ; 7            ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
+; dram_data[2] ; E25   ; 7        ; 83           ; 73           ; 0            ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
+; dram_data[3] ; E24   ; 7        ; 85           ; 73           ; 21           ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
+; dram_data[4] ; H21   ; 7        ; 72           ; 73           ; 14           ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
+; dram_data[5] ; G20   ; 7        ; 74           ; 73           ; 14           ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
+; dram_data[6] ; G22   ; 7        ; 72           ; 73           ; 21           ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
+; dram_data[7] ; G21   ; 7        ; 74           ; 73           ; 21           ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
++--------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+------------------------+---------------+-----------+-----------------+------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+----------------------+----------------------+---------------------+
+
+
 +-------------------------------------------------------------------------------------------------------------------------+
 ; Dual Purpose and Dedicated Pins                                                                                         ;
 +----------+-----------------------------+--------------------------+-------------------------+---------------------------+
@@ -721,6 +753,7 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/verilog test/uart_test/out
 ; 4        ; 2 / 71 ( 3 % )   ; 2.5V          ; --           ;
 ; 5        ; 17 / 65 ( 26 % ) ; 2.5V          ; --           ;
 ; 6        ; 2 / 58 ( 3 % )   ; 2.5V          ; --           ;
+<<<<<<< HEAD
 <<<<<<< HEAD
 ; 7        ; 11 / 72 ( 15 % ) ; 2.5V          ; --           ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -767,6 +800,9 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/verilog test/uart_test/out
 =======
 ; 7        ; 10 / 72 ( 14 % ) ; 2.5V          ; --           ;
 >>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+; 7        ; 10 / 72 ( 14 % ) ; 2.5V          ; --           ;
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 ; 8        ; 0 / 71 ( 0 % )   ; 2.5V          ; --           ;
 +----------+------------------+---------------+--------------+
 
@@ -1132,6 +1168,7 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/verilog test/uart_test/out
 ; E22      ; 403        ; 7        ; dram_data[1]                                              ; bidir  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; E23      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 <<<<<<< HEAD
+<<<<<<< HEAD
 ; E24      ; 433        ; 7        ; dram_data[3]                                              ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; E25      ; 434        ; 7        ; dram_data[2]                                              ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -1177,6 +1214,10 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/verilog test/uart_test/out
 ; E24      ; 433        ; 7        ; dram_data[3]                                              ; bidir  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; E25      ; 434        ; 7        ; dram_data[2]                                              ; bidir  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 >>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+; E24      ; 433        ; 7        ; dram_data[3]                                              ; bidir  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+; E25      ; 434        ; 7        ; dram_data[2]                                              ; bidir  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 ; E26      ; 378        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; E27      ; 375        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; E28      ; 374        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -1257,6 +1298,7 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/verilog test/uart_test/out
 ; H19      ; 446        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; H20      ;            ;          ; GNDA2                                                     ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 <<<<<<< HEAD
+<<<<<<< HEAD
 ; H21      ; 448        ; 7        ; dram_data[4]                                              ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
@@ -1300,6 +1342,9 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/verilog test/uart_test/out
 =======
 ; H21      ; 448        ; 7        ; dram_data[4]                                              ; bidir  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 >>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+; H21      ; 448        ; 7        ; dram_data[4]                                              ; bidir  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 ; H22      ; 399        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; H23      ; 391        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; H24      ; 390        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -2117,6 +2162,7 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 ; Pin/Rules          ; IO_000001 ; IO_000002    ; IO_000003 ; IO_000004    ; IO_000005    ; IO_000006 ; IO_000007 ; IO_000008    ; IO_000009 ; IO_000010 ; IO_000011    ; IO_000012    ; IO_000013    ; IO_000014    ; IO_000015    ; IO_000018    ; IO_000019    ; IO_000020    ; IO_000021    ; IO_000022    ; IO_000023    ; IO_000024    ; IO_000026    ; IO_000027    ; IO_000045    ; IO_000046    ; IO_000047    ; IO_000033 ; IO_000034    ; IO_000042    ;
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -2140,6 +2186,9 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 =======
 ; Total Pass         ; 31        ; 0            ; 31        ; 0            ; 0            ; 31        ; 31        ; 0            ; 31        ; 31        ; 0            ; 11           ; 0            ; 0            ; 28           ; 0            ; 11           ; 28           ; 0            ; 0            ; 0            ; 11           ; 0            ; 0            ; 0            ; 0            ; 0            ; 31        ; 0            ; 0            ;
 >>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+; Total Pass         ; 31        ; 0            ; 31        ; 0            ; 0            ; 31        ; 31        ; 0            ; 31        ; 31        ; 0            ; 11           ; 0            ; 0            ; 28           ; 0            ; 11           ; 28           ; 0            ; 0            ; 0            ; 11           ; 0            ; 0            ; 0            ; 0            ; 0            ; 31        ; 0            ; 0            ;
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 ; Total Unchecked    ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
 ; Total Inapplicable ; 0         ; 31           ; 0         ; 31           ; 31           ; 0         ; 0         ; 31           ; 0         ; 0         ; 31           ; 20           ; 31           ; 31           ; 3            ; 31           ; 20           ; 3            ; 31           ; 31           ; 31           ; 20           ; 31           ; 31           ; 31           ; 31           ; 31           ; 0         ; 31           ; 31           ;
 ; Total Fail         ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
@@ -2296,6 +2345,7 @@ Info (119006): Selected device EP4CE115F29C7 for design "uart"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
 <<<<<<< HEAD
+<<<<<<< HEAD
 Info (15535): Implemented PLL "pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|pll1" as Cyclone IV E PLL type File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/pll_altpll.v Line: 46
     Info (15099): Implementing clock multiplication of 1, clock division of 5, and phase shift of 0 degrees (0 ps) for pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] port File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/pll_altpll.v Line: 46
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -2335,6 +2385,10 @@ Info (15535): Implemented PLL "pll:mypll|altpll:altpll_component|pll_altpll:auto
 Info (15535): Implemented PLL "pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|pll1" as Cyclone IV E PLL type File: E:/Semm_5/cwwork/csd/verilog test/uart_test/db/pll_altpll.v Line: 46
     Info (15099): Implementing clock multiplication of 1, clock division of 5, and phase shift of 0 degrees (0 ps) for pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] port File: E:/Semm_5/cwwork/csd/verilog test/uart_test/db/pll_altpll.v Line: 46
 >>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+Info (15535): Implemented PLL "pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|pll1" as Cyclone IV E PLL type File: E:/Semm_5/cwwork/csd/verilog test/uart_test/db/pll_altpll.v Line: 46
+    Info (15099): Implementing clock multiplication of 1, clock division of 5, and phase shift of 0 degrees (0 ps) for pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] port File: E:/Semm_5/cwwork/csd/verilog test/uart_test/db/pll_altpll.v Line: 46
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
 Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
@@ -2392,6 +2446,7 @@ Info (176353): Automatically promoted node Data_retrieve:retriever|comb~5
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
+<<<<<<< HEAD
 <<<<<<< HEAD
 Warning (15705): Ignored locations or region assignments to the following nodes
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -2464,6 +2519,9 @@ Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
 =======
 Info (171121): Fitter preparation operations ending: elapsed time is 00:00:03
 >>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:03
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -2472,6 +2530,7 @@ Info (170137): Fitter placement was successful
 Info (170192): Fitter placement operations ending: elapsed time is 00:00:06
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
@@ -2573,6 +2632,13 @@ Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:03
 Info (11888): Total time spent on timing analysis during the Fitter is 0.69 seconds.
 >>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+    Info (170196): Router estimated peak interconnect usage is 6% of the available device resources in the region that extends from location X58_Y37 to location X68_Y48
+Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
+    Info (170201): Optimizations that may affect the design's routability were skipped
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:03
+Info (11888): Total time spent on timing analysis during the Fitter is 0.69 seconds.
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -2598,6 +2664,7 @@ Info: Quartus Prime Fitter was successful. 0 errors, 23 warnings
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
+<<<<<<< HEAD
 <<<<<<< HEAD
 The suppressed messages can be found in E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/output_files/uart.fit.smsg.
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -2642,5 +2709,8 @@ The suppressed messages can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART 
 =======
 The suppressed messages can be found in E:/Semm_5/cwwork/csd/verilog test/uart_test/output_files/uart.fit.smsg.
 >>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+The suppressed messages can be found in E:/Semm_5/cwwork/csd/verilog test/uart_test/output_files/uart.fit.smsg.
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 
 

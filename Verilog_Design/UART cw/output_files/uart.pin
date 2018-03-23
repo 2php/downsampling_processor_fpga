@@ -424,6 +424,7 @@ dram_data[0]                 : E21       : bidir  : 2.5 V             :         
 dram_data[1]                 : E22       : bidir  : 2.5 V             :         : 7         : Y              
 VCCIO7                       : E23       : power  :                   : 2.5V    : 7         :                
 <<<<<<< HEAD
+<<<<<<< HEAD
 dram_data[3]                 : E24       : output : 2.5 V             :         : 7         : Y              
 dram_data[2]                 : E25       : output : 2.5 V             :         : 7         : Y              
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
@@ -511,6 +512,10 @@ LEDG[2]                      : E25       : output : 2.5 V             :         
 dram_data[3]                 : E24       : bidir  : 2.5 V             :         : 7         : Y              
 dram_data[2]                 : E25       : bidir  : 2.5 V             :         : 7         : Y              
 >>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+dram_data[3]                 : E24       : bidir  : 2.5 V             :         : 7         : Y              
+dram_data[2]                 : E25       : bidir  : 2.5 V             :         : 7         : Y              
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 RESERVED_INPUT_WITH_WEAK_PULLUP : E26       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E27       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E28       :        :                   :         : 6         :                
@@ -591,6 +596,7 @@ VCCIO7                       : H18       : power  :                   : 2.5V    
 RESERVED_INPUT_WITH_WEAK_PULLUP : H19       :        :                   :         : 7         :                
 GNDA2                        : H20       : gnd    :                   :         :           :                
 <<<<<<< HEAD
+<<<<<<< HEAD
 dram_data[4]                 : H21       : output : 2.5 V             :         : 7         : Y              
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
 =======
@@ -634,6 +640,9 @@ LEDG[4]                      : H21       : output : 2.5 V             :         
 =======
 dram_data[4]                 : H21       : bidir  : 2.5 V             :         : 7         : Y              
 >>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+dram_data[4]                 : H21       : bidir  : 2.5 V             :         : 7         : Y              
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 RESERVED_INPUT_WITH_WEAK_PULLUP : H22       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H23       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H24       :        :                   :         : 6         :                
