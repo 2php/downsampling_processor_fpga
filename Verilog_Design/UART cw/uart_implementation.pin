@@ -481,6 +481,7 @@ LEDG[3]                      : E24       : output : 2.5 V             :         
 LEDG[2]                      : E25       : output : 2.5 V             :         : 7         : Y              
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 LEDR[5]                      : E18       : output : 2.5 V             :         : 7         : Y              
@@ -493,6 +494,8 @@ LEDG[3]                      : E24       : output : 2.5 V             :         
 LEDG[2]                      : E25       : output : 2.5 V             :         : 7         : Y              
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
 >>>>>>> parent of c75ce2f... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+>>>>>>> parent of 419713f... Revert "added new uart controller"
 RESERVED_INPUT_WITH_WEAK_PULLUP : E26       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E27       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E28       :        :                   :         : 6         :                
@@ -625,11 +628,14 @@ LEDG[4]                      : H21       : output : 2.5 V             :         
 LEDG[4]                      : H21       : output : 2.5 V             :         : 7         : Y              
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 LEDG[4]                      : H21       : output : 2.5 V             :         : 7         : Y              
 >>>>>>> parent of 6f19c93... added new uart controller:Verilog_Design/UART cw/uart_implementation.pin
 >>>>>>> parent of c75ce2f... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
+=======
+>>>>>>> parent of 419713f... Revert "added new uart controller"
 RESERVED_INPUT_WITH_WEAK_PULLUP : H22       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H23       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H24       :        :                   :         : 6         :                
