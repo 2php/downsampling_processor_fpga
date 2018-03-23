@@ -1,16 +1,16 @@
-Release 14.7 - xst P.20131013 (nt)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Reading design: uart_control.prj
 
@@ -98,9 +98,6 @@ BRAM Utilization Ratio             : 100
 DSP48 Utilization Ratio            : 100
 Auto BRAM Packing                  : NO
 Slice Utilization Ratio Delta      : 5
-
----- Other Options
-Cores Search Directories           : {"ipcore_dir"  }
 
 =========================================================================
 
@@ -389,8 +386,8 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-Reading core <ipcore_dir/dram.ngc>.
-Loading core <dram> for timing and area information for instance <data_ram>.
+Reading core <dram.ngc>.
+WARNING:Xst:1814 - Core <dram.ngc> does not contain any logic.
 WARNING:Xst:1426 - The value init of the FF/Latch fin hinder the constant cleaning in the block retriever.
    You should achieve better results by setting this init to 1.
 
@@ -502,6 +499,14 @@ WARNING:Xst:1293 - FF/Latch <transmitter/r_Clock_Count_7> has a constant value o
 INFO:Xst:2261 - The FF/Latch <reciever/r_SM_Main_FSM_FFd1> in Unit <uart_control> is equivalent to the following FF/Latch, which will be removed : <reciever/r_Rx_DV> 
 
 Mapping all equations...
+WARNING:Xst:2036 - Inserting OBUF on port <dram_data<7>> driven by black box <dram>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <dram_data<6>> driven by black box <dram>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <dram_data<5>> driven by black box <dram>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <dram_data<4>> driven by black box <dram>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <dram_data<3>> driven by black box <dram>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <dram_data<2>> driven by black box <dram>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <dram_data<1>> driven by black box <dram>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <dram_data<0>> driven by black box <dram>. Possible simulation mismatch.
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 5) on block uart_control, actual ratio is 0.
 
@@ -541,22 +546,22 @@ Top Level Output File Name         : uart_control.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 225
-#      GND                         : 2
+# BELS                             : 211
+#      GND                         : 1
 #      INV                         : 6
 #      LUT1                        : 30
-#      LUT2                        : 12
+#      LUT2                        : 8
 #      LUT3                        : 24
 #      LUT4                        : 27
 #      LUT5                        : 15
-#      LUT6                        : 44
+#      LUT6                        : 36
 #      MUXCY                       : 30
 #      MUXF7                       : 1
-#      VCC                         : 2
+#      VCC                         : 1
 #      XORCY                       : 32
-# FlipFlops/Latches                : 113
+# FlipFlops/Latches                : 111
 #      FD                          : 20
-#      FDE                         : 75
+#      FDE                         : 73
 #      LD                          : 17
 #      LDE                         : 1
 # Shift Registers                  : 1
@@ -567,9 +572,9 @@ Primitive and Black Box Usage:
 #      IBUF                        : 2
 #      IBUFG                       : 1
 #      OBUF                        : 12
-# Others                           : 65
+# Others                           : 2
+#      dram                        : 1
 #      MMCM_ADV                    : 1
-#      RAMB36E1                    : 64
 
 Device utilization summary:
 ---------------------------
@@ -578,26 +583,24 @@ Selected Device : 6slx45csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             113  out of  54576     0%  
- Number of Slice LUTs:                  159  out of  27288     0%  
-    Number used as Logic:               158  out of  27288     0%  
+ Number of Slice Registers:             111  out of  54576     0%  
+ Number of Slice LUTs:                  147  out of  27288     0%  
+    Number used as Logic:               146  out of  27288     0%  
     Number used as Memory:                1  out of   6408     0%  
        Number used as SRL:                1
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    174
-   Number with an unused Flip Flop:      61  out of    174    35%  
-   Number with an unused LUT:            15  out of    174     8%  
-   Number of fully used LUT-FF pairs:    98  out of    174    56%  
-   Number of unique control sets:        15
+ Number of LUT Flip Flop pairs used:    160
+   Number with an unused Flip Flop:      49  out of    160    30%  
+   Number with an unused LUT:            13  out of    160     8%  
+   Number of fully used LUT-FF pairs:    98  out of    160    61%  
+   Number of unique control sets:        14
 
 IO Utilization: 
  Number of IOs:                          15
  Number of bonded IOBs:                  15  out of    218     6%  
 
 Specific Feature Utilization:
- Number of Block RAM/FIFO:               64  out of    116    55%  
-    Number using Block RAM only:         64
  Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
 
 ---------------------------
@@ -621,7 +624,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-in_Clock                           | MMCM_ADV:CLKOUT0       | 96    |
+in_Clock                           | MMCM_ADV:CLKOUT0       | 94    |
 retriever/Wen                      | NONE(retriever/Addr_15)| 17    |
 retriever/Wen_G(retriever/Wen_G:O) | NONE(*)(retriever/Wen) | 1     |
 -----------------------------------+------------------------+-------+
@@ -640,8 +643,8 @@ Speed Grade: -3
 
    Minimum period: 2.655ns (Maximum Frequency: 376.719MHz)
    Minimum input arrival time before clock: 2.374ns
-   Maximum output required time after clock: 5.004ns
-   Maximum combinational path delay: 4.217ns
+   Maximum output required time after clock: 3.685ns
+   Maximum combinational path delay: 3.187ns
 
 Timing Details:
 ---------------
@@ -650,7 +653,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'in_Clock'
   Clock period: 0.559ns (frequency: 1788.621MHz)
-  Total number of paths / destination ports: 2176 / 165
+  Total number of paths / destination ports: 2160 / 157
 -------------------------------------------------------------------------
 Delay:               5.591ns (Levels of Logic = 3)
   Source:            writer/Addr_9 (FF)
@@ -717,7 +720,7 @@ Delay:               2.433ns (Levels of Logic = 1)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'in_Clock'
-  Total number of paths / destination ports: 35 / 11
+  Total number of paths / destination ports: 11 / 11
 -------------------------------------------------------------------------
 Offset:              2.374ns (Levels of Logic = 2)
   Source:            retrieve_image (PAD)
@@ -737,24 +740,22 @@ Offset:              2.374ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'in_Clock'
-  Total number of paths / destination ports: 1363 / 1355
+  Total number of paths / destination ports: 28 / 28
 -------------------------------------------------------------------------
-Offset:              5.004ns (Levels of Logic = 3)
-  Source:            data_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_2 (FF)
-  Destination:       dram_data<7> (PAD)
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            writer/fin (FF)
+  Destination:       write_done (PAD)
   Source Clock:      in_Clock rising 0.1X
 
-  Data Path: data_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_2 to dram_data<7>
+  Data Path: writer/fin to write_done
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q              8   0.447   1.167  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_2 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe<2>)
-     LUT6:I0->O            2   0.203   0.616  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux81 (douta<7>)
-     end scope: 'data_ram:douta<7>'
-     OBUF:I->O                 2.571          dram_data_7_OBUF (dram_data<7>)
+     FDE:C->Q              2   0.447   0.616  writer/fin (writer/fin)
+     OBUF:I->O                 2.571          write_done_OBUF (write_done)
     ----------------------------------------
-    Total                      5.004ns (3.221ns logic, 1.783ns route)
-                                       (64.4% logic, 35.6% route)
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'retriever/Wen'
@@ -777,23 +778,21 @@ Offset:              3.685ns (Levels of Logic = 1)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 96 / 72
+  Total number of paths / destination ports: 8 / 8
 -------------------------------------------------------------------------
-Delay:               4.217ns (Levels of Logic = 3)
-  Source:            data_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/v6_noinit.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_T:DOADO<0> (PAD)
+Delay:               3.187ns (Levels of Logic = 1)
+  Source:            data_ram:douta<7> (PAD)
   Destination:       dram_data<7> (PAD)
 
-  Data Path: data_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/v6_noinit.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_T:DOADO<0> to dram_data<7>
+  Data Path: data_ram:douta<7> to dram_data<7>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-    RAMB36E1:DOADO<0>      1   0.000   0.827  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/v6_noinit.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_T (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.ram_douta)
-     LUT6:I2->O            2   0.203   0.616  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux81 (douta<7>)
-     end scope: 'data_ram:douta<7>'
+    dram:douta<7>          2   0.000   0.616  data_ram (dram_data_7_OBUF)
      OBUF:I->O                 2.571          dram_data_7_OBUF (dram_data<7>)
     ----------------------------------------
-    Total                      4.217ns (2.774ns logic, 1.443ns route)
-                                       (65.8% logic, 34.2% route)
+    Total                      3.187ns (2.571ns logic, 0.616ns route)
+                                       (80.7% logic, 19.3% route)
 
 =========================================================================
 
@@ -829,14 +828,14 @@ retriever/Wen_G|         |         |    2.433|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 8.70 secs
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.25 secs
  
 --> 
 
-Total memory usage is 256840 kilobytes
+Total memory usage is 301808 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   57 (   0 filtered)
+Number of warnings :   66 (   0 filtered)
 Number of infos    :    2 (   0 filtered)
 

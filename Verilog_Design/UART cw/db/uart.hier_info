@@ -1,12 +1,12 @@
 |uart_control
-dram_data[0] << dram_data[0].DB_MAX_OUTPUT_PORT_TYPE
-dram_data[1] << dram_data[1].DB_MAX_OUTPUT_PORT_TYPE
-dram_data[2] << dram_data[2].DB_MAX_OUTPUT_PORT_TYPE
-dram_data[3] << dram_data[3].DB_MAX_OUTPUT_PORT_TYPE
-dram_data[4] << dram_data[4].DB_MAX_OUTPUT_PORT_TYPE
-dram_data[5] << dram_data[5].DB_MAX_OUTPUT_PORT_TYPE
-dram_data[6] << dram_data[6].DB_MAX_OUTPUT_PORT_TYPE
-dram_data[7] << dram_data[7].DB_MAX_OUTPUT_PORT_TYPE
+dram_data[0] <= dram_data[0].DB_MAX_OUTPUT_PORT_TYPE
+dram_data[1] <= dram_data[1].DB_MAX_OUTPUT_PORT_TYPE
+dram_data[2] <= dram_data[2].DB_MAX_OUTPUT_PORT_TYPE
+dram_data[3] <= dram_data[3].DB_MAX_OUTPUT_PORT_TYPE
+dram_data[4] <= dram_data[4].DB_MAX_OUTPUT_PORT_TYPE
+dram_data[5] <= dram_data[5].DB_MAX_OUTPUT_PORT_TYPE
+dram_data[6] <= dram_data[6].DB_MAX_OUTPUT_PORT_TYPE
+dram_data[7] <= dram_data[7].DB_MAX_OUTPUT_PORT_TYPE
 dram_addr[0] => Selector15.IN0
 dram_addr[1] => Selector14.IN0
 dram_addr[2] => Selector13.IN0
@@ -23,14 +23,13 @@ dram_addr[12] => Selector3.IN0
 dram_addr[13] => Selector2.IN0
 dram_addr[14] => Selector1.IN0
 dram_addr[15] => Selector0.IN0
-write_done << Data_Writer:writer.fin
+write_done <= Data_Writer:writer.fin
 in_Clock => in_Clock.IN1
 rx_serial => rx_serial.IN1
-ram_mode => ~NO_FANOUT~
 retrieve_image => retrieve_image.IN1
-tx_serial << uart_tx:transmitter.o_Tx_Serial
-retrieve_done << Data_retrieve:retriever.fin
-tx_active << uart_tx:transmitter.o_Tx_Active
+tx_serial <= uart_tx:transmitter.o_Tx_Serial
+retrieve_done <= Data_retrieve:retriever.fin
+tx_active <= uart_tx:transmitter.o_Tx_Active
 
 
 |uart_control|Data_Writer:writer

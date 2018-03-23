@@ -1,5 +1,5 @@
 Flow report for uart
-Thu Mar 22 13:25:57 2018
+Thu Mar 22 18:10:53 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,18 +40,18 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Mar 22 13:25:57 2018       ;
+; Flow Status                        ; Successful - Thu Mar 22 18:10:53 2018       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; uart                                        ;
 ; Top-level Entity Name              ; uart_control                                ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 277 / 114,480 ( < 1 % )                     ;
+; Total logic elements               ; 283 / 114,480 ( < 1 % )                     ;
 ;     Total combinational functions  ; 269 / 114,480 ( < 1 % )                     ;
 ;     Dedicated logic registers      ; 107 / 114,480 ( < 1 % )                     ;
 ; Total registers                    ; 107                                         ;
-; Total pins                         ; 32 / 529 ( 6 % )                            ;
+; Total pins                         ; 31 / 529 ( 6 % )                            ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 524,288 / 3,981,312 ( 13 % )                ;
 ; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                             ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/22/2018 13:25:01 ;
+; Start date & time ; 03/22/2018 18:09:51 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; uart                ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+--------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name  ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+--------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 93094400922592.152170530113020         ; --            ; --           ; --             ;
+; COMPILER_SIGNATURE_ID               ; 93094400922592.152172239113304         ; --            ; --           ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --           ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --           ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --           ; --             ;
@@ -99,12 +99,12 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:17     ; 1.0                     ; 669 MB              ; 00:00:32                           ;
-; Fitter                    ; 00:00:23     ; 1.0                     ; 1297 MB             ; 00:00:25                           ;
-; Assembler                 ; 00:00:05     ; 1.0                     ; 595 MB              ; 00:00:04                           ;
+; Analysis & Synthesis      ; 00:00:18     ; 1.0                     ; 660 MB              ; 00:00:32                           ;
+; Fitter                    ; 00:00:25     ; 1.0                     ; 1285 MB             ; 00:00:29                           ;
+; Assembler                 ; 00:00:05     ; 1.0                     ; 596 MB              ; 00:00:05                           ;
 ; TimeQuest Timing Analyzer ; 00:00:03     ; 1.1                     ; 727 MB              ; 00:00:03                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 573 MB              ; 00:00:02                           ;
-; Total                     ; 00:00:50     ; --                      ; --                  ; 00:01:06                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 570 MB              ; 00:00:02                           ;
+; Total                     ; 00:00:53     ; --                      ; --                  ; 00:01:11                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

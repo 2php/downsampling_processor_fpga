@@ -5,20 +5,228 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\Data_Writer.v" Line 42: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\uart_rx.v" Line 72: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\uart_rx.v" Line 83: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\uart_rx.v" Line 94: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\uart_rx.v" Line 112: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
 <msg type="warning" file="HDLCompiler" num="1499" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\dram.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">dram</arg>&gt; remains a black box.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">wea</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\uart_control.v" Line 32: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">18</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">addra</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\Data_retrieve.v" Line 33: Signal &lt;<arg fmt="%s" index="1">STATE</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">dina</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\Data_retrieve.v" Line 41: Signal &lt;<arg fmt="%s" index="1">Addr</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clka</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\Data_retrieve.v" Line 41: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\Data_retrieve.v" Line 42: Signal &lt;<arg fmt="%s" index="1">Addr</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\uart_tx.v" Line 55: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\uart_tx.v" Line 73: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\uart_tx.v" Line 83: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\uart_tx.v" Line 103: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 126: Assignment to <arg fmt="%s" index="1">clkfboutb_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 128: Assignment to <arg fmt="%s" index="1">clkout0b_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 129: Assignment to <arg fmt="%s" index="1">clkout1_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 130: Assignment to <arg fmt="%s" index="1">clkout1b_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 131: Assignment to <arg fmt="%s" index="1">clkout2_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 132: Assignment to <arg fmt="%s" index="1">clkout2b_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 133: Assignment to <arg fmt="%s" index="1">clkout3_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 134: Assignment to <arg fmt="%s" index="1">clkout3b_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 135: Assignment to <arg fmt="%s" index="1">clkout4_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 136: Assignment to <arg fmt="%s" index="1">clkout5_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 137: Assignment to <arg fmt="%s" index="1">clkout6_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 149: Assignment to <arg fmt="%s" index="1">do_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 150: Assignment to <arg fmt="%s" index="1">drdy_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 156: Assignment to <arg fmt="%s" index="1">psdone_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 158: Assignment to <arg fmt="%s" index="1">locked_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 159: Assignment to <arg fmt="%s" index="1">clkinstopped_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Semm_5\cwwork\csd\processor design main\downsampling_processor_fpga\Verilog_Design\UART cw\uart_xilinx\xilinx_uart\ipcore_dir\clk_div.v" Line 160: Assignment to <arg fmt="%s" index="1">clkfbstopped_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">Start</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">Tx_tick</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;14&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;13&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;12&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;11&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;10&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;9&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;8&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;7&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;6&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;5&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">fin</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr&lt;15&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Wen</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">dram.ngc</arg>&gt; does not contain any logic.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">fin</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">retriever</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">fin</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">Data_retrieve</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="3002" delta="old" >This design contains one or more registers/latches that are directly
+incompatible with the <arg fmt="%s" index="1">Spartan6</arg> architecture. The two primary causes of this is
+either a register or latch described with both an asynchronous set and
+asynchronous reset, or a register or latch described with an asynchronous
+set or reset which however has an initialization value of the opposite 
+polarity (i.e. asynchronous reset with an initialization value of 1).
+ While this circuit can be built, it creates a sub-optimal implementation
+in terms of area, power and performance. For a more optimal implementation
+Xilinx highly recommends one of the following:
+
+       1) Remove either the set or reset from all registers and latches
+          if not needed for required functionality
+       2) Modify the code in order to produce a synchronous set
+          and/or reset (both is preferred)
+       3) Ensure all registers have the same initialization value as the
+          described asynchronous set or reset polarity
+       4) Use the -async_to_sync option to transform the asynchronous
+          set/reset to synchronous operation
+          (timing simulation highly recommended when using this option)
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">transmitter/r_Tx_Done</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">uart_control</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">transmitter/r_Clock_Count_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">uart_control</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">reciever/r_SM_Main_FSM_FFd1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">uart_control</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;reciever/r_Rx_DV&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">dram_data&lt;7&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">dram</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">dram_data&lt;6&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">dram</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">dram_data&lt;5&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">dram</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">dram_data&lt;4&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">dram</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">dram_data&lt;3&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">dram</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">dram_data&lt;2&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">dram</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">dram_data&lt;1&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">dram</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">dram_data&lt;0&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">dram</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 </msg>
 
 </messages>
-

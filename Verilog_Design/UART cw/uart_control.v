@@ -1,9 +1,9 @@
 module uart_control(dram_data, dram_addr, write_done,
-							in_Clock, rx_serial, ram_mode,
+							in_Clock, rx_serial,
 							retrieve_image, tx_serial, retrieve_done, tx_active
 							);
 
-input in_Clock, rx_serial, ram_mode, retrieve_image;
+input in_Clock, rx_serial, retrieve_image;
 output write_done, tx_serial, retrieve_done, tx_active;
 input wire[15:0] dram_addr;
 output wire[7:0] dram_data;

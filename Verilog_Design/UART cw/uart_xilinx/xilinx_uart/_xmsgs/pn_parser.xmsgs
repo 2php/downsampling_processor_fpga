@@ -8,5 +8,26 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_xilinx/xilinx_uart/Data_Writer.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_xilinx/xilinx_uart/Data_retrieve.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_xilinx/xilinx_uart/ipcore_dir/clk_div.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_xilinx/xilinx_uart/ipcore_dir/dram.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_xilinx/xilinx_uart/uart_control.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_xilinx/xilinx_uart/uart_rx.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/uart_xilinx/xilinx_uart/uart_tx.v&quot; into library work</arg>
+</msg>
+
 </messages>
 
