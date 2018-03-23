@@ -46,7 +46,7 @@ module uart_tx
             r_Clock_Count <= 0;
             r_Bit_Index   <= 0;
              
-            if (i_Tx_DV == 1'b1)
+            if (i_Tx_DV == 1'b0)
               begin
                 r_Tx_Active <= 1'b1;
                 r_Tx_Data   <= i_Tx_Byte;

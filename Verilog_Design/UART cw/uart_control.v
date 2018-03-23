@@ -1,12 +1,21 @@
 module uart_control(dram_data, dram_addr, write_done,
-							in_Clock, rx_serial, ram_mode,
+<<<<<<< HEAD
+							in_Clock, rx_serial,
 							retrieve_image, tx_serial, retrieve_done, tx_active
 							);
 
-input in_Clock, rx_serial, ram_mode, retrieve_image;
+input in_Clock, rx_serial, retrieve_image;
 output write_done, tx_serial, retrieve_done, tx_active;
+=======
+							in_Clock, rx_serial, ram_mode,
+							retrieve_image, tx_serial, retrieve_done
+							);
+
+input in_Clock, rx_serial, ram_mode, retrieve_image;
+output write_done, tx_serial, retrieve_done;
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 input wire[15:0] dram_addr;
-output wire[7:0] dram_data;
+inout wire[7:0] dram_data;
 
 wire rx_tick_wire, tx_tick_wire, ram_write_enable, retrieve_enable;
 wire[7:0] uart_to_writer_data, writer_to_ram_data;
@@ -36,8 +45,7 @@ Data_retrieve retriever(.Start(retrieve_image), .Tx_tick(tx_tick_wire),
 							.Wen(retrieve_enable), .Addr(retrive_to_ram_addr), .fin(retrieve_done));
 							
 uart_tx transmitter(.i_Clock(clk), .i_Tx_DV(retrieve_enable),
-							.i_Tx_Byte(dram_data), .o_Tx_Serial(tx_serial), 
-							.o_Tx_Done(tx_tick_wire), .o_Tx_Active(tx_active));
+							.i_Tx_Byte(dram_data), .o_Tx_Serial(tx_serial), .o_Tx_Done(tx_tick_wire));
 					
 pll mypll(.inclk0(in_Clock), .c0(clk));
 
