@@ -1,3 +1,7 @@
+<<<<<<< HEAD:Algorithm/Old/Compare Gaussian Avg/avgAround.m
+=======
+
+>>>>>>> rukshan:Algorithm/avgAround.m
 function im_out = avgAround(im, im_out, h_in, h_out, factor )
     for i = 1:h_out                 %Iterate over rows
         i_out = i*factor-1;
