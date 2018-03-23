@@ -1,12 +1,21 @@
+<<<<<<< HEAD
 Analysis & Synthesis Status : Successful - Thu Mar 22 18:10:09 2018
+=======
+Analysis & Synthesis Status : Successful - Thu Mar 22 03:27:31 2018
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Revision Name : uart
 Top-level Entity Name : uart_control
 Family : Cyclone IV E
 Total logic elements : 284
     Total combinational functions : 269
+<<<<<<< HEAD
     Dedicated logic registers : 107
 Total registers : 107
+=======
+    Dedicated logic registers : 106
+Total registers : 106
+>>>>>>> parent of 60e62a1... added support for xilinx boards
 Total pins : 31
 Total virtual pins : 0
 Total memory bits : 524,288

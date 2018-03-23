@@ -1,7 +1,0 @@
-verilog work "uart_tx.v"
-verilog work "uart_rx.v"
-verilog work "ipcore_dir/dram.v"
-verilog work "ipcore_dir/clk_div.v"
-verilog work "Data_Writer.v"
-verilog work "Data_retrieve.v"
-verilog work "uart_control.v"

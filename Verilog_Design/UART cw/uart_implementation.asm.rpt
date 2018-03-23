@@ -1,10 +1,14 @@
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.asm.rpt
 Assembler report for uart
+<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.asm.rpt
 Thu Mar 22 18:10:44 2018
 =======
 Assembler report for uart_implementation
 Wed Jan 17 22:50:00 2018
 >>>>>>> c80c4e667bcc6fadedc08f1a8459bad7a3f5932f:Verilog_Design/UART cw/uart_implementation.asm.rpt
+=======
+Thu Mar 22 03:28:02 2018
+>>>>>>> parent of 60e62a1... added support for xilinx boards:Verilog_Design/UART cw/output_files/uart.asm.rpt
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -15,7 +19,11 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
+<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.asm.rpt
   5. Assembler Device Options: E:/Semester-4 ENTC/CWwork/elec iii/UART cw/uart_implementation.sof
+=======
+  5. Assembler Device Options: E:/Semm_5/cwwork/csd/verilog test/uart_test/output_files/uart.sof
+>>>>>>> parent of 60e62a1... added support for xilinx boards:Verilog_Design/UART cw/output_files/uart.asm.rpt
   6. Assembler Messages
 
 
@@ -42,8 +50,12 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
+<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.asm.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.asm.rpt
 ; Assembler Status      ; Successful - Thu Mar 22 18:10:44 2018 ;
+=======
+; Assembler Status      ; Successful - Thu Mar 22 03:28:02 2018 ;
+>>>>>>> parent of 60e62a1... added support for xilinx boards:Verilog_Design/UART cw/output_files/uart.asm.rpt
 ; Revision Name         ; uart                                  ;
 ; Top-level Entity Name ; uart_control                          ;
 =======
@@ -63,6 +75,7 @@ refer to the applicable agreement for further details.
 +--------+---------+---------------+
 
 
+<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.asm.rpt
 +--------------------------------------------------------------------+
 ; Assembler Generated Files                                          ;
 +--------------------------------------------------------------------+
@@ -91,6 +104,25 @@ refer to the applicable agreement for further details.
 ; Checksum       ; 0x005631F4                                                                  ;
 +----------------+-----------------------------------------------------------------------------+
 >>>>>>> c80c4e667bcc6fadedc08f1a8459bad7a3f5932f:Verilog_Design/UART cw/uart_implementation.asm.rpt
+=======
++-------------------------------------------------------------------+
+; Assembler Generated Files                                         ;
++-------------------------------------------------------------------+
+; File Name                                                         ;
++-------------------------------------------------------------------+
+; E:/Semm_5/cwwork/csd/verilog test/uart_test/output_files/uart.sof ;
++-------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------+
+; Assembler Device Options: E:/Semm_5/cwwork/csd/verilog test/uart_test/output_files/uart.sof ;
++----------------+----------------------------------------------------------------------------+
+; Option         ; Setting                                                                    ;
++----------------+----------------------------------------------------------------------------+
+; JTAG usercode  ; 0x005BE3F9                                                                 ;
+; Checksum       ; 0x005BE3F9                                                                 ;
++----------------+----------------------------------------------------------------------------+
+>>>>>>> parent of 60e62a1... added support for xilinx boards:Verilog_Design/UART cw/output_files/uart.asm.rpt
 
 
 +--------------------+
@@ -99,8 +131,12 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.asm.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.asm.rpt
     Info: Processing started: Thu Mar 22 18:10:39 2018
+=======
+    Info: Processing started: Thu Mar 22 03:27:57 2018
+>>>>>>> parent of 60e62a1... added support for xilinx boards:Verilog_Design/UART cw/output_files/uart.asm.rpt
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off uart -c uart
 =======
     Info: Processing started: Wed Jan 17 22:49:52 2018
@@ -110,6 +146,7 @@ Warning (18236): Number of processors has not been specified which may cause ove
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
+<<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.asm.rpt
 <<<<<<< HEAD:Verilog_Design/UART cw/output_files/uart.asm.rpt
     Info: Peak virtual memory: 597 megabytes
     Info: Processing ended: Thu Mar 22 18:10:44 2018
@@ -119,6 +156,11 @@ Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
     Info: Processing ended: Wed Jan 17 22:50:00 2018
     Info: Elapsed time: 00:00:08
 >>>>>>> c80c4e667bcc6fadedc08f1a8459bad7a3f5932f:Verilog_Design/UART cw/uart_implementation.asm.rpt
+=======
+    Info: Peak virtual memory: 598 megabytes
+    Info: Processing ended: Thu Mar 22 03:28:02 2018
+    Info: Elapsed time: 00:00:05
+>>>>>>> parent of 60e62a1... added support for xilinx boards:Verilog_Design/UART cw/output_files/uart.asm.rpt
     Info: Total CPU time (on all processors): 00:00:05
 
 
