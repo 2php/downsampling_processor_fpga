@@ -1,4 +1,5 @@
 Fitter report for uart
+<<<<<<< HEAD
 Thu Mar 22 13:25:43 2018
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
@@ -45,6 +46,9 @@ Wed Jan 17 22:49:45 2018
 >>>>>>> parent of 10326db... few changes
 =======
 >>>>>>> parent of e85ae4d... Revert "added new uart controller":Verilog_Design/UART cw/output_files/uart.fit.rpt
+=======
+Thu Mar 22 03:27:55 2018
+>>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -55,15 +59,15 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
   2. Fitter Summary
   3. Fitter Settings
   4. Parallel Compilation
-  5. Ignored Assignments
-  6. Incremental Compilation Preservation Summary
-  7. Incremental Compilation Partition Settings
-  8. Incremental Compilation Placement Preservation
-  9. Pin-Out File
- 10. Fitter Resource Usage Summary
- 11. Fitter Partition Statistics
- 12. Input Pins
- 13. Output Pins
+  5. Incremental Compilation Preservation Summary
+  6. Incremental Compilation Partition Settings
+  7. Incremental Compilation Placement Preservation
+  8. Pin-Out File
+  9. Fitter Resource Usage Summary
+ 10. Fitter Partition Statistics
+ 11. Input Pins
+ 12. Output Pins
+ 13. Bidir Pins
  14. Dual Purpose and Dedicated Pins
  15. I/O Bank Usage
  16. All Package Pins
@@ -116,6 +120,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
+<<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -173,12 +178,16 @@ refer to the applicable agreement for further details.
 =======
 ; Fitter Status                      ; Successful - Thu Mar 22 13:25:43 2018       ;
 >>>>>>> parent of e85ae4d... Revert "added new uart controller":Verilog_Design/UART cw/output_files/uart.fit.rpt
+=======
+; Fitter Status                      ; Successful - Thu Mar 22 03:27:55 2018       ;
+>>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; uart                                        ;
 ; Top-level Entity Name              ; uart_control                                ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
+<<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -199,10 +208,13 @@ refer to the applicable agreement for further details.
 =======
 >>>>>>> parent of e85ae4d... Revert "added new uart controller":Verilog_Design/UART cw/output_files/uart.fit.rpt
 ; Total logic elements               ; 277 / 114,480 ( < 1 % )                     ;
+=======
+; Total logic elements               ; 282 / 114,480 ( < 1 % )                     ;
+>>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 ;     Total combinational functions  ; 269 / 114,480 ( < 1 % )                     ;
-;     Dedicated logic registers      ; 107 / 114,480 ( < 1 % )                     ;
-; Total registers                    ; 107                                         ;
-; Total pins                         ; 32 / 529 ( 6 % )                            ;
+;     Dedicated logic registers      ; 106 / 114,480 ( < 1 % )                     ;
+; Total registers                    ; 106                                         ;
+; Total pins                         ; 31 / 529 ( 6 % )                            ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 524,288 / 3,981,312 ( 13 % )                ;
 ; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                             ;
@@ -283,17 +295,8 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   1.0%      ;
+;     Processor 2            ;   0.9%      ;
 +----------------------------+-------------+
-
-
-+----------------------------------------------------------------------------------------+
-; Ignored Assignments                                                                    ;
-+----------+----------------+--------------+------------+---------------+----------------+
-; Name     ; Ignored Entity ; Ignored From ; Ignored To ; Ignored Value ; Ignored Source ;
-+----------+----------------+--------------+------------+---------------+----------------+
-; Location ;                ;              ; start_tx   ; PIN_M21       ; QSF Assignment ;
-+----------+----------------+--------------+------------+---------------+----------------+
 
 
 +--------------------------------------------------------------------------------------------------+
@@ -302,8 +305,8 @@ refer to the applicable agreement for further details.
 ; Type                ; Total [A + B]      ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+--------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                    ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 518 ) ; 0.00 % ( 0 / 518 )         ; 0.00 % ( 0 / 518 )       ;
-;     -- Achieved     ; 0.00 % ( 0 / 518 ) ; 0.00 % ( 0 / 518 )         ; 0.00 % ( 0 / 518 )       ;
+;     -- Requested    ; 0.00 % ( 0 / 523 ) ; 0.00 % ( 0 / 523 )         ; 0.00 % ( 0 / 523 )       ;
+;     -- Achieved     ; 0.00 % ( 0 / 523 ) ; 0.00 % ( 0 / 523 )         ; 0.00 % ( 0 / 523 )       ;
 ;                     ;                    ;                            ;                          ;
 ; Routing (by net)    ;                    ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )   ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -326,6 +329,7 @@ refer to the applicable agreement for further details.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
+<<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -346,6 +350,9 @@ refer to the applicable agreement for further details.
 =======
 >>>>>>> parent of e85ae4d... Revert "added new uart controller":Verilog_Design/UART cw/output_files/uart.fit.rpt
 ; Top                            ; 0.00 % ( 0 / 506 )    ; N/A                     ; Source File       ; N/A                 ;       ;
+=======
+; Top                            ; 0.00 % ( 0 / 511 )    ; N/A                     ; Source File       ; N/A                 ;       ;
+>>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 12 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -353,7 +360,7 @@ refer to the applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/output_files/uart.pin.
+The pin-out file can be found in E:/Semm_5/cwwork/csd/verilog test/uart_test/output_files/uart.pin.
 
 
 +----------------------------------------------------------------------------+
@@ -361,28 +368,28 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/processor design main/down
 +---------------------------------------------+------------------------------+
 ; Resource                                    ; Usage                        ;
 +---------------------------------------------+------------------------------+
-; Total logic elements                        ; 277 / 114,480 ( < 1 % )      ;
-;     -- Combinational with no register       ; 170                          ;
-;     -- Register only                        ; 8                            ;
-;     -- Combinational with a register        ; 99                           ;
+; Total logic elements                        ; 282 / 114,480 ( < 1 % )      ;
+;     -- Combinational with no register       ; 176                          ;
+;     -- Register only                        ; 13                           ;
+;     -- Combinational with a register        ; 93                           ;
 ;                                             ;                              ;
 ; Logic element usage by number of LUT inputs ;                              ;
 ;     -- 4 input functions                    ; 121                          ;
 ;     -- 3 input functions                    ; 73                           ;
 ;     -- <=2 input functions                  ; 75                           ;
-;     -- Register only                        ; 8                            ;
+;     -- Register only                        ; 13                           ;
 ;                                             ;                              ;
 ; Logic elements by mode                      ;                              ;
 ;     -- normal mode                          ; 226                          ;
 ;     -- arithmetic mode                      ; 43                           ;
 ;                                             ;                              ;
-; Total registers*                            ; 107 / 117,053 ( < 1 % )      ;
-;     -- Dedicated logic registers            ; 107 / 114,480 ( < 1 % )      ;
+; Total registers*                            ; 106 / 117,053 ( < 1 % )      ;
+;     -- Dedicated logic registers            ; 106 / 114,480 ( < 1 % )      ;
 ;     -- I/O registers                        ; 0 / 2,573 ( 0 % )            ;
 ;                                             ;                              ;
-; Total LABs:  partially or completely used   ; 21 / 7,155 ( < 1 % )         ;
+; Total LABs:  partially or completely used   ; 25 / 7,155 ( < 1 % )         ;
 ; Virtual pins                                ; 0                            ;
-; I/O pins                                    ; 32 / 529 ( 6 % )             ;
+; I/O pins                                    ; 31 / 529 ( 6 % )             ;
 ;     -- Clock pins                           ; 1 / 7 ( 14 % )               ;
 ;     -- Dedicated input pins                 ; 0 / 9 ( 0 % )                ;
 ;                                             ;                              ;
@@ -399,11 +406,11 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/processor design main/down
 ; Oscillator blocks                           ; 0 / 1 ( 0 % )                ;
 ; Impedance control blocks                    ; 0 / 4 ( 0 % )                ;
 ; Average interconnect usage (total/H/V)      ; 0.5% / 0.4% / 0.5%           ;
-; Peak interconnect usage (total/H/V)         ; 5.9% / 4.8% / 7.6%           ;
-; Maximum fan-out                             ; 171                          ;
+; Peak interconnect usage (total/H/V)         ; 6.6% / 5.7% / 8.0%           ;
+; Maximum fan-out                             ; 170                          ;
 ; Highest non-global fan-out                  ; 64                           ;
-; Total fan-out                               ; 2288                         ;
-; Average fan-out                             ; 4.38                         ;
+; Total fan-out                               ; 2297                         ;
+; Average fan-out                             ; 4.32                         ;
 +---------------------------------------------+------------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -416,29 +423,29 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/processor design main/down
 +---------------------------------------------+------------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                    ; Low                            ;
 ;                                             ;                        ;                                ;
-; Total logic elements                        ; 277 / 114480 ( < 1 % ) ; 0 / 114480 ( 0 % )             ;
-;     -- Combinational with no register       ; 170                    ; 0                              ;
-;     -- Register only                        ; 8                      ; 0                              ;
-;     -- Combinational with a register        ; 99                     ; 0                              ;
+; Total logic elements                        ; 282 / 114480 ( < 1 % ) ; 0 / 114480 ( 0 % )             ;
+;     -- Combinational with no register       ; 176                    ; 0                              ;
+;     -- Register only                        ; 13                     ; 0                              ;
+;     -- Combinational with a register        ; 93                     ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Logic element usage by number of LUT inputs ;                        ;                                ;
 ;     -- 4 input functions                    ; 121                    ; 0                              ;
 ;     -- 3 input functions                    ; 73                     ; 0                              ;
 ;     -- <=2 input functions                  ; 75                     ; 0                              ;
-;     -- Register only                        ; 8                      ; 0                              ;
+;     -- Register only                        ; 13                     ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Logic elements by mode                      ;                        ;                                ;
 ;     -- normal mode                          ; 226                    ; 0                              ;
 ;     -- arithmetic mode                      ; 43                     ; 0                              ;
 ;                                             ;                        ;                                ;
-; Total registers                             ; 107                    ; 0                              ;
-;     -- Dedicated logic registers            ; 107 / 114480 ( < 1 % ) ; 0 / 114480 ( 0 % )             ;
+; Total registers                             ; 106                    ; 0                              ;
+;     -- Dedicated logic registers            ; 106 / 114480 ( < 1 % ) ; 0 / 114480 ( 0 % )             ;
 ;     -- I/O registers                        ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
-; Total LABs:  partially or completely used   ; 21 / 7155 ( < 1 % )    ; 0 / 7155 ( 0 % )               ;
+; Total LABs:  partially or completely used   ; 25 / 7155 ( < 1 % )    ; 0 / 7155 ( 0 % )               ;
 ;                                             ;                        ;                                ;
 ; Virtual pins                                ; 0                      ; 0                              ;
-; I/O pins                                    ; 32                     ; 0                              ;
+; I/O pins                                    ; 31                     ; 0                              ;
 ; Embedded Multiplier 9-bit elements          ; 0 / 532 ( 0 % )        ; 0 / 532 ( 0 % )                ;
 ; Total memory bits                           ; 524288                 ; 0                              ;
 ; Total RAM block bits                        ; 589824                 ; 0                              ;
@@ -447,23 +454,23 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/processor design main/down
 ; Clock control block                         ; 1 / 24 ( 4 % )         ; 1 / 24 ( 4 % )                 ;
 ;                                             ;                        ;                                ;
 ; Connections                                 ;                        ;                                ;
-;     -- Input Connections                    ; 171                    ; 1                              ;
-;     -- Registered Input Connections         ; 171                    ; 0                              ;
-;     -- Output Connections                   ; 1                      ; 171                            ;
+;     -- Input Connections                    ; 178                    ; 1                              ;
+;     -- Registered Input Connections         ; 170                    ; 0                              ;
+;     -- Output Connections                   ; 9                      ; 170                            ;
 ;     -- Registered Output Connections        ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Internal Connections                        ;                        ;                                ;
-;     -- Total Connections                    ; 2281                   ; 179                            ;
-;     -- Registered Connections               ; 1610                   ; 0                              ;
+;     -- Total Connections                    ; 2290                   ; 178                            ;
+;     -- Registered Connections               ; 1609                   ; 0                              ;
 ;                                             ;                        ;                                ;
 ; External Connections                        ;                        ;                                ;
-;     -- Top                                  ; 0                      ; 172                            ;
-;     -- hard_block:auto_generated_inst       ; 172                    ; 0                              ;
+;     -- Top                                  ; 16                     ; 171                            ;
+;     -- hard_block:auto_generated_inst       ; 171                    ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Partition Interface                         ;                        ;                                ;
 ;     -- Input Ports                          ; 20                     ; 1                              ;
-;     -- Output Ports                         ; 12                     ; 1                              ;
-;     -- Bidir Ports                          ; 0                      ; 0                              ;
+;     -- Output Ports                         ; 3                      ; 1                              ;
+;     -- Bidir Ports                          ; 8                      ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Registered Ports                            ;                        ;                                ;
 ;     -- Registered Input Ports               ; 0                      ; 0                              ;
@@ -514,16 +521,7 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/processor design main/down
 +---------------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 ; Name          ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Output Register ; Output Enable Register ; Power Up High ; Slew Rate ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination                       ; Termination Control Block ; Output Buffer Pre-emphasis ; Voltage Output Differential ; Location assigned by ; Output Enable Source ; Output Enable Group ;
 +---------------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
-; dram_data[0]  ; E21   ; 7        ; 107          ; 73           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; dram_data[1]  ; E22   ; 7        ; 111          ; 73           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; dram_data[2]  ; E25   ; 7        ; 83           ; 73           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; dram_data[3]  ; E24   ; 7        ; 85           ; 73           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; dram_data[4]  ; H21   ; 7        ; 72           ; 73           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; dram_data[5]  ; G20   ; 7        ; 74           ; 73           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; dram_data[6]  ; G22   ; 7        ; 72           ; 73           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; dram_data[7]  ; G21   ; 7        ; 74           ; 73           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; retrieve_done ; F19   ; 7        ; 94           ; 73           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; tx_active     ; E19   ; 7        ; 94           ; 73           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; tx_serial     ; AB22  ; 4        ; 107          ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; write_done    ; G19   ; 7        ; 69           ; 73           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 +---------------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
@@ -675,6 +673,22 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/processor design main/down
 >>>>>>> parent of e85ae4d... Revert "added new uart controller":Verilog_Design/UART cw/output_files/uart.fit.rpt
 
 
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Bidir Pins                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ;
++--------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+------------------------+---------------+-----------+-----------------+------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+----------------------+----------------------+---------------------+
+; Name         ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Output Register ; Output Enable Register ; Power Up High ; Slew Rate ; PCI I/O Enabled ; Open Drain ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Output Termination                ; Termination Control Block ; Output Buffer Pre-emphasis ; Location assigned by ; Output Enable Source ; Output Enable Group ;
++--------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+------------------------+---------------+-----------+-----------------+------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+----------------------+----------------------+---------------------+
+; dram_data[0] ; E21   ; 7        ; 107          ; 73           ; 7            ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
+; dram_data[1] ; E22   ; 7        ; 111          ; 73           ; 7            ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
+; dram_data[2] ; E25   ; 7        ; 83           ; 73           ; 0            ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
+; dram_data[3] ; E24   ; 7        ; 85           ; 73           ; 21           ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
+; dram_data[4] ; H21   ; 7        ; 72           ; 73           ; 14           ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
+; dram_data[5] ; G20   ; 7        ; 74           ; 73           ; 14           ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
+; dram_data[6] ; G22   ; 7        ; 72           ; 73           ; 21           ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
+; dram_data[7] ; G21   ; 7        ; 74           ; 73           ; 21           ; 0                     ; 0                  ; no     ; no             ; no              ; no                     ; no            ; 2         ; yes             ; no         ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; User                 ; 0 pF                 ; -                   ;
++--------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+------------------------+---------------+-----------+-----------------+------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+----------------------+----------------------+---------------------+
+
+
 +-------------------------------------------------------------------------------------------------------------------------+
 ; Dual Purpose and Dedicated Pins                                                                                         ;
 +----------+-----------------------------+--------------------------+-------------------------+---------------------------+
@@ -707,6 +721,7 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/processor design main/down
 ; 4        ; 2 / 71 ( 3 % )   ; 2.5V          ; --           ;
 ; 5        ; 17 / 65 ( 26 % ) ; 2.5V          ; --           ;
 ; 6        ; 2 / 58 ( 3 % )   ; 2.5V          ; --           ;
+<<<<<<< HEAD
 ; 7        ; 11 / 72 ( 15 % ) ; 2.5V          ; --           ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
@@ -749,6 +764,9 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/processor design main/down
 >>>>>>> parent of c75ce2f... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 =======
 >>>>>>> parent of e85ae4d... Revert "added new uart controller":Verilog_Design/UART cw/output_files/uart.fit.rpt
+=======
+; 7        ; 10 / 72 ( 14 % ) ; 2.5V          ; --           ;
+>>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 ; 8        ; 0 / 71 ( 0 % )   ; 2.5V          ; --           ;
 +----------+------------------+---------------+--------------+
 
@@ -1108,11 +1126,12 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/processor design main/down
 ; E16      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; E17      ; 456        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E18      ; 427        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; E19      ; 421        ; 7        ; tx_active                                                 ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+; E19      ; 421        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E20      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
-; E21      ; 407        ; 7        ; dram_data[0]                                              ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
-; E22      ; 403        ; 7        ; dram_data[1]                                              ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+; E21      ; 407        ; 7        ; dram_data[0]                                              ; bidir  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+; E22      ; 403        ; 7        ; dram_data[1]                                              ; bidir  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; E23      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
+<<<<<<< HEAD
 ; E24      ; 433        ; 7        ; dram_data[3]                                              ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; E25      ; 434        ; 7        ; dram_data[2]                                              ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -1154,6 +1173,10 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/processor design main/down
 >>>>>>> parent of 18eb828... Revert "Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga"
 =======
 >>>>>>> parent of e85ae4d... Revert "added new uart controller":Verilog_Design/UART cw/output_files/uart.fit.rpt
+=======
+; E24      ; 433        ; 7        ; dram_data[3]                                              ; bidir  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+; E25      ; 434        ; 7        ; dram_data[2]                                              ; bidir  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+>>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 ; E26      ; 378        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; E27      ; 375        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; E28      ; 374        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -1204,9 +1227,9 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/processor design main/down
 ; G17      ; 437        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; G18      ; 452        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; G19      ; 451        ; 7        ; write_done                                                ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
-; G20      ; 444        ; 7        ; dram_data[5]                                              ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
-; G21      ; 445        ; 7        ; dram_data[7]                                              ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
-; G22      ; 449        ; 7        ; dram_data[6]                                              ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+; G20      ; 444        ; 7        ; dram_data[5]                                              ; bidir  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+; G21      ; 445        ; 7        ; dram_data[7]                                              ; bidir  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+; G22      ; 449        ; 7        ; dram_data[6]                                              ; bidir  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; G23      ; 398        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; G24      ; 397        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; G25      ; 393        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -1233,6 +1256,7 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/processor design main/down
 ; H18      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; H19      ; 446        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; H20      ;            ;          ; GNDA2                                                     ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
+<<<<<<< HEAD
 ; H21      ; 448        ; 7        ; dram_data[4]                                              ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
@@ -1273,6 +1297,9 @@ The pin-out file can be found in E:/Semm_5/cwwork/csd/processor design main/down
 >>>>>>> parent of 10326db... few changes
 =======
 >>>>>>> parent of e85ae4d... Revert "added new uart controller":Verilog_Design/UART cw/output_files/uart.fit.rpt
+=======
+; H21      ; 448        ; 7        ; dram_data[4]                                              ; bidir  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+>>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 ; H22      ; 399        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; H23      ; 391        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; H24      ; 390        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -1675,6 +1702,10 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------------+-------------------------------+
 ; Pin Name       ; Reason                        ;
 +----------------+-------------------------------+
+; write_done     ; Incomplete set of assignments ;
+; ram_mode       ; Incomplete set of assignments ;
+; tx_serial      ; Incomplete set of assignments ;
+; retrieve_done  ; Incomplete set of assignments ;
 ; dram_data[0]   ; Incomplete set of assignments ;
 ; dram_data[1]   ; Incomplete set of assignments ;
 ; dram_data[2]   ; Incomplete set of assignments ;
@@ -1683,15 +1714,10 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; dram_data[5]   ; Incomplete set of assignments ;
 ; dram_data[6]   ; Incomplete set of assignments ;
 ; dram_data[7]   ; Incomplete set of assignments ;
-; write_done     ; Incomplete set of assignments ;
-; ram_mode       ; Incomplete set of assignments ;
-; tx_serial      ; Incomplete set of assignments ;
-; retrieve_done  ; Incomplete set of assignments ;
-; tx_active      ; Incomplete set of assignments ;
+; in_Clock       ; Incomplete set of assignments ;
 ; dram_addr[14]  ; Incomplete set of assignments ;
 ; dram_addr[15]  ; Incomplete set of assignments ;
 ; dram_addr[13]  ; Incomplete set of assignments ;
-; in_Clock       ; Incomplete set of assignments ;
 ; dram_addr[0]   ; Incomplete set of assignments ;
 ; dram_addr[1]   ; Incomplete set of assignments ;
 ; dram_addr[2]   ; Incomplete set of assignments ;
@@ -1705,8 +1731,8 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; dram_addr[10]  ; Incomplete set of assignments ;
 ; dram_addr[11]  ; Incomplete set of assignments ;
 ; dram_addr[12]  ; Incomplete set of assignments ;
-; retrieve_image ; Incomplete set of assignments ;
 ; rx_serial      ; Incomplete set of assignments ;
+; retrieve_image ; Incomplete set of assignments ;
 +----------------+-------------------------------+
 
 
@@ -1715,20 +1741,20 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +-------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
 ; Compilation Hierarchy Node                ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                                                                                               ; Entity Name     ; Library Name ;
 +-------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
-; |uart_control                             ; 277 (19)    ; 107 (19)                  ; 0 (0)         ; 524288      ; 64   ; 0            ; 0       ; 0         ; 32   ; 0            ; 170 (0)      ; 8 (0)             ; 99 (19)          ; |uart_control                                                                                                     ; uart_control    ; work         ;
-;    |Data_Writer:writer|                   ; 78 (78)     ; 29 (29)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 49 (49)      ; 6 (6)             ; 23 (23)          ; |uart_control|Data_Writer:writer                                                                                  ; Data_Writer     ; work         ;
+; |uart_control                             ; 282 (19)    ; 106 (19)                  ; 0 (0)         ; 524288      ; 64   ; 0            ; 0       ; 0         ; 31   ; 0            ; 176 (0)      ; 13 (0)            ; 93 (19)          ; |uart_control                                                                                                     ; uart_control    ; work         ;
+;    |Data_Writer:writer|                   ; 78 (78)     ; 29 (29)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 49 (49)      ; 8 (8)             ; 21 (21)          ; |uart_control|Data_Writer:writer                                                                                  ; Data_Writer     ; work         ;
 ;    |Data_retrieve:retriever|              ; 38 (38)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 36 (36)      ; 0 (0)             ; 2 (2)            ; |uart_control|Data_retrieve:retriever                                                                             ; Data_retrieve   ; work         ;
-;    |dram:data_ram|                        ; 56 (0)      ; 6 (0)                     ; 0 (0)         ; 524288      ; 64   ; 0            ; 0       ; 0         ; 0    ; 0            ; 46 (0)       ; 0 (0)             ; 10 (0)           ; |uart_control|dram:data_ram                                                                                       ; dram            ; work         ;
-;       |altsyncram:altsyncram_component|   ; 56 (0)      ; 6 (0)                     ; 0 (0)         ; 524288      ; 64   ; 0            ; 0       ; 0         ; 0    ; 0            ; 46 (0)       ; 0 (0)             ; 10 (0)           ; |uart_control|dram:data_ram|altsyncram:altsyncram_component                                                       ; altsyncram      ; work         ;
-;          |altsyncram_djf1:auto_generated| ; 56 (5)      ; 6 (6)                     ; 0 (0)         ; 524288      ; 64   ; 0            ; 0       ; 0         ; 0    ; 0            ; 46 (0)       ; 0 (0)             ; 10 (0)           ; |uart_control|dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated                        ; altsyncram_djf1 ; work         ;
-;             |decode_k8a:rden_decode|      ; 8 (8)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 4 (4)            ; |uart_control|dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode ; decode_k8a      ; work         ;
+;    |dram:data_ram|                        ; 62 (0)      ; 6 (0)                     ; 0 (0)         ; 524288      ; 64   ; 0            ; 0       ; 0         ; 0    ; 0            ; 48 (0)       ; 4 (0)             ; 10 (0)           ; |uart_control|dram:data_ram                                                                                       ; dram            ; work         ;
+;       |altsyncram:altsyncram_component|   ; 62 (0)      ; 6 (0)                     ; 0 (0)         ; 524288      ; 64   ; 0            ; 0       ; 0         ; 0    ; 0            ; 48 (0)       ; 4 (0)             ; 10 (0)           ; |uart_control|dram:data_ram|altsyncram:altsyncram_component                                                       ; altsyncram      ; work         ;
+;          |altsyncram_djf1:auto_generated| ; 62 (6)      ; 6 (6)                     ; 0 (0)         ; 524288      ; 64   ; 0            ; 0       ; 0         ; 0    ; 0            ; 48 (0)       ; 4 (4)             ; 10 (2)           ; |uart_control|dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated                        ; altsyncram_djf1 ; work         ;
+;             |decode_k8a:rden_decode|      ; 8 (8)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; |uart_control|dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode ; decode_k8a      ; work         ;
 ;             |decode_rsa:decode3|          ; 8 (8)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; |uart_control|dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3     ; decode_rsa      ; work         ;
-;             |mux_bnb:mux2|                ; 40 (40)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 34 (34)      ; 0 (0)             ; 6 (6)            ; |uart_control|dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|mux_bnb:mux2           ; mux_bnb         ; work         ;
+;             |mux_bnb:mux2|                ; 40 (40)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 32 (32)      ; 0 (0)             ; 8 (8)            ; |uart_control|dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|mux_bnb:mux2           ; mux_bnb         ; work         ;
 ;    |pll:mypll|                            ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |uart_control|pll:mypll                                                                                           ; pll             ; work         ;
 ;       |altpll:altpll_component|           ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |uart_control|pll:mypll|altpll:altpll_component                                                                   ; altpll          ; work         ;
 ;          |pll_altpll:auto_generated|      ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |uart_control|pll:mypll|altpll:altpll_component|pll_altpll:auto_generated                                         ; pll_altpll      ; work         ;
-;    |uart_rx:reciever|                     ; 52 (52)     ; 27 (27)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 23 (23)      ; 1 (1)             ; 28 (28)          ; |uart_control|uart_rx:reciever                                                                                    ; uart_rx         ; work         ;
-;    |uart_tx:transmitter|                  ; 42 (42)     ; 26 (26)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 16 (16)      ; 1 (1)             ; 25 (25)          ; |uart_control|uart_tx:transmitter                                                                                 ; uart_tx         ; work         ;
+;    |uart_rx:reciever|                     ; 53 (53)     ; 27 (27)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 26 (26)      ; 1 (1)             ; 26 (26)          ; |uart_control|uart_rx:reciever                                                                                    ; uart_rx         ; work         ;
+;    |uart_tx:transmitter|                  ; 42 (42)     ; 25 (25)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 17 (17)      ; 0 (0)             ; 25 (25)          ; |uart_control|uart_tx:transmitter                                                                                 ; uart_tx         ; work         ;
 +-------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1738,38 +1764,37 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+----------+---------------+---------------+-----------------------+-----+------+
 ; Name           ; Pin Type ; Pad to Core 0 ; Pad to Core 1 ; Pad to Input Register ; TCO ; TCOE ;
 +----------------+----------+---------------+---------------+-----------------------+-----+------+
-; dram_data[0]   ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; dram_data[1]   ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; dram_data[2]   ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; dram_data[3]   ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; dram_data[4]   ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; dram_data[5]   ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; dram_data[6]   ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; dram_data[7]   ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; write_done     ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; ram_mode       ; Input    ; --            ; --            ; --                    ; --  ; --   ;
 ; tx_serial      ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; retrieve_done  ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; tx_active      ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; dram_addr[14]  ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; dram_data[0]   ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
+; dram_data[1]   ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
+; dram_data[2]   ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
+; dram_data[3]   ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
+; dram_data[4]   ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
+; dram_data[5]   ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
+; dram_data[6]   ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
+; dram_data[7]   ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
+; in_Clock       ; Input    ; --            ; --            ; --                    ; --  ; --   ;
+; dram_addr[14]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; dram_addr[15]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; dram_addr[13]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; in_Clock       ; Input    ; --            ; --            ; --                    ; --  ; --   ;
 ; dram_addr[0]   ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; dram_addr[1]   ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; dram_addr[2]   ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; dram_addr[2]   ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; dram_addr[3]   ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 ; dram_addr[4]   ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; dram_addr[5]   ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; dram_addr[5]   ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; dram_addr[6]   ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; dram_addr[7]   ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; dram_addr[8]   ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
-; dram_addr[9]   ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; dram_addr[9]   ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 ; dram_addr[10]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; dram_addr[11]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; dram_addr[12]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; retrieve_image ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; rx_serial      ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; rx_serial      ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; retrieve_image ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 +----------------+----------+---------------+---------------+-----------------------+-----+------+
 
 
@@ -1779,25 +1804,33 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Source Pin / Fanout                   ; Pad To Core Index ; Setting ;
 +---------------------------------------+-------------------+---------+
 ; ram_mode                              ;                   ;         ;
+; dram_data[0]                          ;                   ;         ;
+; dram_data[1]                          ;                   ;         ;
+; dram_data[2]                          ;                   ;         ;
+; dram_data[3]                          ;                   ;         ;
+; dram_data[4]                          ;                   ;         ;
+; dram_data[5]                          ;                   ;         ;
+; dram_data[6]                          ;                   ;         ;
+; dram_data[7]                          ;                   ;         ;
+; in_Clock                              ;                   ;         ;
 ; dram_addr[14]                         ;                   ;         ;
-;      - Selector1~0                    ; 1                 ; 6       ;
+;      - Selector1~0                    ; 0                 ; 6       ;
 ; dram_addr[15]                         ;                   ;         ;
 ;      - Selector0~0                    ; 0                 ; 6       ;
 ; dram_addr[13]                         ;                   ;         ;
 ;      - Selector2~0                    ; 0                 ; 6       ;
-; in_Clock                              ;                   ;         ;
 ; dram_addr[0]                          ;                   ;         ;
 ;      - Selector15~0                   ; 0                 ; 6       ;
 ; dram_addr[1]                          ;                   ;         ;
 ;      - Selector14~0                   ; 0                 ; 6       ;
 ; dram_addr[2]                          ;                   ;         ;
-;      - Selector13~0                   ; 1                 ; 6       ;
+;      - Selector13~0                   ; 0                 ; 6       ;
 ; dram_addr[3]                          ;                   ;         ;
 ;      - Selector12~0                   ; 1                 ; 6       ;
 ; dram_addr[4]                          ;                   ;         ;
 ;      - Selector11~0                   ; 0                 ; 6       ;
 ; dram_addr[5]                          ;                   ;         ;
-;      - Selector10~0                   ; 1                 ; 6       ;
+;      - Selector10~0                   ; 0                 ; 6       ;
 ; dram_addr[6]                          ;                   ;         ;
 ;      - Selector9~0                    ; 0                 ; 6       ;
 ; dram_addr[7]                          ;                   ;         ;
@@ -1805,19 +1838,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; dram_addr[8]                          ;                   ;         ;
 ;      - Selector7~0                    ; 1                 ; 6       ;
 ; dram_addr[9]                          ;                   ;         ;
-;      - Selector6~0                    ; 0                 ; 6       ;
+;      - Selector6~0                    ; 1                 ; 6       ;
 ; dram_addr[10]                         ;                   ;         ;
 ;      - Selector5~0                    ; 0                 ; 6       ;
 ; dram_addr[11]                         ;                   ;         ;
 ;      - Selector4~0                    ; 0                 ; 6       ;
 ; dram_addr[12]                         ;                   ;         ;
 ;      - Selector3~0                    ; 0                 ; 6       ;
-; retrieve_image                        ;                   ;         ;
-;      - Selector17~0                   ; 0                 ; 6       ;
-;      - STATE.TX_MODE~0                ; 0                 ; 6       ;
-;      - STATE.00~0                     ; 0                 ; 6       ;
 ; rx_serial                             ;                   ;         ;
-;      - uart_rx:reciever|r_Rx_Data_R~0 ; 1                 ; 6       ;
+;      - uart_rx:reciever|r_Rx_Data_R~0 ; 0                 ; 6       ;
+; retrieve_image                        ;                   ;         ;
+;      - Selector17~0                   ; 1                 ; 6       ;
+;      - STATE.TX_MODE~0                ; 1                 ; 6       ;
+;      - STATE.00~0                     ; 1                 ; 6       ;
 +---------------------------------------+-------------------+---------+
 
 
@@ -1826,33 +1859,33 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------------------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 ; Name                                                                                                                 ; Location           ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +----------------------------------------------------------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
-; Data_Writer:writer|Dout[3]~2                                                                                         ; LCCOMB_X59_Y34_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Data_Writer:writer|Selector1~0                                                                                       ; LCCOMB_X61_Y34_N28 ; 2       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Data_retrieve:retriever|comb~5                                                                                       ; LCCOMB_X63_Y32_N20 ; 15      ; Latch enable ; yes    ; Global Clock         ; GCLK16           ; --                        ;
-; STATE.TX_MODE                                                                                                        ; FF_X65_Y32_N1      ; 17      ; Sync. load   ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode519w[3]   ; LCCOMB_X62_Y36_N14 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode537w[3]~0 ; LCCOMB_X62_Y36_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode548w[3]~0 ; LCCOMB_X62_Y36_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode559w[3]~0 ; LCCOMB_X62_Y36_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode570w[3]~0 ; LCCOMB_X62_Y36_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode581w[3]~0 ; LCCOMB_X62_Y36_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode592w[3]~0 ; LCCOMB_X62_Y36_N30 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode603w[3]~0 ; LCCOMB_X62_Y36_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode431w[3]       ; LCCOMB_X62_Y36_N8  ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode448w[3]       ; LCCOMB_X62_Y36_N20 ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode458w[3]       ; LCCOMB_X62_Y36_N18 ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode468w[3]       ; LCCOMB_X62_Y36_N16 ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode478w[3]       ; LCCOMB_X62_Y36_N10 ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode488w[3]       ; LCCOMB_X62_Y36_N28 ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode498w[3]       ; LCCOMB_X62_Y36_N26 ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode508w[3]       ; LCCOMB_X62_Y36_N22 ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
+; Data_Writer:writer|Dout[6]~2                                                                                         ; LCCOMB_X65_Y42_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Data_Writer:writer|Selector1~0                                                                                       ; LCCOMB_X65_Y42_N10 ; 2       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Data_retrieve:retriever|comb~5                                                                                       ; LCCOMB_X60_Y44_N10 ; 15      ; Latch enable ; yes    ; Global Clock         ; GCLK12           ; --                        ;
+; STATE.TX_MODE                                                                                                        ; FF_X62_Y43_N1      ; 17      ; Sync. load   ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode519w[3]   ; LCCOMB_X62_Y43_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode537w[3]~0 ; LCCOMB_X63_Y40_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode548w[3]~0 ; LCCOMB_X62_Y43_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode559w[3]~0 ; LCCOMB_X63_Y40_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode570w[3]~0 ; LCCOMB_X62_Y43_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode581w[3]~0 ; LCCOMB_X63_Y40_N30 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode592w[3]~0 ; LCCOMB_X63_Y40_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_k8a:rden_decode|w_anode603w[3]~0 ; LCCOMB_X63_Y40_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode431w[3]       ; LCCOMB_X63_Y40_N24 ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode448w[3]       ; LCCOMB_X63_Y40_N26 ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode458w[3]       ; LCCOMB_X63_Y40_N18 ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode468w[3]       ; LCCOMB_X63_Y40_N2  ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode478w[3]       ; LCCOMB_X63_Y40_N4  ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode488w[3]       ; LCCOMB_X63_Y40_N12 ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode498w[3]       ; LCCOMB_X63_Y40_N28 ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|decode_rsa:decode3|w_anode508w[3]       ; LCCOMB_X63_Y40_N14 ; 8       ; Write enable ; no     ; --                   ; --               ; --                        ;
 ; in_Clock                                                                                                             ; PIN_Y2             ; 1       ; Clock        ; no     ; --                   ; --               ; --                        ;
-; pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0]                                         ; PLL_1              ; 171     ; Clock        ; yes    ; Global Clock         ; GCLK3            ; --                        ;
-; uart_rx:reciever|r_Clock_Count[1]~25                                                                                 ; LCCOMB_X59_Y37_N16 ; 8       ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
-; uart_rx:reciever|r_Clock_Count[1]~26                                                                                 ; LCCOMB_X59_Y37_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; uart_tx:transmitter|Selector15~2                                                                                     ; LCCOMB_X63_Y32_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; uart_tx:transmitter|r_Clock_Count[2]~12                                                                              ; LCCOMB_X63_Y31_N2  ; 8       ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
-; uart_tx:transmitter|r_SM_Main.s_CLEANUP                                                                              ; FF_X63_Y31_N25     ; 10      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0]                                         ; PLL_1              ; 170     ; Clock        ; yes    ; Global Clock         ; GCLK3            ; --                        ;
+; uart_rx:reciever|r_Clock_Count[7]~25                                                                                 ; LCCOMB_X60_Y38_N18 ; 8       ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; uart_rx:reciever|r_Clock_Count[7]~26                                                                                 ; LCCOMB_X60_Y38_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; uart_tx:transmitter|Selector15~0                                                                                     ; LCCOMB_X60_Y44_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; uart_tx:transmitter|r_Clock_Count[7]~12                                                                              ; LCCOMB_X60_Y43_N16 ; 8       ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; uart_tx:transmitter|r_SM_Main.s_CLEANUP                                                                              ; FF_X61_Y43_N1      ; 10      ; Clock enable ; no     ; --                   ; --               ; --                        ;
 +----------------------------------------------------------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 
 
@@ -1861,8 +1894,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------------------+--------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 ; Name                                                                         ; Location           ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +------------------------------------------------------------------------------+--------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; Data_retrieve:retriever|comb~5                                               ; LCCOMB_X63_Y32_N20 ; 15      ; 0                                    ; Global Clock         ; GCLK16           ; --                        ;
-; pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] ; PLL_1              ; 171     ; 13                                   ; Global Clock         ; GCLK3            ; --                        ;
+; Data_retrieve:retriever|comb~5                                               ; LCCOMB_X60_Y44_N10 ; 15      ; 0                                    ; Global Clock         ; GCLK12           ; --                        ;
+; pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] ; PLL_1              ; 170     ; 12                                   ; Global Clock         ; GCLK3            ; --                        ;
 +------------------------------------------------------------------------------+--------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 
 
@@ -1871,7 +1904,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+--------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+------+------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------+------------------------+------------------------+----------+------------------------+---------------+
 ; Name                                                                                    ; Type ; Mode        ; Clock Mode   ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Port A Input Registers ; Port A Output Registers ; Port B Input Registers ; Port B Output Registers ; Size   ; Implementation Port A Depth ; Implementation Port A Width ; Implementation Port B Depth ; Implementation Port B Width ; Implementation Bits ; M9Ks ; MIF  ; Location                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ; Mixed Width RDW Mode ; Port A RDW Mode        ; Port B RDW Mode        ; ECC Mode ; ECC Pipeline Registers ; Fits in MLABs ;
 +-----------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+--------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+------+------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------+------------------------+------------------------+----------+------------------------+---------------+
-; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|ALTSYNCRAM ; AUTO ; Single Port ; Single Clock ; 65536        ; 8            ; --           ; --           ; yes                    ; yes                     ; --                     ; --                      ; 524288 ; 65536                       ; 8                           ; --                          ; --                          ; 524288              ; 64   ; None ; M9K_X51_Y35_N0, M9K_X51_Y42_N0, M9K_X51_Y29_N0, M9K_X37_Y31_N0, M9K_X37_Y34_N0, M9K_X51_Y28_N0, M9K_X51_Y43_N0, M9K_X37_Y37_N0, M9K_X51_Y34_N0, M9K_X51_Y36_N0, M9K_X64_Y27_N0, M9K_X51_Y30_N0, M9K_X51_Y33_N0, M9K_X51_Y26_N0, M9K_X51_Y38_N0, M9K_X51_Y37_N0, M9K_X78_Y41_N0, M9K_X78_Y40_N0, M9K_X51_Y31_N0, M9K_X51_Y32_N0, M9K_X37_Y35_N0, M9K_X51_Y40_N0, M9K_X51_Y44_N0, M9K_X37_Y36_N0, M9K_X78_Y35_N0, M9K_X37_Y39_N0, M9K_X64_Y32_N0, M9K_X37_Y32_N0, M9K_X37_Y33_N0, M9K_X51_Y39_N0, M9K_X78_Y39_N0, M9K_X37_Y38_N0, M9K_X64_Y43_N0, M9K_X64_Y39_N0, M9K_X64_Y35_N0, M9K_X64_Y36_N0, M9K_X64_Y42_N0, M9K_X64_Y37_N0, M9K_X64_Y38_N0, M9K_X64_Y40_N0, M9K_X64_Y47_N0, M9K_X78_Y36_N0, M9K_X64_Y28_N0, M9K_X64_Y31_N0, M9K_X64_Y48_N0, M9K_X64_Y29_N0, M9K_X78_Y37_N0, M9K_X64_Y45_N0, M9K_X51_Y46_N0, M9K_X37_Y41_N0, M9K_X51_Y27_N0, M9K_X64_Y30_N0, M9K_X51_Y48_N0, M9K_X64_Y26_N0, M9K_X51_Y45_N0, M9K_X37_Y40_N0, M9K_X51_Y47_N0, M9K_X64_Y41_N0, M9K_X64_Y33_N0, M9K_X64_Y34_N0, M9K_X51_Y49_N0, M9K_X51_Y41_N0, M9K_X64_Y44_N0, M9K_X64_Y46_N0 ; Don't care           ; New data with NBE Read ; New data with NBE Read ; Off      ; No                     ; No - Unknown  ;
+; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|ALTSYNCRAM ; AUTO ; Single Port ; Single Clock ; 65536        ; 8            ; --           ; --           ; yes                    ; yes                     ; --                     ; --                      ; 524288 ; 65536                       ; 8                           ; --                          ; --                          ; 524288              ; 64   ; None ; M9K_X64_Y29_N0, M9K_X51_Y31_N0, M9K_X64_Y34_N0, M9K_X64_Y39_N0, M9K_X64_Y25_N0, M9K_X51_Y45_N0, M9K_X64_Y41_N0, M9K_X51_Y30_N0, M9K_X37_Y33_N0, M9K_X51_Y36_N0, M9K_X37_Y39_N0, M9K_X37_Y42_N0, M9K_X64_Y26_N0, M9K_X37_Y43_N0, M9K_X64_Y43_N0, M9K_X51_Y27_N0, M9K_X37_Y32_N0, M9K_X64_Y33_N0, M9K_X51_Y43_N0, M9K_X37_Y41_N0, M9K_X64_Y28_N0, M9K_X64_Y48_N0, M9K_X64_Y44_N0, M9K_X37_Y36_N0, M9K_X51_Y29_N0, M9K_X51_Y32_N0, M9K_X64_Y35_N0, M9K_X64_Y38_N0, M9K_X78_Y35_N0, M9K_X64_Y49_N0, M9K_X51_Y47_N0, M9K_X51_Y28_N0, M9K_X37_Y40_N0, M9K_X64_Y32_N0, M9K_X64_Y42_N0, M9K_X51_Y40_N0, M9K_X64_Y30_N0, M9K_X37_Y45_N0, M9K_X51_Y46_N0, M9K_X37_Y44_N0, M9K_X51_Y35_N0, M9K_X51_Y33_N0, M9K_X51_Y34_N0, M9K_X51_Y38_N0, M9K_X78_Y40_N0, M9K_X51_Y49_N0, M9K_X64_Y46_N0, M9K_X64_Y36_N0, M9K_X37_Y34_N0, M9K_X64_Y31_N0, M9K_X37_Y35_N0, M9K_X37_Y38_N0, M9K_X78_Y41_N0, M9K_X51_Y42_N0, M9K_X51_Y41_N0, M9K_X64_Y27_N0, M9K_X64_Y40_N0, M9K_X51_Y37_N0, M9K_X64_Y45_N0, M9K_X51_Y39_N0, M9K_X64_Y37_N0, M9K_X51_Y48_N0, M9K_X64_Y47_N0, M9K_X51_Y44_N0 ; Don't care           ; New data with NBE Read ; New data with NBE Read ; Off      ; No                     ; No - Unknown  ;
 +-----------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+--------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+------+------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------+------------------------+------------------------+----------+------------------------+---------------+
 Note: Fitter may spread logical memories into multiple blocks to improve timing. The actual required RAM blocks can be found in the Fitter Resource Usage section.
 
@@ -1881,157 +1914,148 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 +-----------------------+---------------------------+
 ; Routing Resource Type ; Usage                     ;
 +-----------------------+---------------------------+
-; Block interconnects   ; 1,351 / 342,891 ( < 1 % ) ;
-; C16 interconnects     ; 87 / 10,120 ( < 1 % )     ;
-; C4 interconnects      ; 819 / 209,544 ( < 1 % )   ;
-; Direct links          ; 98 / 342,891 ( < 1 % )    ;
+; Block interconnects   ; 1,349 / 342,891 ( < 1 % ) ;
+; C16 interconnects     ; 95 / 10,120 ( < 1 % )     ;
+; C4 interconnects      ; 821 / 209,544 ( < 1 % )   ;
+; Direct links          ; 72 / 342,891 ( < 1 % )    ;
 ; Global clocks         ; 2 / 20 ( 10 % )           ;
-; Local interconnects   ; 142 / 119,088 ( < 1 % )   ;
-; R24 interconnects     ; 125 / 9,963 ( 1 % )       ;
-; R4 interconnects      ; 732 / 289,782 ( < 1 % )   ;
+; Local interconnects   ; 151 / 119,088 ( < 1 % )   ;
+; R24 interconnects     ; 117 / 9,963 ( 1 % )       ;
+; R4 interconnects      ; 770 / 289,782 ( < 1 % )   ;
 +-----------------------+---------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Logic Elements                                                         ;
 +---------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 13.19) ; Number of LABs  (Total = 21) ;
+; Number of Logic Elements  (Average = 11.28) ; Number of LABs  (Total = 25) ;
 +---------------------------------------------+------------------------------+
 ; 1                                           ; 1                            ;
-; 2                                           ; 0                            ;
-; 3                                           ; 0                            ;
+; 2                                           ; 2                            ;
+; 3                                           ; 1                            ;
 ; 4                                           ; 0                            ;
 ; 5                                           ; 0                            ;
-; 6                                           ; 2                            ;
-; 7                                           ; 0                            ;
-; 8                                           ; 0                            ;
+; 6                                           ; 0                            ;
+; 7                                           ; 1                            ;
+; 8                                           ; 1                            ;
 ; 9                                           ; 1                            ;
-; 10                                          ; 0                            ;
-; 11                                          ; 1                            ;
+; 10                                          ; 1                            ;
+; 11                                          ; 2                            ;
 ; 12                                          ; 1                            ;
-; 13                                          ; 1                            ;
-; 14                                          ; 2                            ;
+; 13                                          ; 5                            ;
+; 14                                          ; 1                            ;
 ; 15                                          ; 1                            ;
-; 16                                          ; 11                           ;
+; 16                                          ; 7                            ;
 +---------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 1.10) ; Number of LABs  (Total = 21) ;
+; LAB-wide Signals  (Average = 1.08) ; Number of LABs  (Total = 25) ;
 +------------------------------------+------------------------------+
-; 1 Clock                            ; 15                           ;
-; 1 Clock enable                     ; 4                            ;
+; 1 Clock                            ; 18                           ;
+; 1 Clock enable                     ; 3                            ;
 ; 1 Sync. clear                      ; 2                            ;
-; 1 Sync. load                       ; 2                            ;
+; 1 Sync. load                       ; 4                            ;
 +------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 18.14) ; Number of LABs  (Total = 21) ;
+; Number of Signals Sourced  (Average = 15.40) ; Number of LABs  (Total = 25) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
 ; 1                                            ; 1                            ;
-; 2                                            ; 0                            ;
+; 2                                            ; 1                            ;
 ; 3                                            ; 0                            ;
-; 4                                            ; 0                            ;
-; 5                                            ; 0                            ;
-; 6                                            ; 1                            ;
-; 7                                            ; 0                            ;
+; 4                                            ; 1                            ;
+; 5                                            ; 1                            ;
+; 6                                            ; 0                            ;
+; 7                                            ; 1                            ;
 ; 8                                            ; 0                            ;
 ; 9                                            ; 0                            ;
-; 10                                           ; 0                            ;
-; 11                                           ; 0                            ;
-; 12                                           ; 1                            ;
-; 13                                           ; 0                            ;
+; 10                                           ; 1                            ;
+; 11                                           ; 1                            ;
+; 12                                           ; 0                            ;
+; 13                                           ; 2                            ;
 ; 14                                           ; 1                            ;
-; 15                                           ; 1                            ;
-; 16                                           ; 4                            ;
-; 17                                           ; 1                            ;
-; 18                                           ; 0                            ;
-; 19                                           ; 1                            ;
-; 20                                           ; 3                            ;
+; 15                                           ; 0                            ;
+; 16                                           ; 1                            ;
+; 17                                           ; 3                            ;
+; 18                                           ; 2                            ;
+; 19                                           ; 3                            ;
+; 20                                           ; 0                            ;
 ; 21                                           ; 0                            ;
 ; 22                                           ; 0                            ;
 ; 23                                           ; 2                            ;
-; 24                                           ; 1                            ;
+; 24                                           ; 2                            ;
 ; 25                                           ; 1                            ;
-; 26                                           ; 3                            ;
+; 26                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 9.14) ; Number of LABs  (Total = 21) ;
+; Number of Signals Sourced Out  (Average = 8.00) ; Number of LABs  (Total = 25) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
-; 1                                               ; 1                            ;
-; 2                                               ; 0                            ;
+; 1                                               ; 3                            ;
+; 2                                               ; 1                            ;
 ; 3                                               ; 1                            ;
-; 4                                               ; 2                            ;
-; 5                                               ; 2                            ;
-; 6                                               ; 0                            ;
-; 7                                               ; 2                            ;
-; 8                                               ; 2                            ;
-; 9                                               ; 2                            ;
-; 10                                              ; 3                            ;
+; 4                                               ; 1                            ;
+; 5                                               ; 1                            ;
+; 6                                               ; 4                            ;
+; 7                                               ; 3                            ;
+; 8                                               ; 3                            ;
+; 9                                               ; 0                            ;
+; 10                                              ; 1                            ;
 ; 11                                              ; 1                            ;
 ; 12                                              ; 0                            ;
-; 13                                              ; 0                            ;
+; 13                                              ; 1                            ;
 ; 14                                              ; 1                            ;
-; 15                                              ; 0                            ;
-; 16                                              ; 3                            ;
-; 17                                              ; 0                            ;
-; 18                                              ; 0                            ;
-; 19                                              ; 1                            ;
+; 15                                              ; 1                            ;
+; 16                                              ; 1                            ;
+; 17                                              ; 1                            ;
+; 18                                              ; 1                            ;
 +-------------------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 14.10) ; Number of LABs  (Total = 21) ;
+; Number of Distinct Inputs  (Average = 12.56) ; Number of LABs  (Total = 25) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
 ; 1                                            ; 0                            ;
-; 2                                            ; 0                            ;
-; 3                                            ; 2                            ;
-; 4                                            ; 1                            ;
+; 2                                            ; 1                            ;
+; 3                                            ; 1                            ;
+; 4                                            ; 2                            ;
 ; 5                                            ; 1                            ;
-; 6                                            ; 1                            ;
-; 7                                            ; 1                            ;
-; 8                                            ; 0                            ;
-; 9                                            ; 1                            ;
+; 6                                            ; 3                            ;
+; 7                                            ; 3                            ;
+; 8                                            ; 1                            ;
+; 9                                            ; 0                            ;
 ; 10                                           ; 1                            ;
 ; 11                                           ; 1                            ;
-; 12                                           ; 3                            ;
-; 13                                           ; 0                            ;
-; 14                                           ; 2                            ;
+; 12                                           ; 0                            ;
+; 13                                           ; 1                            ;
+; 14                                           ; 0                            ;
 ; 15                                           ; 0                            ;
-; 16                                           ; 1                            ;
-; 17                                           ; 1                            ;
+; 16                                           ; 0                            ;
+; 17                                           ; 2                            ;
 ; 18                                           ; 1                            ;
 ; 19                                           ; 0                            ;
-; 20                                           ; 0                            ;
+; 20                                           ; 1                            ;
 ; 21                                           ; 0                            ;
-; 22                                           ; 0                            ;
-; 23                                           ; 0                            ;
+; 22                                           ; 2                            ;
+; 23                                           ; 1                            ;
 ; 24                                           ; 1                            ;
-; 25                                           ; 0                            ;
+; 25                                           ; 1                            ;
 ; 26                                           ; 0                            ;
-; 27                                           ; 0                            ;
-; 28                                           ; 0                            ;
-; 29                                           ; 0                            ;
-; 30                                           ; 1                            ;
-; 31                                           ; 0                            ;
-; 32                                           ; 0                            ;
-; 33                                           ; 0                            ;
-; 34                                           ; 1                            ;
-; 35                                           ; 1                            ;
+; 27                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
@@ -2092,6 +2116,7 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 ; Pin/Rules          ; IO_000001 ; IO_000002    ; IO_000003 ; IO_000004    ; IO_000005    ; IO_000006 ; IO_000007 ; IO_000008    ; IO_000009 ; IO_000010 ; IO_000011    ; IO_000012    ; IO_000013    ; IO_000014    ; IO_000015    ; IO_000018    ; IO_000019    ; IO_000020    ; IO_000021    ; IO_000022    ; IO_000023    ; IO_000024    ; IO_000026    ; IO_000027    ; IO_000045    ; IO_000046    ; IO_000047    ; IO_000033 ; IO_000034    ; IO_000042    ;
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
+<<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -2112,26 +2137,28 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 =======
 >>>>>>> parent of e85ae4d... Revert "added new uart controller":Verilog_Design/UART cw/output_files/uart.fit.rpt
 ; Total Pass         ; 32        ; 0            ; 32        ; 0            ; 0            ; 32        ; 32        ; 0            ; 32        ; 32        ; 0            ; 12           ; 0            ; 0            ; 20           ; 0            ; 12           ; 20           ; 0            ; 0            ; 0            ; 12           ; 0            ; 0            ; 0            ; 0            ; 0            ; 32        ; 0            ; 0            ;
+=======
+; Total Pass         ; 31        ; 0            ; 31        ; 0            ; 0            ; 31        ; 31        ; 0            ; 31        ; 31        ; 0            ; 11           ; 0            ; 0            ; 28           ; 0            ; 11           ; 28           ; 0            ; 0            ; 0            ; 11           ; 0            ; 0            ; 0            ; 0            ; 0            ; 31        ; 0            ; 0            ;
+>>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 ; Total Unchecked    ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
-; Total Inapplicable ; 0         ; 32           ; 0         ; 32           ; 32           ; 0         ; 0         ; 32           ; 0         ; 0         ; 32           ; 20           ; 32           ; 32           ; 12           ; 32           ; 20           ; 12           ; 32           ; 32           ; 32           ; 20           ; 32           ; 32           ; 32           ; 32           ; 32           ; 0         ; 32           ; 32           ;
+; Total Inapplicable ; 0         ; 31           ; 0         ; 31           ; 31           ; 0         ; 0         ; 31           ; 0         ; 0         ; 31           ; 20           ; 31           ; 31           ; 3            ; 31           ; 20           ; 3            ; 31           ; 31           ; 31           ; 20           ; 31           ; 31           ; 31           ; 31           ; 31           ; 0         ; 31           ; 31           ;
 ; Total Fail         ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
-; dram_data[0]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; dram_data[1]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; dram_data[2]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; dram_data[3]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; dram_data[4]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; dram_data[5]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; dram_data[6]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; dram_data[7]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; write_done         ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; ram_mode           ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; tx_serial          ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; retrieve_done      ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; tx_active          ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; dram_data[0]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Pass         ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; dram_data[1]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Pass         ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; dram_data[2]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Pass         ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; dram_data[3]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Pass         ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; dram_data[4]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Pass         ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; dram_data[5]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Pass         ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; dram_data[6]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Pass         ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; dram_data[7]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Pass         ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; in_Clock           ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; dram_addr[14]      ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; dram_addr[15]      ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; dram_addr[13]      ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; in_Clock           ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; dram_addr[0]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; dram_addr[1]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; dram_addr[2]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
@@ -2145,8 +2172,8 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 ; dram_addr[10]      ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; dram_addr[11]      ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; dram_addr[12]      ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; retrieve_image     ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; rx_serial          ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; retrieve_image     ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 
 
@@ -2186,43 +2213,44 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 +---------------------------+--------+
 
 
-+-----------------------------------------------------------------------------------------+
-; Estimated Delay Added for Hold Timing Summary                                           ;
-+----------------------------------+----------------------------------+-------------------+
-; Source Clock(s)                  ; Destination Clock(s)             ; Delay Added in ns ;
-+----------------------------------+----------------------------------+-------------------+
-; Data_retrieve:retriever|Addr[10] ; Data_retrieve:retriever|Addr[10] ; 30.3              ;
-+----------------------------------+----------------------------------+-------------------+
++---------------------------------------------------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Summary                                                                             ;
++---------------------------------------------------+---------------------------------------------------+-------------------+
+; Source Clock(s)                                   ; Destination Clock(s)                              ; Delay Added in ns ;
++---------------------------------------------------+---------------------------------------------------+-------------------+
+; Data_retrieve:retriever|Addr[10]                  ; Data_retrieve:retriever|Addr[10]                  ; 31.5              ;
+; mypll|altpll_component|auto_generated|pll1|clk[0] ; mypll|altpll_component|auto_generated|pll1|clk[0] ; 1.4               ;
++---------------------------------------------------+---------------------------------------------------+-------------------+
 Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
 This will disable optimization of problematic paths and expose them for further analysis using the TimeQuest Timing Analyzer.
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Estimated Delay Added for Hold Timing Details                                                                                                                        ;
-+----------------------------------+---------------------------------------------------------------------------------------------------------------+-------------------+
-; Source Register                  ; Destination Register                                                                                          ; Delay Added in ns ;
-+----------------------------------+---------------------------------------------------------------------------------------------------------------+-------------------+
-; Data_retrieve:retriever|Addr[10] ; Data_retrieve:retriever|Addr[11]                                                                              ; 4.430             ;
-; Data_retrieve:retriever|Addr[14] ; Data_retrieve:retriever|Addr[1]                                                                               ; 4.291             ;
-; Data_retrieve:retriever|Addr[15] ; Data_retrieve:retriever|Addr[1]                                                                               ; 4.291             ;
-; Data_retrieve:retriever|Addr[1]  ; Data_retrieve:retriever|Addr[1]                                                                               ; 4.291             ;
-; Data_retrieve:retriever|Addr[13] ; Data_retrieve:retriever|Addr[1]                                                                               ; 4.291             ;
-; Data_retrieve:retriever|Addr[11] ; Data_retrieve:retriever|Addr[1]                                                                               ; 4.291             ;
-; Data_retrieve:retriever|Addr[9]  ; Data_retrieve:retriever|Addr[1]                                                                               ; 4.291             ;
-; Data_retrieve:retriever|Addr[8]  ; Data_retrieve:retriever|Addr[1]                                                                               ; 4.291             ;
-; Data_retrieve:retriever|Addr[7]  ; Data_retrieve:retriever|Addr[1]                                                                               ; 4.291             ;
-; Data_retrieve:retriever|Addr[6]  ; Data_retrieve:retriever|Addr[1]                                                                               ; 4.291             ;
-; Data_retrieve:retriever|Addr[5]  ; Data_retrieve:retriever|Addr[1]                                                                               ; 4.291             ;
-; Data_retrieve:retriever|Addr[4]  ; Data_retrieve:retriever|Addr[1]                                                                               ; 4.291             ;
-; Data_retrieve:retriever|Addr[3]  ; Data_retrieve:retriever|Addr[1]                                                                               ; 4.291             ;
-; Data_retrieve:retriever|Addr[2]  ; Data_retrieve:retriever|Addr[1]                                                                               ; 4.291             ;
-; Data_retrieve:retriever|Addr[12] ; Data_retrieve:retriever|Addr[1]                                                                               ; 4.291             ;
-; mux_out[10]                      ; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|ram_block1a35~porta_address_reg0 ; 0.260             ;
-; Data_Writer:writer|STATE.00      ; Data_Writer:writer|Wen                                                                                        ; 0.047             ;
-; mux_out[0]                       ; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|ram_block1a35~porta_address_reg0 ; 0.045             ;
-; mux_out[1]                       ; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|ram_block1a35~porta_address_reg0 ; 0.045             ;
-; mux_out[4]                       ; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|ram_block1a35~porta_address_reg0 ; 0.045             ;
-+----------------------------------+---------------------------------------------------------------------------------------------------------------+-------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Details                                                                                                                       ;
++----------------------------------+--------------------------------------------------------------------------------------------------------------+-------------------+
+; Source Register                  ; Destination Register                                                                                         ; Delay Added in ns ;
++----------------------------------+--------------------------------------------------------------------------------------------------------------+-------------------+
+; Data_retrieve:retriever|Addr[10] ; Data_retrieve:retriever|Addr[1]                                                                              ; 4.529             ;
+; Data_retrieve:retriever|Addr[8]  ; Data_retrieve:retriever|Addr[1]                                                                              ; 4.529             ;
+; Data_retrieve:retriever|Addr[12] ; Data_retrieve:retriever|Addr[1]                                                                              ; 4.529             ;
+; Data_retrieve:retriever|Addr[6]  ; Data_retrieve:retriever|Addr[1]                                                                              ; 4.529             ;
+; Data_retrieve:retriever|Addr[2]  ; Data_retrieve:retriever|Addr[1]                                                                              ; 4.529             ;
+; Data_retrieve:retriever|Addr[11] ; Data_retrieve:retriever|Addr[1]                                                                              ; 4.529             ;
+; Data_retrieve:retriever|Addr[9]  ; Data_retrieve:retriever|Addr[1]                                                                              ; 4.529             ;
+; Data_retrieve:retriever|Addr[5]  ; Data_retrieve:retriever|Addr[1]                                                                              ; 4.529             ;
+; Data_retrieve:retriever|Addr[7]  ; Data_retrieve:retriever|Addr[1]                                                                              ; 4.529             ;
+; Data_retrieve:retriever|Addr[15] ; Data_retrieve:retriever|Addr[1]                                                                              ; 4.529             ;
+; Data_retrieve:retriever|Addr[1]  ; Data_retrieve:retriever|Addr[1]                                                                              ; 4.529             ;
+; Data_retrieve:retriever|Addr[3]  ; Data_retrieve:retriever|Addr[1]                                                                              ; 4.529             ;
+; Data_retrieve:retriever|Addr[14] ; Data_retrieve:retriever|Addr[1]                                                                              ; 4.529             ;
+; Data_retrieve:retriever|Addr[13] ; Data_retrieve:retriever|Addr[1]                                                                              ; 4.529             ;
+; Data_retrieve:retriever|Addr[4]  ; Data_retrieve:retriever|Addr[1]                                                                              ; 4.529             ;
+; mux_out[0]                       ; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|ram_block1a4~porta_address_reg0 ; 0.352             ;
+; mux_out[12]                      ; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|ram_block1a5~porta_address_reg0 ; 0.337             ;
+; mux_out[4]                       ; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|ram_block1a4~porta_address_reg0 ; 0.060             ;
+; Data_Writer:writer|Dout[1]       ; dram:data_ram|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|ram_block1a25~porta_datain_reg0 ; 0.037             ;
+; Data_Writer:writer|STATE.00      ; Data_Writer:writer|Wen                                                                                       ; 0.032             ;
++----------------------------------+--------------------------------------------------------------------------------------------------------------+-------------------+
 Note: This table only shows the top 20 path(s) that have the largest delay added for hold.
 
 
@@ -2267,6 +2295,7 @@ Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors
 Info (119006): Selected device EP4CE115F29C7 for design "uart"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
+<<<<<<< HEAD
 Info (15535): Implemented PLL "pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|pll1" as Cyclone IV E PLL type File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/pll_altpll.v Line: 46
     Info (15099): Implementing clock multiplication of 1, clock division of 5, and phase shift of 0 degrees (0 ps) for pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] port File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/pll_altpll.v Line: 46
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -2302,6 +2331,10 @@ Info (15535): Implemented PLL "pll:mypll|altpll:altpll_component|pll_altpll:auto
 >>>>>>> parent of 10326db... few changes
 =======
 >>>>>>> parent of e85ae4d... Revert "added new uart controller":Verilog_Design/UART cw/output_files/uart.fit.rpt
+=======
+Info (15535): Implemented PLL "pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|pll1" as Cyclone IV E PLL type File: E:/Semm_5/cwwork/csd/verilog test/uart_test/db/pll_altpll.v Line: 46
+    Info (15099): Implementing clock multiplication of 1, clock division of 5, and phase shift of 0 degrees (0 ps) for pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] port File: E:/Semm_5/cwwork/csd/verilog test/uart_test/db/pll_altpll.v Line: 46
+>>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
 Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
@@ -2326,21 +2359,21 @@ Warning (335093): TimeQuest Timing Analyzer is analyzing 15 combinational loops 
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'uart.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained generated clocks found in the design
 Info (332144): No user constrained base clocks found in the design
-Warning (332125): Found combinational loop of 2 nodes File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 6
+Warning (332125): Found combinational loop of 2 nodes File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 6
     Warning (332126): Node "retriever|Wen|combout"
     Warning (332126): Node "retriever|Wen|datac"
-Warning (332125): Found combinational loop of 12 nodes File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
-    Warning (332126): Node "retriever|comb~5|combout"
+Warning (332125): Found combinational loop of 12 nodes File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
+    Warning (332126): Node "retriever|Addr[0]~0|combout"
     Warning (332126): Node "retriever|comb~3|dataa"
     Warning (332126): Node "retriever|comb~3|combout"
     Warning (332126): Node "retriever|comb~4|datab"
     Warning (332126): Node "retriever|comb~4|combout"
     Warning (332126): Node "retriever|comb~5|datad"
-    Warning (332126): Node "retriever|Addr[0]~0|datad"
-    Warning (332126): Node "retriever|Addr[0]~0|combout"
+    Warning (332126): Node "retriever|comb~5|combout"
     Warning (332126): Node "retriever|comb~2|datad"
     Warning (332126): Node "retriever|comb~2|combout"
     Warning (332126): Node "retriever|comb~3|datab"
+    Warning (332126): Node "retriever|Addr[0]~0|datad"
     Warning (332126): Node "retriever|Addr[0]~0|datac"
 Warning (332191): Clock target Data_retrieve:retriever|Addr[10] of clock Data_retrieve:retriever|Addr[10] is fed by another target of the same clock.
 Info (332097): The following timing edges are non-unate.  TimeQuest will assume pos-unate behavior for these edges in the clock network.
@@ -2348,17 +2381,18 @@ Info (332097): The following timing edges are non-unate.  TimeQuest will assume 
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
-Info (176353): Automatically promoted node pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_1) File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/db/pll_altpll.v Line: 80
+Info (176353): Automatically promoted node pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_1) File: E:/Semm_5/cwwork/csd/verilog test/uart_test/db/pll_altpll.v Line: 80
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G3
 Info (176353): Automatically promoted node Data_retrieve:retriever|comb~5 
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node Data_retrieve:retriever|comb~3
-        Info (176357): Destination node Data_retrieve:retriever|Addr[0]~0 File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 31
-        Info (176357): Destination node Data_retrieve:retriever|Wen File: E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/Data_retrieve.v Line: 6
+        Info (176357): Destination node Data_retrieve:retriever|comb~2
+        Info (176357): Destination node Data_retrieve:retriever|Addr[0]~0 File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 31
+        Info (176357): Destination node Data_retrieve:retriever|Wen File: E:/Semm_5/cwwork/csd/verilog test/uart_test/Data_retrieve.v Line: 6
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
+<<<<<<< HEAD
 Warning (15705): Ignored locations or region assignments to the following nodes
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
@@ -2427,6 +2461,9 @@ Info (171121): Fitter preparation operations ending: elapsed time is 00:00:04
     Warning (15706): Node "start_tx" is assigned to location or region, but does not exist in design
 Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
 >>>>>>> parent of e85ae4d... Revert "added new uart controller":Verilog_Design/UART cw/output_files/uart.fit.rpt
+=======
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:03
+>>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -2435,6 +2472,7 @@ Info (170137): Fitter placement was successful
 Info (170192): Fitter placement operations ending: elapsed time is 00:00:06
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
+<<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 <<<<<<< HEAD
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
@@ -2528,23 +2566,39 @@ Info (11888): Total time spent on timing analysis during the Fitter is 0.07 seco
 >>>>>>> parent of 10326db... few changes
 =======
 >>>>>>> parent of e85ae4d... Revert "added new uart controller":Verilog_Design/UART cw/output_files/uart.fit.rpt
+=======
+    Info (170196): Router estimated peak interconnect usage is 6% of the available device resources in the region that extends from location X58_Y37 to location X68_Y48
+Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
+    Info (170201): Optimizations that may affect the design's routability were skipped
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:03
+Info (11888): Total time spent on timing analysis during the Fitter is 0.69 seconds.
+>>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
-Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
-Info (144001): Generated suppressed messages file E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/output_files/uart.fit.smsg
-Info: Quartus Prime Fitter was successful. 0 errors, 25 warnings
-    Info: Peak virtual memory: 1297 megabytes
-    Info: Processing ended: Thu Mar 22 13:25:43 2018
-    Info: Elapsed time: 00:00:23
-    Info: Total CPU time (on all processors): 00:00:25
+Warning (169064): Following 8 pins have no output enable or a GND or VCC output enable - later changes to this connectivity may change fitting results
+    Info (169065): Pin dram_data[0] has a permanently enabled output enable File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
+    Info (169065): Pin dram_data[1] has a permanently enabled output enable File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
+    Info (169065): Pin dram_data[2] has a permanently enabled output enable File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
+    Info (169065): Pin dram_data[3] has a permanently enabled output enable File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
+    Info (169065): Pin dram_data[4] has a permanently enabled output enable File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
+    Info (169065): Pin dram_data[5] has a permanently enabled output enable File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
+    Info (169065): Pin dram_data[6] has a permanently enabled output enable File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
+    Info (169065): Pin dram_data[7] has a permanently enabled output enable File: E:/Semm_5/cwwork/csd/verilog test/uart_test/uart_control.v Line: 9
+Info (144001): Generated suppressed messages file E:/Semm_5/cwwork/csd/verilog test/uart_test/output_files/uart.fit.smsg
+Info: Quartus Prime Fitter was successful. 0 errors, 23 warnings
+    Info: Peak virtual memory: 1289 megabytes
+    Info: Processing ended: Thu Mar 22 03:27:56 2018
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:32
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
+<<<<<<< HEAD
 The suppressed messages can be found in E:/Semm_5/cwwork/csd/processor design main/downsampling_processor_fpga/Verilog_Design/UART cw/output_files/uart.fit.smsg.
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.fit.rpt
 =======
@@ -2585,5 +2639,8 @@ The suppressed messages can be found in E:/Semester-4 ENTC/CWwork/elec iii/UART 
 >>>>>>> parent of 10326db... few changes
 =======
 >>>>>>> parent of e85ae4d... Revert "added new uart controller":Verilog_Design/UART cw/output_files/uart.fit.rpt
+=======
+The suppressed messages can be found in E:/Semm_5/cwwork/csd/verilog test/uart_test/output_files/uart.fit.smsg.
+>>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 
 

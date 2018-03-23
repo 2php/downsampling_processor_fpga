@@ -418,11 +418,12 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : E15       :        :                   :      
 VCCIO7                       : E16       : power  :                   : 2.5V    : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E17       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E18       :        :                   :         : 7         :                
-tx_active                    : E19       : output : 2.5 V             :         : 7         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E19       :        :                   :         : 7         :                
 VCCIO7                       : E20       : power  :                   : 2.5V    : 7         :                
-dram_data[0]                 : E21       : output : 2.5 V             :         : 7         : Y              
-dram_data[1]                 : E22       : output : 2.5 V             :         : 7         : Y              
+dram_data[0]                 : E21       : bidir  : 2.5 V             :         : 7         : Y              
+dram_data[1]                 : E22       : bidir  : 2.5 V             :         : 7         : Y              
 VCCIO7                       : E23       : power  :                   : 2.5V    : 7         :                
+<<<<<<< HEAD
 dram_data[3]                 : E24       : output : 2.5 V             :         : 7         : Y              
 dram_data[2]                 : E25       : output : 2.5 V             :         : 7         : Y              
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
@@ -506,6 +507,10 @@ LEDG[2]                      : E25       : output : 2.5 V             :         
 >>>>>>> parent of 10326db... few changes
 =======
 >>>>>>> parent of e85ae4d... Revert "added new uart controller":Verilog_Design/UART cw/output_files/uart.pin
+=======
+dram_data[3]                 : E24       : bidir  : 2.5 V             :         : 7         : Y              
+dram_data[2]                 : E25       : bidir  : 2.5 V             :         : 7         : Y              
+>>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 RESERVED_INPUT_WITH_WEAK_PULLUP : E26       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E27       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E28       :        :                   :         : 6         :                
@@ -556,9 +561,9 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : G16       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : G17       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G18       :        :                   :         : 7         :                
 write_done                   : G19       : output : 2.5 V             :         : 7         : Y              
-dram_data[5]                 : G20       : output : 2.5 V             :         : 7         : Y              
-dram_data[7]                 : G21       : output : 2.5 V             :         : 7         : Y              
-dram_data[6]                 : G22       : output : 2.5 V             :         : 7         : Y              
+dram_data[5]                 : G20       : bidir  : 2.5 V             :         : 7         : Y              
+dram_data[7]                 : G21       : bidir  : 2.5 V             :         : 7         : Y              
+dram_data[6]                 : G22       : bidir  : 2.5 V             :         : 7         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : G23       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G24       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G25       :        :                   :         : 6         :                
@@ -585,6 +590,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : H17       :        :                   :      
 VCCIO7                       : H18       : power  :                   : 2.5V    : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H19       :        :                   :         : 7         :                
 GNDA2                        : H20       : gnd    :                   :         :           :                
+<<<<<<< HEAD
 dram_data[4]                 : H21       : output : 2.5 V             :         : 7         : Y              
 <<<<<<< HEAD:Verilog_Design/UART cw/uart_implementation.pin
 =======
@@ -625,6 +631,9 @@ LEDG[4]                      : H21       : output : 2.5 V             :         
 >>>>>>> parent of 10326db... few changes
 =======
 >>>>>>> parent of e85ae4d... Revert "added new uart controller":Verilog_Design/UART cw/output_files/uart.pin
+=======
+dram_data[4]                 : H21       : bidir  : 2.5 V             :         : 7         : Y              
+>>>>>>> parent of ccf57b1... Merge branch 'master' of https://github.com/abarajithan11/downsampling_processor_fpga
 RESERVED_INPUT_WITH_WEAK_PULLUP : H22       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H23       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H24       :        :                   :         : 6         :                
