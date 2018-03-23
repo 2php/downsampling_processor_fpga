@@ -1,18 +1,4 @@
-//////////////////////////////////////////////////////////////////////
-// File Downloaded from http://www.nandland.com
-//////////////////////////////////////////////////////////////////////
-// This file contains the UART Transmitter.  This transmitter is able
-// to transmit 8 bits of serial data, one start bit, one stop bit,
-// and no parity bit.  When transmit is complete o_Tx_done will be
-// driven high for one clock cycle.
-//
-// Set Parameter CLKS_PER_BIT as follows:
-// CLKS_PER_BIT = (Frequency of i_Clock)/(Frequency of UART)
-// Example: 10 MHz Clock, 115200 baud UART
-// (10000000)/(115200) = 87
-  
 module uart_tx 
-  #(parameter CLKS_PER_BIT = 87)
   (
    input       i_Clock,
    input       i_Tx_DV,
@@ -27,6 +13,7 @@ module uart_tx
   parameter s_TX_DATA_BITS = 3'b010;
   parameter s_TX_STOP_BIT  = 3'b011;
   parameter s_CLEANUP      = 3'b100;
+  parameter CLKS_PER_BIT   = 87;
    
   reg [2:0]    r_SM_Main     = 0;
   reg [7:0]    r_Clock_Count = 0;

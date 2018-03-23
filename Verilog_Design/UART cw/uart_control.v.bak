@@ -1,0 +1,33 @@
+module uart_control(dram_data, dram_addr, write_done, clk, rx_serial, ram_mode);
+
+input clk, rx_serial, ram_mode;
+output write_done;
+input wire[15:0] dram_addr;
+output wire[7:0] dram_data;
+
+wire rx_tick_wire, ram_write_enable;
+wire[7:0] uart_to_control_data, control_to_ram_data;
+wire[15:0] control_to_ram_addr;
+reg[15:0] mux_out;
+wire Txclk_en, Rxclk_en;
+
+Data_Writer writer(.Rx_tick(rx_tick_wire), .Din(uart_to_control_data),
+								.Dout(control_to_ram_data), .Addr(control_to_ram_addr), .fin(write_done),
+								.clk(clk), .Wen(ram_write_enable));
+
+uart_rx reciever(.i_Clock(clk), .i_Rx_Serial(rx_serial), .o_Rx_DV(rx_tick_wire),
+						.o_Rx_Byte(uart_to_control_data));
+							
+dram data_ram(.data(control_to_ram_data),
+					.address(mux_out), .q(dram_data),
+					.clock(clk), .wren(ram_write_enable));
+
+always @(posedge clk)
+begin
+	if (ram_mode == 1'b0)
+		mux_out <= control_to_ram_addr;
+	else
+		mux_out <= dram_addr;
+end
+							
+endmodule
