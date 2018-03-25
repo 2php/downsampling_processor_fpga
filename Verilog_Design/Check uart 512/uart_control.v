@@ -1,4 +1,4 @@
-module uart_control(dram_data, dram_addr, write_done,
+module uart_control(hex2,hex1,hex0,dram_addr, write_done,
 							in_Clock, rx_serial, ram_mode,
 							retrieve_image, tx_serial, retrieve_done, tx_active
 							);
@@ -6,8 +6,9 @@ module uart_control(dram_data, dram_addr, write_done,
 input in_Clock, rx_serial, ram_mode, retrieve_image;
 output write_done, tx_serial, retrieve_done, tx_active;
 input wire[17:0] dram_addr;
-output wire[7:0] dram_data;
+output [6:0]hex2,hex1,hex0;
 
+wire[7:0] dram_data;
 wire rx_tick_wire, tx_tick_wire, ram_write_enable, retrieve_enable;
 wire[7:0] uart_to_writer_data, writer_to_ram_data;
 wire[17:0] writer_to_ram_addr, retrive_to_ram_addr;
@@ -28,9 +29,7 @@ Data_Writer writer(.Rx_tick(rx_tick_wire), .Din(uart_to_writer_data),
 uart_rx reciever(.clk(clk), .i_Rx_Serial(rx_serial), .o_Rx_DV(rx_tick_wire),
 						.o_Rx_Byte(uart_to_writer_data));
 							
-//dram data_ram(.data(writer_to_ram_data),
-//					.address(mux_out), .q(dram_data),
-//					.clock(clk), .wren(ram_write_enable));
+bi2bcd bcd(.din(dram_data),.dout2(hex2),.dout1(hex1),.dout0(hex0));
 					
 dram_512 data_ram(.data(writer_to_ram_data),
 					.address(mux_out), .q(dram_data),

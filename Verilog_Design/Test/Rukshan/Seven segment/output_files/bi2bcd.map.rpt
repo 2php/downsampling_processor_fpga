@@ -1,0 +1,381 @@
+Analysis & Synthesis report for bi2bcd
+Sun Mar 25 23:43:10 2018
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. User-Specified and Inferred Latches
+  9. General Register Statistics
+ 10. Port Connectivity Checks: "decoder:d2"
+ 11. Post-Synthesis Netlist Statistics for Top Partition
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Sun Mar 25 23:43:10 2018       ;
+; Quartus II 64-Bit Version          ; 15.0.0 Build 145 04/22/2015 SJ Full Version ;
+; Revision Name                      ; bi2bcd                                      ;
+; Top-level Entity Name              ; bi2bcd                                      ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 57                                          ;
+;     Total combinational functions  ; 57                                          ;
+;     Dedicated logic registers      ; 0                                           ;
+; Total registers                    ; 0                                           ;
+; Total pins                         ; 29                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP4CE115F29C7      ;                    ;
+; Top-level entity name                                                      ; bi2bcd             ; bi2bcd             ;
+; Family name                                                                ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                     ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                       ; Library ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------+---------+
+; decoder.v                        ; yes             ; User Verilog HDL File  ; D:/downsampling_processor_fpga/Verilog_Design/Test/Rukshan/Seven segment/decoder.v ;         ;
+; bi2bcd.v                         ; yes             ; User Verilog HDL File  ; D:/downsampling_processor_fpga/Verilog_Design/Test/Rukshan/Seven segment/bi2bcd.v  ;         ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------+---------+
+
+
++------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                ;
++---------------------------------------------+--------------+
+; Resource                                    ; Usage        ;
++---------------------------------------------+--------------+
+; Estimated Total logic elements              ; 57           ;
+;                                             ;              ;
+; Total combinational functions               ; 57           ;
+; Logic element usage by number of LUT inputs ;              ;
+;     -- 4 input functions                    ; 36           ;
+;     -- 3 input functions                    ; 19           ;
+;     -- <=2 input functions                  ; 2            ;
+;                                             ;              ;
+; Logic elements by mode                      ;              ;
+;     -- normal mode                          ; 57           ;
+;     -- arithmetic mode                      ; 0            ;
+;                                             ;              ;
+; Total registers                             ; 0            ;
+;     -- Dedicated logic registers            ; 0            ;
+;     -- I/O registers                        ; 0            ;
+;                                             ;              ;
+; I/O pins                                    ; 29           ;
+;                                             ;              ;
+; Embedded Multiplier 9-bit elements          ; 0            ;
+;                                             ;              ;
+; Maximum fan-out node                        ; din[7]~input ;
+; Maximum fan-out                             ; 12           ;
+; Total fan-out                               ; 254          ;
+; Average fan-out                             ; 2.21         ;
++---------------------------------------------+--------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; |bi2bcd                    ; 57 (30)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 29   ; 0            ; |bi2bcd             ; work         ;
+;    |decoder:d0|            ; 17 (17)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bi2bcd|decoder:d0  ; work         ;
+;    |decoder:d1|            ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bi2bcd|decoder:d1  ; work         ;
+;    |decoder:d2|            ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bi2bcd|decoder:d2  ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                ;
++-----------------------------------------------------+---------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal ; Free of Timing Hazards ;
++-----------------------------------------------------+---------------------+------------------------+
+; decoder:d1|dout[0]                                  ; decoder:d1|Mux7     ; yes                    ;
+; decoder:d1|dout[1]                                  ; decoder:d1|Mux7     ; yes                    ;
+; decoder:d1|dout[2]                                  ; decoder:d1|Mux7     ; yes                    ;
+; decoder:d1|dout[3]                                  ; decoder:d1|Mux7     ; yes                    ;
+; decoder:d1|dout[4]                                  ; decoder:d1|Mux7     ; yes                    ;
+; decoder:d1|dout[5]                                  ; decoder:d1|Mux7     ; yes                    ;
+; decoder:d1|dout[6]                                  ; decoder:d1|Mux7     ; yes                    ;
+; decoder:d0|dout[0]                                  ; decoder:d0|Mux7     ; yes                    ;
+; decoder:d0|dout[1]                                  ; decoder:d0|Mux7     ; yes                    ;
+; decoder:d0|dout[2]                                  ; decoder:d0|Mux7     ; yes                    ;
+; decoder:d0|dout[3]                                  ; decoder:d0|Mux7     ; yes                    ;
+; decoder:d0|dout[4]                                  ; decoder:d0|Mux7     ; yes                    ;
+; decoder:d0|dout[5]                                  ; decoder:d0|Mux7     ; yes                    ;
+; decoder:d0|dout[6]                                  ; decoder:d0|Mux7     ; yes                    ;
+; Number of user-specified and inferred latches = 14  ;                     ;                        ;
++-----------------------------------------------------+---------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "decoder:d2"      ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; din[3..2] ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 29                          ;
+; cycloneiii_lcell_comb ; 62                          ;
+;     normal            ; 62                          ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 4                           ;
+;         2 data inputs ; 2                           ;
+;         3 data inputs ; 19                          ;
+;         4 data inputs ; 36                          ;
+;                       ;                             ;
+; Max LUT depth         ; 6.00                        ;
+; Average LUT depth     ; 4.86                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 15.0.0 Build 145 04/22/2015 SJ Full Version
+    Info: Processing started: Sun Mar 25 23:42:53 2018
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off bi2bcd -c bi2bcd
+Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
+Info (12021): Found 1 design units, including 1 entities, in source file decoder.v
+    Info (12023): Found entity 1: decoder
+Info (12021): Found 1 design units, including 1 entities, in source file bi2bcd.v
+    Info (12023): Found entity 1: bi2bcd
+Info (12127): Elaborating entity "bi2bcd" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at bi2bcd.v(20): truncated value with size 32 to match size of target (4)
+Info (12128): Elaborating entity "decoder" for hierarchy "decoder:d0"
+Warning (10270): Verilog HDL Case Statement warning at decoder.v(9): incomplete case statement has no default case item
+Warning (10240): Verilog HDL Always Construct warning at decoder.v(8): inferring latch(es) for variable "dout", which holds its previous value in one or more paths through the always construct
+Info (10041): Inferred latch for "dout[0]" at decoder.v(8)
+Info (10041): Inferred latch for "dout[1]" at decoder.v(8)
+Info (10041): Inferred latch for "dout[2]" at decoder.v(8)
+Info (10041): Inferred latch for "dout[3]" at decoder.v(8)
+Info (10041): Inferred latch for "dout[4]" at decoder.v(8)
+Info (10041): Inferred latch for "dout[5]" at decoder.v(8)
+Info (10041): Inferred latch for "dout[6]" at decoder.v(8)
+Warning (14026): LATCH primitive "decoder:d2|dout[0]" is permanently enabled
+Warning (14026): LATCH primitive "decoder:d2|dout[2]" is permanently enabled
+Warning (14026): LATCH primitive "decoder:d2|dout[3]" is permanently enabled
+Warning (14026): LATCH primitive "decoder:d2|dout[4]" is permanently enabled
+Warning (14026): LATCH primitive "decoder:d2|dout[5]" is permanently enabled
+Warning (14026): LATCH primitive "decoder:d2|dout[6]" is permanently enabled
+Warning (13012): Latch decoder:d1|dout[0] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal din[5]
+Warning (13012): Latch decoder:d1|dout[1] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal din[5]
+Warning (13012): Latch decoder:d1|dout[2] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal din[5]
+Warning (13012): Latch decoder:d1|dout[3] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal din[5]
+Warning (13012): Latch decoder:d1|dout[4] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal din[5]
+Warning (13012): Latch decoder:d1|dout[5] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal din[5]
+Warning (13012): Latch decoder:d1|dout[6] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal din[5]
+Warning (13012): Latch decoder:d0|dout[0] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal din[1]
+Warning (13012): Latch decoder:d0|dout[1] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal din[2]
+Warning (13012): Latch decoder:d0|dout[2] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal din[1]
+Warning (13012): Latch decoder:d0|dout[3] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal din[1]
+Warning (13012): Latch decoder:d0|dout[4] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal din[1]
+Warning (13012): Latch decoder:d0|dout[5] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal din[1]
+Warning (13012): Latch decoder:d0|dout[6] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal din[1]
+Warning (14026): LATCH primitive "decoder:d1|dout[0]" is permanently enabled
+Warning (14026): LATCH primitive "decoder:d1|dout[1]" is permanently enabled
+Warning (14026): LATCH primitive "decoder:d1|dout[2]" is permanently enabled
+Warning (14026): LATCH primitive "decoder:d1|dout[3]" is permanently enabled
+Warning (14026): LATCH primitive "decoder:d1|dout[4]" is permanently enabled
+Warning (14026): LATCH primitive "decoder:d1|dout[5]" is permanently enabled
+Warning (14026): LATCH primitive "decoder:d1|dout[6]" is permanently enabled
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "dout2[1]" is stuck at GND
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 86 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 8 input pins
+    Info (21059): Implemented 21 output pins
+    Info (21061): Implemented 57 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 46 warnings
+    Info: Peak virtual memory: 744 megabytes
+    Info: Processing ended: Sun Mar 25 23:43:10 2018
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:35
+
+

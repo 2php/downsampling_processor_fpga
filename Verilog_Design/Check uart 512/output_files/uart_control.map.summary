@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Sun Mar 25 15:56:30 2018
+Analysis & Synthesis Status : Successful - Sun Mar 25 23:59:59 2018
 Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
 Revision Name : uart_control
 Top-level Entity Name : uart_control
 Family : Cyclone IV E
-Total logic elements : 478
-    Total combinational functions : 463
+Total logic elements : 524
+    Total combinational functions : 509
     Dedicated logic registers : 136
 Total registers : 136
-Total pins : 34
+Total pins : 47
 Total virtual pins : 0
 Total memory bits : 2,097,152
 Embedded Multiplier 9-bit elements : 0

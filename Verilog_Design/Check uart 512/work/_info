@@ -8,18 +8,38 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/acer/Desktop/Check uart
+valtsyncram
+!s110 1522004211
+!i10b 1
+!s100 CUDgSe@[l;GlXC?BL@Y?H0
+I_D9DHb=dPAJ`:knUT_;O;3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dD:/downsampling_processor_fpga/Verilog_Design/Check uart 512
+w1429759125
+8D:/downsampling_processor_fpga/Verilog_Design/Check uart 512/altsyncram.v
+FD:/downsampling_processor_fpga/Verilog_Design/Check uart 512/altsyncram.v
+L0 15
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1522004211.569000
+!s107 D:/downsampling_processor_fpga/Verilog_Design/Check uart 512/altsyncram.v|
+!s90 -reportprogress|300|-work|work|D:/downsampling_processor_fpga/Verilog_Design/Check uart 512/altsyncram.v|
+!i113 1
+Z4 o-work work
 vData_retriever
-Z1 !s110 1521807356
+Z5 !s110 1521807356
 !i10b 1
 !s100 oSGNaU:Z;X]AgRM`lUM461
 I8;iC4LgkF?7WIh8oYA_iO2
-Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R1
 R0
 w1521794990
 8C:/Users/acer/Desktop/Check uart/Data_retriever.v
 FC:/Users/acer/Desktop/Check uart/Data_retriever.v
 L0 1
-Z3 OV;L;10.3d;59
+R3
 r1
 !s85 0
 31
@@ -27,14 +47,14 @@ r1
 !s107 C:/Users/acer/Desktop/Check uart/Data_retriever.v|
 !s90 -reportprogress|300|-work|work|C:/Users/acer/Desktop/Check uart/Data_retriever.v|
 !i113 1
-Z4 o-work work
+R4
 n@data_retriever
 vData_Writer
-R1
+R5
 !i10b 1
 !s100 8;mU_]=lB8C0T17V8<PgY1
 I`][AReWY1<_;ajEbC?>US3
-R2
+R1
 R0
 w1521803468
 8C:/Users/acer/Desktop/Check uart/Data_Writer.v
@@ -51,36 +71,76 @@ r1
 R4
 n@data_@writer
 vdram
-R1
+!s110 1522003991
 !i10b 1
 !s100 Z6aRn?4ZzG>3LikggDCL53
-Il[6>bAzR02V_h;`HFclTU3
+I8C63F:GglZHcUKCSGHB^J2
+R1
 R2
-R0
 w1521803571
-8C:/Users/acer/Desktop/Check uart/dram.v
-FC:/Users/acer/Desktop/Check uart/dram.v
-Z5 L0 39
+8D:/downsampling_processor_fpga/Verilog_Design/Check uart 512/dram.v
+FD:/downsampling_processor_fpga/Verilog_Design/Check uart 512/dram.v
+Z6 L0 39
 R3
 r1
 !s85 0
 31
-!s108 1521807356.587000
-!s107 C:/Users/acer/Desktop/Check uart/dram.v|
-!s90 -reportprogress|300|-work|work|C:/Users/acer/Desktop/Check uart/dram.v|
+!s108 1522003990.963000
+!s107 D:/downsampling_processor_fpga/Verilog_Design/Check uart 512/dram.v|
+!s90 -reportprogress|300|-work|work|D:/downsampling_processor_fpga/Verilog_Design/Check uart 512/dram.v|
+!i113 1
+R4
+vdram_512
+!s110 1522003833
+!i10b 1
+!s100 8?5j4MTYBP0L_9b0TOWfY0
+IilCiHQEVz_e1]Rf6A5P7S1
+R1
+R2
+w1521969498
+8D:/downsampling_processor_fpga/Verilog_Design/Check uart 512/dram_512.v
+FD:/downsampling_processor_fpga/Verilog_Design/Check uart 512/dram_512.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1522003833.839000
+!s107 D:/downsampling_processor_fpga/Verilog_Design/Check uart 512/dram_512.v|
+!s90 -reportprogress|300|-work|work|D:/downsampling_processor_fpga/Verilog_Design/Check uart 512/dram_512.v|
+!i113 1
+R4
+vmultiplexer
+!s110 1522004229
+!i10b 1
+!s100 nzn?8lPW6T59_Fgi43Cfi3
+I_nYAaBC70I;DaL@^@FYKW0
+R1
+R2
+w1521968858
+8D:/downsampling_processor_fpga/Verilog_Design/Check uart 512/multiplexer.v
+FD:/downsampling_processor_fpga/Verilog_Design/Check uart 512/multiplexer.v
+L0 40
+R3
+r1
+!s85 0
+31
+!s108 1522004229.887000
+!s107 D:/downsampling_processor_fpga/Verilog_Design/Check uart 512/multiplexer.v|
+!s90 -reportprogress|300|-work|work|D:/downsampling_processor_fpga/Verilog_Design/Check uart 512/multiplexer.v|
 !i113 1
 R4
 vpll
-R1
+R5
 !i10b 1
 !s100 N5?]DQd6V5`5l9Z^daIaa0
 IKehe8jI7;^;];llzJNOb^1
-R2
+R1
 R0
 w1521803622
 8C:/Users/acer/Desktop/Check uart/pll.v
 FC:/Users/acer/Desktop/Check uart/pll.v
-R5
+R6
 R3
 r1
 !s85 0
@@ -91,11 +151,11 @@ r1
 !i113 1
 R4
 vuart_control
-R1
+R5
 !i10b 1
 !s100 77ma]=1NRKHg?W]PZ^U5W1
 IVDSJ8<CKUB_TQSE`Y7f>G3
-R2
+R1
 R0
 w1521803866
 8C:/Users/acer/Desktop/Check uart/uart_control.v
@@ -111,11 +171,11 @@ r1
 !i113 1
 R4
 vuart_rx
-Z6 !s110 1521807357
+Z7 !s110 1521807357
 !i10b 1
 !s100 ^n;O?K;H:<GR5TVRlkFP90
 IWFI2W4^@5KTc_WIek412M2
-R2
+R1
 R0
 w1521803692
 8C:/Users/acer/Desktop/Check uart/uart_rx.v
@@ -131,11 +191,11 @@ r1
 !i113 1
 R4
 vuart_tx
-R6
+R7
 !i10b 1
 !s100 m36[Ai=ALo[]NGlB79V:g1
 IL]kmMFzg3f2lQMbDf7dh31
-R2
+R1
 R0
 w1521803733
 8C:/Users/acer/Desktop/Check uart/uart_tx.v

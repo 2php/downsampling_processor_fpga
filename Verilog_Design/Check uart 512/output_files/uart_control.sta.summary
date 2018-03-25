@@ -2,45 +2,81 @@
 TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
+Type  : Slow 1200mV 85C Model Setup 'dram_512:data_ram|dram:d1|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|out_address_reg_a[0]'
+Slack : -11.934
+TNS   : -82.629
+
 Type  : Slow 1200mV 85C Model Setup 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 86.297
-TNS   : 0.000
+Slack : -5.974
+TNS   : -28.351
+
+Type  : Slow 1200mV 85C Model Hold 'dram_512:data_ram|dram:d1|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|out_address_reg_a[0]'
+Slack : -1.738
+TNS   : -11.074
 
 Type  : Slow 1200mV 85C Model Hold 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.361
+Slack : 0.365
 TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dram_512:data_ram|dram:d1|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|out_address_reg_a[0]'
+Slack : -3.983
+TNS   : -463.650
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'in_Clock'
 Slack : 9.894
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 49.701
+Slack : 49.703
 TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'dram_512:data_ram|dram:d1|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|out_address_reg_a[0]'
+Slack : -11.189
+TNS   : -77.646
 
 Type  : Slow 1200mV 0C Model Setup 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 87.220
-TNS   : 0.000
+Slack : -5.352
+TNS   : -24.330
+
+Type  : Slow 1200mV 0C Model Hold 'dram_512:data_ram|dram:d1|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|out_address_reg_a[0]'
+Slack : -1.465
+TNS   : -9.516
 
 Type  : Slow 1200mV 0C Model Hold 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.353
+Slack : 0.352
 TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dram_512:data_ram|dram:d1|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|out_address_reg_a[0]'
+Slack : -3.366
+TNS   : -408.649
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'in_Clock'
 Slack : 9.890
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 49.703
+Slack : 49.698
 TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dram_512:data_ram|dram:d1|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|out_address_reg_a[0]'
+Slack : -6.193
+TNS   : -42.819
 
 Type  : Fast 1200mV 0C Model Setup 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 92.294
-TNS   : 0.000
+Slack : -3.062
+TNS   : -13.144
+
+Type  : Fast 1200mV 0C Model Hold 'dram_512:data_ram|dram:d1|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|out_address_reg_a[0]'
+Slack : -1.155
+TNS   : -7.675
 
 Type  : Fast 1200mV 0C Model Hold 'mypll|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.142
+Slack : 0.154
 TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dram_512:data_ram|dram:d1|altsyncram:altsyncram_component|altsyncram_djf1:auto_generated|out_address_reg_a[0]'
+Slack : -1.971
+TNS   : -162.533
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'in_Clock'
 Slack : 9.577

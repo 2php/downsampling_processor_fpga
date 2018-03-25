@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE115F29) Path("C:/Users/acer/Desktop/Check uart 512/output_files/") File("uart_control.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE115F29) Path("D:/downsampling_processor_fpga/Verilog_Design/Check uart 512/output_files/") File("uart_control.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

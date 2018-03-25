@@ -86,6 +86,12 @@ set_location_assignment PIN_AC15 -to rx_serial
 set_location_assignment PIN_AB22 -to tx_serial
 set_location_assignment PIN_F19 -to write_done
 set_location_assignment PIN_H15 -to tx_active
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_Y23 -to dram_addr[17]
+set_location_assignment PIN_Y24 -to dram_addr[16]
+set_global_assignment -name VERILOG_FILE "../Test/Rukshan/Seven segment/decoder.v"
+set_global_assignment -name VERILOG_FILE "../Test/Rukshan/Seven segment/bi2bcd.v"
 set_global_assignment -name VERILOG_FILE dram_512.v
 set_global_assignment -name VERILOG_FILE uart_tx.v
 set_global_assignment -name VERILOG_FILE uart_rx.v
@@ -96,8 +102,25 @@ set_global_assignment -name VERILOG_FILE Data_retriever.v
 set_global_assignment -name CDF_FILE output_files/Chain2.cdf
 set_global_assignment -name CDF_FILE output_files/Chain3.cdf
 set_global_assignment -name CDF_FILE output_files/Chain1.cdf
-set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
-set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_location_assignment PIN_Y23 -to dram_addr[17]
-set_location_assignment PIN_Y24 -to dram_addr[16]
+set_location_assignment PIN_H22 -to hex0[6]
+set_location_assignment PIN_J22 -to hex0[5]
+set_location_assignment PIN_L25 -to hex0[4]
+set_location_assignment PIN_L26 -to hex0[3]
+set_location_assignment PIN_E17 -to hex0[2]
+set_location_assignment PIN_F22 -to hex0[1]
+set_location_assignment PIN_G18 -to hex0[0]
+set_location_assignment PIN_U24 -to hex1[6]
+set_location_assignment PIN_U23 -to hex1[5]
+set_location_assignment PIN_W25 -to hex1[4]
+set_location_assignment PIN_W22 -to hex1[3]
+set_location_assignment PIN_W21 -to hex1[2]
+set_location_assignment PIN_Y22 -to hex1[1]
+set_location_assignment PIN_M24 -to hex1[0]
+set_location_assignment PIN_W28 -to hex2[6]
+set_location_assignment PIN_W27 -to hex2[5]
+set_location_assignment PIN_Y26 -to hex2[4]
+set_location_assignment PIN_W26 -to hex2[3]
+set_location_assignment PIN_Y25 -to hex2[2]
+set_location_assignment PIN_AA26 -to hex2[1]
+set_location_assignment PIN_AA25 -to hex2[0]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
