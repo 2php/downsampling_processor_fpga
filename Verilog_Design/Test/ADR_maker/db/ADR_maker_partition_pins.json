@@ -1,0 +1,33 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "QUAD_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "QUAD_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "QUAD_inc",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
