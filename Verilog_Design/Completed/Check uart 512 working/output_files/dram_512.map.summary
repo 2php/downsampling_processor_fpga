@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Mar 25 15:06:47 2018
+Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
+Revision Name : dram_512
+Top-level Entity Name : dram_512
+Family : Cyclone IV E
+Total logic elements : 216
+    Total combinational functions : 210
+    Dedicated logic registers : 6
+Total registers : 6
+Total pins : 36
+Total virtual pins : 0
+Total memory bits : 2,097,152
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
