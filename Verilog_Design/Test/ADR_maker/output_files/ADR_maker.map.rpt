@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ADR_maker
-Wed Mar 28 00:05:05 2018
+Wed Mar 28 02:40:48 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -46,15 +46,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Mar 28 00:05:05 2018       ;
+; Analysis & Synthesis Status        ; Successful - Wed Mar 28 02:40:48 2018       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; ADR_maker                                   ;
 ; Top-level Entity Name              ; ADR_maker                                   ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 4                                           ;
-;     Total combinational functions  ; 4                                           ;
-;     Dedicated logic registers      ; 2                                           ;
-; Total registers                    ; 2                                           ;
+; Total logic elements               ; 56                                          ;
+;     Total combinational functions  ; 56                                          ;
+;     Dedicated logic registers      ; 21                                          ;
+; Total registers                    ; 21                                          ;
 ; Total pins                         ; 67                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -171,9 +171,10 @@ refer to the applicable agreement for further details.
 +----------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path             ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                              ; Library ;
 +----------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------+---------+
-; ../define.v                                  ; yes             ; User Verilog HDL File        ; D:/FPGA/FPGA_shared/Verilog_Design/Test/define.v                          ;         ;
+; ../../define.v                               ; yes             ; User Verilog HDL File        ; D:/FPGA/FPGA_shared/Verilog_Design/define.v                               ;         ;
 ; ../../Completed/Check uart 512 working/pll.v ; yes             ; User Wizard-Generated File   ; D:/FPGA/FPGA_shared/Verilog_Design/Completed/Check uart 512 working/pll.v ;         ;
 ; adr_maker.v                                  ; yes             ; Auto-Found Verilog HDL File  ; D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v             ;         ;
+; define.v                                     ; yes             ; Auto-Found Verilog HDL File  ; D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/define.v                ;         ;
 ; altpll.tdf                                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/altpll.tdf         ;         ;
 ; aglobal171.inc                               ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/aglobal171.inc     ;         ;
 ; stratix_pll.inc                              ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/stratix_pll.inc    ;         ;
@@ -183,39 +184,39 @@ refer to the applicable agreement for further details.
 +----------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------+---------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                                                                                ;
-+---------------------------------------------+------------------------------------------------------------------------------+
-; Resource                                    ; Usage                                                                        ;
-+---------------------------------------------+------------------------------------------------------------------------------+
-; Estimated Total logic elements              ; 4                                                                            ;
-;                                             ;                                                                              ;
-; Total combinational functions               ; 4                                                                            ;
-; Logic element usage by number of LUT inputs ;                                                                              ;
-;     -- 4 input functions                    ; 3                                                                            ;
-;     -- 3 input functions                    ; 0                                                                            ;
-;     -- <=2 input functions                  ; 1                                                                            ;
-;                                             ;                                                                              ;
-; Logic elements by mode                      ;                                                                              ;
-;     -- normal mode                          ; 4                                                                            ;
-;     -- arithmetic mode                      ; 0                                                                            ;
-;                                             ;                                                                              ;
-; Total registers                             ; 2                                                                            ;
-;     -- Dedicated logic registers            ; 2                                                                            ;
-;     -- I/O registers                        ; 0                                                                            ;
-;                                             ;                                                                              ;
-; I/O pins                                    ; 67                                                                           ;
-;                                             ;                                                                              ;
-; Embedded Multiplier 9-bit elements          ; 0                                                                            ;
-;                                             ;                                                                              ;
-; Total PLLs                                  ; 1                                                                            ;
-;     -- PLLs                                 ; 1                                                                            ;
-;                                             ;                                                                              ;
-; Maximum fan-out node                        ; pll:mypll|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] ;
-; Maximum fan-out                             ; 3                                                                            ;
-; Total fan-out                               ; 91                                                                           ;
-; Average fan-out                             ; 0.65                                                                         ;
-+---------------------------------------------+------------------------------------------------------------------------------+
++------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                ;
++---------------------------------------------+--------------+
+; Resource                                    ; Usage        ;
++---------------------------------------------+--------------+
+; Estimated Total logic elements              ; 56           ;
+;                                             ;              ;
+; Total combinational functions               ; 56           ;
+; Logic element usage by number of LUT inputs ;              ;
+;     -- 4 input functions                    ; 42           ;
+;     -- 3 input functions                    ; 10           ;
+;     -- <=2 input functions                  ; 4            ;
+;                                             ;              ;
+; Logic elements by mode                      ;              ;
+;     -- normal mode                          ; 56           ;
+;     -- arithmetic mode                      ; 0            ;
+;                                             ;              ;
+; Total registers                             ; 21           ;
+;     -- Dedicated logic registers            ; 21           ;
+;     -- I/O registers                        ; 0            ;
+;                                             ;              ;
+; I/O pins                                    ; 67           ;
+;                                             ;              ;
+; Embedded Multiplier 9-bit elements          ; 0            ;
+;                                             ;              ;
+; Total PLLs                                  ; 1            ;
+;     -- PLLs                                 ; 1            ;
+;                                             ;              ;
+; Maximum fan-out node                        ; SEL[1]~input ;
+; Maximum fan-out                             ; 25           ;
+; Total fan-out                               ; 368          ;
+; Average fan-out                             ; 1.74         ;
++---------------------------------------------+--------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -223,7 +224,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------+-------------+--------------+
 ; Compilation Hierarchy Node           ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                    ; Entity Name ; Library Name ;
 +--------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------+-------------+--------------+
-; |ADR_maker                           ; 4 (4)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 67   ; 0            ; |ADR_maker                                                             ; ADR_maker   ; work         ;
+; |ADR_maker                           ; 56 (56)             ; 21 (21)                   ; 0           ; 0            ; 0       ; 0         ; 67   ; 0            ; |ADR_maker                                                             ; ADR_maker   ; work         ;
 ;    |pll:mypll|                       ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ADR_maker|pll:mypll                                                   ; pll         ; work         ;
 ;       |altpll:altpll_component|      ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ADR_maker|pll:mypll|altpll:altpll_component                           ; altpll      ; work         ;
 ;          |pll_altpll:auto_generated| ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ADR_maker|pll:mypll|altpll:altpll_component|pll_altpll:auto_generated ; pll_altpll  ; work         ;
@@ -236,23 +237,24 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 2     ;
+; Total registers                              ; 21    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Synchronous Load   ; 7     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 2     ;
+; Number of registers using Clock Enable       ; 16    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                            ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output  ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |ADR_maker|QUAD_out[0]~reg0 ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; 8:1                ; 7 bits    ; 35 LEs        ; 21 LEs               ; 14 LEs                 ; Yes        ; |ADR_maker|dout[1]~reg0    ;
+; 9:1                ; 7 bits    ; 42 LEs        ; 21 LEs               ; 21 LEs                 ; Yes        ; |ADR_maker|dout[9]~reg0    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 
 
 +--------------------------------------------------------------------------------+
@@ -661,17 +663,20 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 67                          ;
-; cycloneiii_ff         ; 2                           ;
-;     ENA               ; 2                           ;
-; cycloneiii_lcell_comb ; 6                           ;
-;     normal            ; 6                           ;
-;         0 data inputs ; 2                           ;
-;         2 data inputs ; 1                           ;
-;         4 data inputs ; 3                           ;
+; cycloneiii_ff         ; 21                          ;
+;     ENA               ; 9                           ;
+;     ENA SLD           ; 7                           ;
+;     plain             ; 5                           ;
+; cycloneiii_lcell_comb ; 57                          ;
+;     normal            ; 57                          ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 4                           ;
+;         3 data inputs ; 10                          ;
+;         4 data inputs ; 42                          ;
 ; cycloneiii_pll        ; 1                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 0.93                        ;
+; Max LUT depth         ; 4.00                        ;
+; Average LUT depth     ; 2.21                        ;
 +-----------------------+-----------------------------+
 
 
@@ -690,21 +695,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Wed Mar 28 00:04:44 2018
+    Info: Processing started: Wed Mar 28 02:40:28 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ADR_maker -c ADR_maker
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
-Info (12021): Found 0 design units, including 0 entities, in source file /fpga/fpga_shared/verilog_design/test/define.v
+Info (12021): Found 0 design units, including 0 entities, in source file /fpga/fpga_shared/verilog_design/define.v
 Info (12021): Found 1 design units, including 1 entities, in source file /fpga/fpga_shared/verilog_design/completed/check uart 512 working/pll.v
     Info (12023): Found entity 1: pll File: D:/FPGA/FPGA_shared/Verilog_Design/Completed/Check uart 512 working/pll.v Line: 39
 Warning (12125): Using design file adr_maker.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: ADR_maker File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 3
 Info (12127): Elaborating entity "ADR_maker" for the top level hierarchy
-Warning (10240): Verilog HDL Always Construct warning at adr_maker.v(27): inferring latch(es) for variable "QUAD_Z", which holds its previous value in one or more paths through the always construct File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 27
-Warning (10230): Verilog HDL assignment warning at adr_maker.v(44): truncated value with size 32 to match size of target (2) File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 44
-Warning (10230): Verilog HDL assignment warning at adr_maker.v(57): truncated value with size 18 to match size of target (2) File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 57
-Warning (10034): Output port "dout" at adr_maker.v(19) has no driver File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-Info (10041): Inferred latch for "QUAD_Z" at adr_maker.v(30) File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 30
+Warning (10230): Verilog HDL assignment warning at adr_maker.v(45): truncated value with size 32 to match size of target (2) File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 45
 Info (12128): Elaborating entity "pll" for hierarchy "pll:mypll" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 25
 Info (12128): Elaborating entity "altpll" for hierarchy "pll:mypll|altpll:altpll_component" File: D:/FPGA/FPGA_shared/Verilog_Design/Completed/Check uart 512 working/pll.v Line: 99
 Info (12130): Elaborated megafunction instantiation "pll:mypll|altpll:altpll_component" File: D:/FPGA/FPGA_shared/Verilog_Design/Completed/Check uart 512 working/pll.v Line: 99
@@ -767,80 +768,18 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/pll_
     Info (12023): Found entity 1: pll_altpll File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/db/pll_altpll.v Line: 29
 Info (12128): Elaborating entity "pll_altpll" for hierarchy "pll:mypll|altpll:altpll_component|pll_altpll:auto_generated" File: c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/altpll.tdf Line: 897
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "dout[0]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[1]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[2]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[3]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[4]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[5]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[6]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[7]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[8]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[9]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[10]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[11]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[12]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[13]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[14]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[15]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[16]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "dout[17]" is stuck at GND File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 19
-    Warning (13410): Pin "QUAD_Z" is stuck at VCC File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 23
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 41 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "A[0]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 8
-    Warning (15610): No output dependent on input pin "A[1]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 8
-    Warning (15610): No output dependent on input pin "A[2]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 8
-    Warning (15610): No output dependent on input pin "A[3]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 8
-    Warning (15610): No output dependent on input pin "A[4]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 8
-    Warning (15610): No output dependent on input pin "A[5]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 8
-    Warning (15610): No output dependent on input pin "A[6]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 8
-    Warning (15610): No output dependent on input pin "A[7]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 8
-    Warning (15610): No output dependent on input pin "ART[0]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 10
-    Warning (15610): No output dependent on input pin "ART[1]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 10
-    Warning (15610): No output dependent on input pin "ART[2]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 10
-    Warning (15610): No output dependent on input pin "ART[3]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 10
-    Warning (15610): No output dependent on input pin "ART[4]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 10
-    Warning (15610): No output dependent on input pin "ART[5]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 10
-    Warning (15610): No output dependent on input pin "ART[6]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 10
-    Warning (15610): No output dependent on input pin "ART[7]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 10
-    Warning (15610): No output dependent on input pin "ARG[0]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 11
-    Warning (15610): No output dependent on input pin "ARG[1]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 11
-    Warning (15610): No output dependent on input pin "ARG[2]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 11
-    Warning (15610): No output dependent on input pin "ARG[3]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 11
-    Warning (15610): No output dependent on input pin "ARG[4]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 11
-    Warning (15610): No output dependent on input pin "ARG[5]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 11
-    Warning (15610): No output dependent on input pin "ARG[6]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 11
-    Warning (15610): No output dependent on input pin "ARG[7]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 11
-    Warning (15610): No output dependent on input pin "AWT[0]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 12
-    Warning (15610): No output dependent on input pin "AWT[1]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 12
-    Warning (15610): No output dependent on input pin "AWT[2]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 12
-    Warning (15610): No output dependent on input pin "AWT[3]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 12
-    Warning (15610): No output dependent on input pin "AWT[4]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 12
-    Warning (15610): No output dependent on input pin "AWT[5]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 12
-    Warning (15610): No output dependent on input pin "AWT[6]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 12
-    Warning (15610): No output dependent on input pin "AWT[7]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 12
-    Warning (15610): No output dependent on input pin "AWG[0]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 13
-    Warning (15610): No output dependent on input pin "AWG[1]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 13
-    Warning (15610): No output dependent on input pin "AWG[2]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 13
-    Warning (15610): No output dependent on input pin "AWG[3]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 13
-    Warning (15610): No output dependent on input pin "AWG[4]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 13
-    Warning (15610): No output dependent on input pin "AWG[5]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 13
-    Warning (15610): No output dependent on input pin "AWG[6]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 13
-    Warning (15610): No output dependent on input pin "AWG[7]" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 13
-    Warning (15610): No output dependent on input pin "TOG_inc" File: D:/FPGA/FPGA_shared/Verilog_Design/Test/ADR_maker/adr_maker.v Line: 15
-Info (21057): Implemented 72 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 124 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 46 input pins
     Info (21059): Implemented 21 output pins
-    Info (21061): Implemented 4 logic cells
+    Info (21061): Implemented 56 logic cells
     Info (21065): Implemented 1 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 69 warnings
-    Info: Peak virtual memory: 677 megabytes
-    Info: Processing ended: Wed Mar 28 00:05:05 2018
-    Info: Elapsed time: 00:00:21
-    Info: Total CPU time (on all processors): 00:00:46
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 673 megabytes
+    Info: Processing ended: Wed Mar 28 02:40:48 2018
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:44
 
 

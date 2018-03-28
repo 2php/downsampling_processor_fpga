@@ -4,11 +4,87 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "dout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[8]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[9]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[10]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[11]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[12]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[13]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[14]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[15]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[16]",
+					"strict" : false
+				},
+				{
+					"name" : "dout[17]",
+					"strict" : false
+				},
+				{
 					"name" : "QUAD_out[0]",
 					"strict" : false
 				},
 				{
 					"name" : "QUAD_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "QUAD_Z",
 					"strict" : false
 				},
 				{
@@ -20,11 +96,175 @@
 					"strict" : false
 				},
 				{
+					"name" : "A[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ARG[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ART[0]",
+					"strict" : false
+				},
+				{
 					"name" : "SEL[2]",
 					"strict" : false
 				},
 				{
+					"name" : "AWG[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AWT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AWT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ARG[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AWG[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ART[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ARG[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AWT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AWG[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ART[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AWT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ARG[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AWG[3]",
+					"strict" : false
+				},
+				{
+					"name" : "A[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ART[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ARG[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AWT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AWG[4]",
+					"strict" : false
+				},
+				{
+					"name" : "A[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ART[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AWT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ARG[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AWG[5]",
+					"strict" : false
+				},
+				{
+					"name" : "A[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ART[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ARG[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AWT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AWG[6]",
+					"strict" : false
+				},
+				{
+					"name" : "A[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ART[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AWT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ARG[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AWG[7]",
+					"strict" : false
+				},
+				{
+					"name" : "A[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ART[7]",
+					"strict" : false
+				},
+				{
 					"name" : "QUAD_inc",
+					"strict" : false
+				},
+				{
+					"name" : "TOG_inc",
 					"strict" : false
 				}
 			]
